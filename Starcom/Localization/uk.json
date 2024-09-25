@@ -173,7 +173,7 @@
     {
       "symbol": "SHIP_STATION_UI->LOAD_DESIGN",
       "original": "Load Design",
-      "translation": "Завантажити",
+      "translation": "Бібліотека",
       "priority": 0,
       "reviewed": false
     },
@@ -936,28 +936,28 @@
     {
       "symbol": "TRADE_UI_STATIC->OUR_CARGO",
       "original": "Our Cargo",
-      "translation": "Наш вантаж",
+      "translation": "Вантаж",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TRADE_UI_STATIC->THEY_HAVE",
       "original": "They Have",
-      "translation": "Вони мають",
+      "translation": "Мають",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TRADE_UI_STATIC->NEED",
       "original": "Need",
-      "translation": "потреба",
+      "translation": "Треба",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TRADE_UI_STATIC->OUR_SELL___BUY_PRICE",
       "original": "Our Sell / Buy Price",
-      "translation": "Наша ціна продажу/купівлі",
+      "translation": "Продаж/купівля",
       "priority": 0,
       "reviewed": false
     },
@@ -971,14 +971,14 @@
     {
       "symbol": "TRADE_UI_STATIC->EXECUTE_TRADES",
       "original": "Execute Trades",
-      "translation": "Виконуйте угоди",
+      "translation": "Погодитись",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TRADE_UI_STATIC->ARTIFACTS_FOR_SALE",
       "original": "Artifacts for Sale",
-      "translation": "Артефакти на продаж",
+      "translation": "Артефакти",
       "priority": 0,
       "reviewed": false
     },
@@ -992,14 +992,14 @@
     {
       "symbol": "TRADE_UI_STATIC->BUY_BUTTON",
       "original": "Buy",
-      "translation": "купити",
+      "translation": "Купити",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TRADE_UI_STATIC->ARTIFACTS_IN_CARGO_HOLD",
       "original": "Artifacts in Cargo Hold",
-      "translation": "Артефакти у вантажному відсіку",
+      "translation": "Артефакти у вантажу",
       "priority": 0,
       "reviewed": false
     },
@@ -1034,14 +1034,14 @@
     {
       "symbol": "TRADE_UI->FACTION_BODY",
       "original": "The [FACTION] have agreed to trade with us. Use the fields on the left to set desired transfers. When ready click \"Execute Trades\". The [FACTION] use [CURRENCY] as their reserve currency, so any excess profits/costs will adjust our [CURRENCY] supply. Any artifacts available for sale are list on the right.",
-      "translation": "[ФРАКЦІЯ] погодилася торгувати з нами. Використовуйте поля ліворуч, щоб встановити бажані перекази. Коли будете готові, натисніть «Виконати угоди». [ФРАКЦІЯ] використовує [ВАЛЮТУ] як свою резервну валюту, тому будь-які надприбутки/витрати регулюватимуть нашу пропозицію [ВАЛЮТА]. Список будь-яких артефактів, доступних для продажу, наведено праворуч.",
+      "translation": "[FACTION] погодилася торгувати з нами. Використовуйте поля ліворуч, щоб встановити бажані перекази. Коли будете готові, натисніть «Виконати угоди». [FACTION] використовує [CURRENCY] як свою резервну валюту, тому будь-які надприбутки/витрати регулюватимуться з [CURRENCY]. Список будь-яких артефактів, доступних для продажу, наведено праворуч.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TRADE_UI->OUR_CURRENCY",
       "original": "Our [CURRENCY]",
-      "translation": "Наша [ВАЛЮТА]",
+      "translation": "За [CURRENCY]",
       "priority": 0,
       "reviewed": false
     },
@@ -1321,7 +1321,7 @@
     {
       "symbol": "BLUEPRINT_LOAD_UI_STATIC->SET_BUILD_GOAL",
       "original": "Set Build Goal",
-      "translation": "Ціль створення",
+      "translation": "Ціль збору",
       "priority": 0,
       "reviewed": false
     },
@@ -1377,7 +1377,7 @@
     {
       "symbol": "BLUEPRINT_LOAD_UI->LOAD_DESIGN_BUTTON",
       "original": "Load Design",
-      "translation": "Проектування",
+      "translation": "Зібрати",
       "priority": 0,
       "reviewed": false
     },
@@ -1440,7 +1440,7 @@
     {
       "symbol": "BLUEPRINT_SAVE_UI->SET_AS_RESOURCE_GOAL",
       "original": "Set as Resource Goal",
-      "translation": "Установити як ресурсну ціль",
+      "translation": "Як ціль збору",
       "priority": 0,
       "reviewed": false
     },
@@ -1531,7 +1531,7 @@
     {
       "symbol": "INTERACTIONS->CONTINUE",
       "original": "Continue...",
-      "translation": "продовжити...",
+      "translation": "Продовжити...",
       "priority": 0,
       "reviewed": false
     },
@@ -1622,7 +1622,7 @@
     {
       "symbol": "INTERACTIONS->SURVEYOR_AWAY",
       "original": "Survey in progress",
-      "translation": "Опитування триває",
+      "translation": "Дослідження триває",
       "priority": 0,
       "reviewed": false
     },
@@ -1678,28 +1678,28 @@
     {
       "symbol": "INTERACTIONS->PRESS_DEPLOY",
       "original": "Press [X] to deploy Survey Team",
-      "translation": "Натисніть [X], щоб розгорнути Survey Team",
+      "translation": "Натисніть [X], щоб розгорнути дослідження",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INTERACTIONS->PRESS_REDEPLOY",
       "original": "Press [X] to re-deploy Survey Team",
-      "translation": "Натисніть [X], щоб повторно розгорнути Survey Team",
+      "translation": "Натисніть [X], щоб ще раз розгорнути дослідження",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INTERACTIONS->UNSCANNED",
       "original": "Unscanned",
-      "translation": "Нескановане",
+      "translation": "Не проскановано",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INTERACTIONS->UNSURVEYED",
       "original": "Unsurveyed",
-      "translation": "Необстежений",
+      "translation": "Не обстежено",
       "priority": 0,
       "reviewed": false
     },
@@ -1727,21 +1727,21 @@
     {
       "symbol": "INTERACTIONS->SURVEY_COMPLETE",
       "original": "Survey complete",
-      "translation": "Опитування завершено",
+      "translation": "Дослідження закінчене",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INTERACTIONS->SURVEY_INCOMPLETE",
       "original": "Survey incomplete",
-      "translation": "Опитування не завершено",
+      "translation": "Дослідження не закінчене",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INTERACTIONS->SURVEY_IN_PROGRESS",
       "original": "Survey in progress",
-      "translation": "Опитування триває",
+      "translation": "Дослідження триває",
       "priority": 0,
       "reviewed": false
     },
@@ -1916,14 +1916,14 @@
     {
       "symbol": "TITLE_MENU->CONTINUE_BUTTON",
       "original": "Continue Last",
-      "translation": "Продовжити Останнє",
+      "translation": "Продовжити",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TITLE_MENU->LOAD_GAME_BUTTON",
       "original": "Load Save",
-      "translation": "Завантаження",
+      "translation": "Завантажити",
       "priority": 0,
       "reviewed": false
     },
@@ -1937,21 +1937,21 @@
     {
       "symbol": "TITLE_MENU->OPTIONS_BUTTON",
       "original": "Options",
-      "translation": "Опції",
+      "translation": "Налаштування",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TITLE_MENU->CREDITS_BUTTON",
       "original": "Credits",
-      "translation": "Кредити",
+      "translation": "Подяка",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TITLE_MENU->QUIT_BUTTON",
       "original": "Quit to Desktop",
-      "translation": "Вийти на робочий стіл",
+      "translation": "Вийти",
       "priority": 0,
       "reviewed": false
     },
@@ -2056,21 +2056,21 @@
     {
       "symbol": "GAME_MENU_UI_STATIC->QUIT_TO_MENU",
       "original": "Quit to Menu",
-      "translation": "Вийти до меню",
+      "translation": "Меню",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "GAME_MENU_UI_STATIC->EXIT_TO_DESKTOP",
       "original": "Exit to Desktop",
-      "translation": "Вихід на робочий стіл",
+      "translation": "Вихід",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "GAME_MENU_UI_STATIC->RESUME",
       "original": "Resume",
-      "translation": "Резюме",
+      "translation": "Продовжити",
       "priority": 0,
       "reviewed": false
     },
@@ -2105,7 +2105,7 @@
     {
       "symbol": "GAME_OVER_UI->QUIT_TO_MENU",
       "original": "Quit to Menu",
-      "translation": "Вийти до меню",
+      "translation": "До меню",
       "priority": 0,
       "reviewed": false
     },
@@ -2273,14 +2273,14 @@
     {
       "symbol": "OPTIONS_UI_STATIC->MASTER_",
       "original": "Master:",
-      "translation": "майстер:",
+      "translation": "Загальна:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->MUSIC_",
       "original": "Music:",
-      "translation": "музика:",
+      "translation": "Музика:",
       "priority": 0,
       "reviewed": false
     },
@@ -2294,7 +2294,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->UI_",
       "original": "UI:",
-      "translation": "ІК:",
+      "translation": "Інтерфейс:",
       "priority": 0,
       "reviewed": false
     },
@@ -2322,7 +2322,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->VSYNC",
       "original": "Vsync",
-      "translation": "Vsync",
+      "translation": "Vsync:",
       "priority": 0,
       "reviewed": false
     },
@@ -2350,21 +2350,21 @@
     {
       "symbol": "OPTIONS_UI_STATIC->ENABLE_LENS_FLARE_",
       "original": "Enable Lens Flare:",
-      "translation": "Увімкнути відблиск:",
+      "translation": "Відблиск:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->POST-PROCESS_BLOOM_",
       "original": "Post-process Bloom:",
-      "translation": "Блум після обробки:",
+      "translation": "Блум:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->GAME_PLAY",
       "original": "Game Play",
-      "translation": "Грати в гру",
+      "translation": "Гра:",
       "priority": 0,
       "reviewed": false
     },
@@ -2378,63 +2378,63 @@
     {
       "symbol": "OPTIONS_UI_STATIC->SHOW_HEADING_VECTOR_",
       "original": "Show Heading Vector:",
-      "translation": "Показати вектор заголовка:",
+      "translation": "Показати вектор:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->MOUSE_STEER",
       "original": "Mouse Steer",
-      "translation": "Мишка кермує",
+      "translation": "Мишка кермує:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->MAP_ZOOM_TO_MOUSE_",
       "original": "Map zoom to mouse:",
-      "translation": "Масштаб карти за допомогою миші:",
+      "translation": "Масштаб карти:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->NOTIFICATION_DISMISS_",
       "original": "Notification Dismiss:",
-      "translation": "Відхилення сповіщення:",
+      "translation": "Сповіщення:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->COLOR-BLIND_MODE_",
       "original": "Color-blind Mode:",
-      "translation": "Режим дальтоніку:",
+      "translation": "Дальтонія:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->TEXT_SCALING_",
       "original": "Text Scaling:",
-      "translation": "Масштабування тексту:",
+      "translation": "Масштаб тексту:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->HIGH_CONTRAST_RETICULE_",
       "original": "High Contrast Reticule:",
-      "translation": "Висококонтрастна сітка:",
+      "translation": "Контраст сітки:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->IMAGE_DISTORTION_",
       "original": "Image Distortion:",
-      "translation": "Спотворення зображення:",
+      "translation": "Бруд зображення:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->KEYBINDINGS_HEADER",
       "original": "Keybindings",
-      "translation": "Прив'язки клавіш",
+      "translation": "Клавіши",
       "priority": 0,
       "reviewed": false
     },
@@ -2448,21 +2448,21 @@
     {
       "symbol": "OPTIONS_UI_STATIC->RESET_TO_DEFAULTS",
       "original": "Reset to Defaults",
-      "translation": "Скинути до значень за замовчуванням",
+      "translation": "За замовчуванням",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->GAMEPAD_HEADER",
       "original": "Game Pad",
-      "translation": "Ігровий планшет",
+      "translation": "Геймпад",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->AUTODETECT_GAMEPAD",
       "original": "Autodetect Gamepad",
-      "translation": "Автоматичне визначення геймпада",
+      "translation": "Автовизначення",
       "priority": 0,
       "reviewed": false
     },
@@ -2588,7 +2588,7 @@
     {
       "symbol": "CREDITS_UI->CREDITS",
       "original": "Credits",
-      "translation": "Кредити",
+      "translation": "Подяка",
       "priority": 0,
       "reviewed": false
     },
@@ -2602,28 +2602,28 @@
     {
       "symbol": "CREDITS_UI->COLUMN_1",
       "original": "Game Music: \nMoritz Sebastian\n\nCharacter Portraits: \nHardy Fowler\n\nModule 3D Art: \nPovilas Selila\nDavid Ly\n\nArtifact 3D Art:\nPovilas Selila\n\nProps Concept Art:\nRuslan Ahmatnurov\n\nTrailer Score: \nZak McNeil\n\nEA Launch QA\r:\nConnor Goglin\n\nMoral Support:\nKristin Cashore\n\nThe Game:\nKevin Lin",
-      "translation": "Ігрова музика:\nМоріц Себастьян\n\nПортрети персонажів:\nХарді Фаулер\n\nМодуль 3D Art:\nПовілас Селіла\nДевід Лі\n\nArtifact 3D Art:\nПовілас Селіла\n\nКонцепт-арт Props:\nРуслан Ахматнуров\n\nОцінка трейлера:\nЗак Макнейл\n\nEA Launch QA\r:\nКоннор Гоглін\n\nМоральна підтримка:\nКрістін Кашор\n\nГра:\nКевін Лін",
+      "translation": "Game Music: \nMoritz Sebastian\n\nCharacter Portraits: \nHardy Fowler\n\nModule 3D Art: \nPovilas Selila\nDavid Ly\n\nArtifact 3D Art:\nPovilas Selila\n\nProps Concept Art:\nRuslan Ahmatnurov\n\nTrailer Score: \nZak McNeil\n\nEA Launch QA\r:\nConnor Goglin\n\nMoral Support:\nKristin Cashore\n\nThe Game:\nKevin Lin",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "CREDITS_UI->SOFTWARE",
       "original": "Software & Assets",
-      "translation": "Програмне забезпечення та активи",
+      "translation": "ПО та ассети:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "CREDITS_UI->COLUMN_2",
       "original": "Game Engine: \r\nUnity 3D\r\n\r\nMusic Audio: \r\nAudiokinect Wwise\r\n\r\nAnomaly Images: \r\nEon Vue\r\n\r\n3D Modeling:\r\nBlender\r\n\r\nImage Editing: \r\nAdobe Photoshop\r\n\r\nAudio Editing: \r\nAudacity\r\n\r\nShader Editor: \r\nAmplify\r\n\r\nLicensed 3rd Party Assets:\r\nProFlares\r\nBoom Library\r\nPM Sound\r\nNova Shade \r\nRobert Stein III\r\n\r\nCreative Commons Attributions:\r\nFreesound, inc: \r\nAlanCat, aj_heels, benboncan, Cell 31, CGEffex, C3Sabertooth, ilmari, inspectorJ, Jarusca, juskiddink, MatriXXX, SyntaxSeed",
-      "translation": "Ігровий двигун:\r\nUnity 3D\r\n\r\nАудіо музики:\r\nAudiokinect Wwise\r\n\r\nЗображення аномалій:\r\nEon Vue\r\n\r\n3D моделювання:\r\nблендер\r\n\r\nРедагування зображень:\r\nAdobe Photoshop\r\n\r\nРедагування аудіо:\r\nЗухвалість\r\n\r\nРедактор шейдерів:\r\nПосилювати\r\n\r\nЛіцензовані сторонні активи:\r\nProFlares\r\nБібліотека Boom\r\nЗвук PM\r\nNova Shade\r\nРоберт Стайн III\r\n\r\nАтрибуції Creative Commons:\r\nFreesound, inc:\r\nAlanCat, aj_heels, benboncan, Cell 31, CGEffex, C3Sabertooth, ilmari, inspectorJ, Jarusca, juskiddink, MatriXXX, SyntaxSeed",
+      "translation": "Game Engine: \r\nUnity 3D\r\n\r\nMusic Audio: \r\nAudiokinect Wwise\r\n\r\nAnomaly Images: \r\nEon Vue\r\n\r\n3D Modeling:\r\nBlender\r\n\r\nImage Editing: \r\nAdobe Photoshop\r\n\r\nAudio Editing: \r\nAudacity\r\n\r\nShader Editor: \r\nAmplify\r\n\r\nLicensed 3rd Party Assets:\r\nProFlares\r\nBoom Library\r\nPM Sound\r\nNova Shade \r\nRobert Stein III\r\n\r\nCreative Commons Attributions:\r\nFreesound, inc: \r\nAlanCat, aj_heels, benboncan, Cell 31, CGEffex, C3Sabertooth, ilmari, inspectorJ, Jarusca, juskiddink, MatriXXX, SyntaxSeed",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "CREDITS_UI->PLAYTESTERS",
       "original": "Playtesters",
-      "translation": "Плейтестери",
+      "translation": "Тестувальники:",
       "priority": 0,
       "reviewed": false
     },
@@ -2735,7 +2735,7 @@
     {
       "symbol": "TITLE_SCREEN->LOCALIZE_NEWS",
       "original": "Greetings Commander!\r\n\r\nStarcom: Unknown Space has quite a lot of text and was originally written in \r\nEnglish, the only language I am fluent in. Some languages have been translated \r\nprofessionally or by volunteers. Other languages were translated automatically \r\nvia machine learning. In either case, because the game is still being updated \r\nby me at the time of translation, there may be text that does not read \r\ncorrectly, or has display issues.\r\n\r\nIf you encounter issues with a translation, please visit the game's \r\nu><link=\"https://steamcommunity.com/app/1750770/discussions/1/\">Localization Sub-forum on Steam</link></u> and let me know.\r\n\r\nThank you for playing!\r\n\r\n- Kevin\r\n",
-      "translation": "Вітаю командира!\r\n\r\nStarcom: Unknown Space має досить багато тексту, і він був спочатку написаний \r\nАнглійська, єдина мова, якою я вільно володію. Деякі мови були перекладені \r\nпрофесійно або волонтерами. Інші мови були перекладені автоматично \r\nза допомогою машинного навчання. У будь-якому випадку, тому що гра все ще оновлюється \r\nмною на момент перекладу може бути текст, який не читається \r\nправильно, або має проблеми з відображенням.\r\n\r\nЯкщо у вас виникли проблеми з перекладом, відвідайте сторінку гри \r\nu><link=\"https://steamcommunity.com/app/1750770/discussions/1/\">Підфорум про локалізацію в Steam</link></u> і дайте мені знати.\r\n\r\nДякую за гру!\r\n\r\n- Кевін\r\n",
+      "translation": "Вітаю командира!\r\n\r\nStarcom: Unknown Space має досить багато тексту, і він був спочатку написаний \r\nАнглійська, єдина мова, якою я вільно володію. Деякі мови були перекладені \r\nпрофесійно або волонтерами. Інші мови були перекладені автоматично \r\nза допомогою машинного навчання. У будь-якому випадку, тому що гра все ще оновлюється \r\nмною на момент перекладу може бути текст, який не читається \r\nправильно, або має проблеми з відображенням.\r\n\r\nЯкщо у вас виникли проблеми з перекладом, відвідайте сторінку гри \r\nu><link=\"https://steamcommunity.com/app/1750770/discussions/1/\">Підфорум про локалізацію в Steam</link></u> і дайте мені знати.\r\n\r\nДякую за гру!\r\n\r\n- Кевін\r\n\r\nДякую за гру, Кевін!\r\nЯ трошки пофіксив переклад.\r\n\r\n- Чева\r\n",
       "priority": 0,
       "reviewed": false
     },
@@ -3050,7 +3050,7 @@
     {
       "symbol": "RESOURCE->DIBERYLLIUM_NAME",
       "original": "DiBeryllium",
-      "translation": "діберилій",
+      "translation": "Діберилій",
       "priority": 0,
       "reviewed": false
     },
@@ -3204,7 +3204,7 @@
     {
       "symbol": "SKILL->XENOCULTURE_DESC",
       "original": "Study of alien language, culture and thought. Officers with high Xenoculture are better able to understand alien motivations, make inferences from their artifacts, and conduct negotiations. \r\n\r\nThis is the most frequently used skill for insights and skill checks during anomalies and alien interactions.",
-      "translation": "Вивчення чужої мови, культури та мислення. Офіцери з високою ксенокультурою краще розуміють мотивацію прибульців, роблять висновки з їхніх артефактів і ведуть переговори.\r\n\r\nЦе навик, який найчастіше використовують для інсайтів і перевірки навичок під час аномалій і взаємодії з інопланетянами.",
+      "translation": "Дослідження чужої мови, культури та мислення. Офіцери з високою ксенокультурою краще розуміють мотивацію прибульців, роблять висновки з їхніх артефактів і ведуть переговори.\r\n\r\nЦе навик, який найчастіше використовують для інсайтів і перевірки навичок під час аномалій і взаємодії з інопланетянами.",
       "priority": 0,
       "reviewed": false
     },
@@ -5150,14 +5150,14 @@
     {
       "symbol": "MODULE_CATEGORY->ENERGYWEAPONS",
       "original": "Energy Weapons",
-      "translation": "Енергетична зброя",
+      "translation": "Зброя",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "MODULE_CATEGORY->OTHERWEAPONS",
       "original": "Other Weapons",
-      "translation": "Інша зброя",
+      "translation": "Ще зброя",
       "priority": 0,
       "reviewed": false
     },
@@ -5283,7 +5283,7 @@
     {
       "symbol": "PERSISTENT->HOME",
       "original": "Home",
-      "translation": "додому",
+      "translation": "Додому",
       "priority": 0,
       "reviewed": false
     },
@@ -5374,7 +5374,7 @@
     {
       "symbol": "PERSISTENT->VOID_DISRUPTOR",
       "original": "Void Disruptor",
-      "translation": "Пустота Disruptor",
+      "translation": "Порушник Пустоти",
       "priority": 0,
       "reviewed": false
     },
@@ -5486,7 +5486,7 @@
     {
       "symbol": "PERSISTENT->MUSIC",
       "original": "Music",
-      "translation": "музика",
+      "translation": "Музика",
       "priority": 0,
       "reviewed": false
     },
@@ -5528,21 +5528,21 @@
     {
       "symbol": "PERSISTENT->DERELICT_DEBRIS_BLACK_BOX",
       "original": "Derelict Debris Black Box",
-      "translation": "Чорна скринька занедбаного сміття",
+      "translation": "Чорна скринька сміття",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->GENERATION_ASTEROID_FIELD",
       "original": "Generation Asteroid Field",
-      "translation": "Астероїдне поле покоління",
+      "translation": "Астероїдне поле",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->GENERATION_BLACK_BOXES",
       "original": "Generation Black Boxes",
-      "translation": "Покоління чорних ящиків",
+      "translation": "Поле чорних ящиків",
       "priority": 0,
       "reviewed": false
     },
@@ -5563,14 +5563,14 @@
     {
       "symbol": "PERSISTENT->SHIP_DEBRIS_FIELD",
       "original": "Ship Debris Field",
-      "translation": "Поле уламків кораблів",
+      "translation": "Поле уламків",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->SHIP_DEBRIS_FIELD_FRESH",
       "original": "Ship Debris Field Fresh",
-      "translation": "Поле сміття корабля свіже",
+      "translation": "Поле сміття",
       "priority": 0,
       "reviewed": false
     },
@@ -5612,7 +5612,7 @@
     {
       "symbol": "PERSISTENT->EARTH",
       "original": "Earth",
-      "translation": "земля",
+      "translation": "Земля",
       "priority": 0,
       "reviewed": false
     },
@@ -5696,7 +5696,7 @@
     {
       "symbol": "PERSISTENT->GREENHOUSE_X1",
       "original": "Greenhouse X1",
-      "translation": "Теплиця Х1",
+      "translation": "Зелена Х1",
       "priority": 0,
       "reviewed": false
     },
@@ -5731,21 +5731,21 @@
     {
       "symbol": "PERSISTENT->LUNAR_L1",
       "original": "Lunar L1",
-      "translation": "Місячний L1",
+      "translation": "Місяць L1",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->LUNAR_L2",
       "original": "Lunar L2",
-      "translation": "Місячний L2",
+      "translation": "Місяць L2",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->LUNAR_L3",
       "original": "Lunar L3",
-      "translation": "Місячний L3",
+      "translation": "Місяць L3",
       "priority": 0,
       "reviewed": false
     },
@@ -5759,70 +5759,70 @@
     {
       "symbol": "PERSISTENT->NEUTRON_PLANET",
       "original": "Neutron Planet",
-      "translation": "Планета нейтронів",
+      "translation": "Нейтронна планета",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->OCEANIC_O1",
       "original": "Oceanic O1",
-      "translation": "Океанічний О1",
+      "translation": "Океанічна О1",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->PRIMORDIAL_P1",
       "original": "Primordial P1",
-      "translation": "Первісний P1",
+      "translation": "Первісна P1",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->ROCKY_R1",
       "original": "Rocky R1",
-      "translation": "Рокі R1",
+      "translation": "Кам'яна R1",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->ROCKY_R1D",
       "original": "Rocky R1D",
-      "translation": "Рокі R1D",
+      "translation": "Кам'яна R1D",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->ROCKY_R2",
       "original": "Rocky R2",
-      "translation": "Рокі R2",
+      "translation": "Кам'яна R2",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->ROCKY_R3",
       "original": "Rocky R3",
-      "translation": "Рокі R3",
+      "translation": "Кам'яна R3",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->ROCKY_R4",
       "original": "Rocky R4",
-      "translation": "Рокі R4",
+      "translation": "Кам'яна R4",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->ROCKY_R5",
       "original": "Rocky R5",
-      "translation": "Рокі R5",
+      "translation": "Кам'яна R5",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->ROCKY_R7D",
       "original": "Rocky R7D",
-      "translation": "Рокі R7D",
+      "translation": "Кам'яна R7D",
       "priority": 0,
       "reviewed": false
     },
@@ -5836,35 +5836,35 @@
     {
       "symbol": "PERSISTENT->TERRESTRIAL_M1",
       "original": "Terrestrial M1",
-      "translation": "Наземний М1",
+      "translation": "Земна М1",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->TERRESTRIAL_M1D",
       "original": "Terrestrial M1D",
-      "translation": "Наземний M1D",
+      "translation": "Земна M1D",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->TERRESTRIAL_M1X",
       "original": "Terrestrial M1X",
-      "translation": "Наземний M1X",
+      "translation": "Земна M1X",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->TERRESTRIAL_M2",
       "original": "Terrestrial M2",
-      "translation": "Наземний М2",
+      "translation": "Земна М2",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->TERRESTRIAL_M3",
       "original": "Terrestrial M3",
-      "translation": "Наземний М3",
+      "translation": "Земна М3",
       "priority": 0,
       "reviewed": false
     },
@@ -5885,7 +5885,7 @@
     {
       "symbol": "PERSISTENT->ENCOUNTER_SPAWNER",
       "original": "Encounter Spawner",
-      "translation": "Encounter Spawner",
+      "translation": "Шукач",
       "priority": 0,
       "reviewed": false
     },
@@ -5899,7 +5899,7 @@
     {
       "symbol": "PERSISTENT->SHIP_SPAWNER",
       "original": "Ship Spawner",
-      "translation": "Корабель Спаунер",
+      "translation": "Корабель",
       "priority": 0,
       "reviewed": false
     },
@@ -6543,7 +6543,7 @@
     {
       "symbol": "_EXTERNAL->STORE_DESC",
       "original": "[img]{STEAM_APP_IMAGE}/extras/BuildMissiles5MB.gif[/img]\r\nExplore a mysterious open-world universe filled with alien factions, strange worlds, mysterious artifacts and an epic story. \r\n\r\nAs a new commander you and your crew will transform your ship from a small scout into whatever you want: a deep-space explorer, a fast strike craft or an armor-leaden battlecruiser. \r\n\r\nMeet alien races, both friendly, hostile or enigmatic. Turn foes into allies and vice versa.\r\n\r\nInvestigate new worlds and anomalies to unlock new technologies, gather valuable resources and discover the secrets of this unknown universe.\r\n\r\nFeatures:\r\n\r\n[list]\r\n[*] Explore a fully open-world universe with multiple quests and a deep story\r\n[*] Build your own starship with different weapons, defenses and modules\r\n[*] Research new technologies\r\n[*] Survey unique planetary anomalies and investigate mysterious celestial artifacts\r\n[*] Talk with different alien factions, each with their own strengths, weaknesses and motivations\r\n[*] Fast-travel between discovered wormholes\r\n[/list]\r\n\r\n[img]{STEAM_APP_IMAGE}/extras/RingworldVisit.gif[/img]\r\n\r\nFans of Starcom: Nexus should know that the overall game mechanics have remained similar (with a number of improvements), this is not a direct sequel-- it is a brand new story. New players will not need to be familiar with the plot of Starcom: Nexus to jump right in.",
-      "translation": "[img]{STEAM_APP_IMAGE}/extras/BuildMissiles5MB.gif[/img]\r\nДосліджуйте таємничий відкритий всесвіт, наповнений інопланетними фракціями, дивними світами, таємничими артефактами та епічним сюжетом. \r\n\r\nЯк новий командир, ви та ваша команда перетворите свій корабель із маленького розвідника на все, що вам завгодно: дослідник глибокого космосу, швидкісний ударний корабель або броньований бойовий крейсер. \r\n\r\nЗустрічайте інопланетні раси, як дружні, ворожі, так і загадкові. Перетворіть ворогів на союзників і навпаки.\r\n\r\nДосліджуйте нові світи та аномалії, щоб розблокувати нові технології, збирати цінні ресурси та відкривати таємниці цього невідомого всесвіту.\r\n\r\nособливості:\r\n\r\n[список]\r\n[*] Досліджуйте всесвіт повністю відкритого світу з кількома квестами та глибокою історією\r\n[*] Створіть свій власний корабель із різною зброєю, засобами захисту та модулями\r\n[*] Дослідження нових технологій\r\n[*] Досліджуйте унікальні планетарні аномалії та досліджуйте таємничі небесні артефакти\r\n[*] Спілкуйтеся з різними фракціями прибульців, кожна зі своїми сильними, слабкими сторонами та мотивацією\r\n[*] Швидка подорож між виявленими червоточинами\r\n[/list]\r\n\r\n[img]{STEAM_APP_IMAGE}/extras/RingworldVisit.gif[/img]\r\n\r\nШанувальники Starcom: Nexus повинні знати, що загальна ігрова механіка залишилася подібною (з рядом покращень), це не пряме продовження - це абсолютно нова історія. Новим гравцям не потрібно буде знайомитися із сюжетом Starcom: Nexus, щоб одразу почати.",
+      "translation": "[img]{STEAM_APP_IMAGE}/extras/BuildMissiles5MB.gif[/img]\r\nДосліджуйте таємничий відкритий всесвіт, наповнений інопланетними фракціями, дивними світами, таємничими артефактами та епічним сюжетом. \r\n\r\nЯк новий командир, ви та ваша команда перетворите свій корабель із маленького розвідника на все, що вам завгодно: дослідник глибокого космосу, швидкісний ударний корабель або броньований бойовий крейсер. \r\n\r\nЗустрічайте інопланетні раси, як дружні, ворожі, так і загадкові. Перетворіть ворогів на союзників і навпаки.\r\n\r\nДосліджуйте нові світи та аномалії, щоб розблокувати нові технології, збирати цінні ресурси та відкривати таємниці цього невідомого всесвіту.\r\n\r\nособливості:\r\n\r\n[list]\r\n[*] Досліджуйте всесвіт повністю відкритого світу з кількома квестами та глибокою історією\r\n[*] Створіть свій власний корабель із різною зброєю, засобами захисту та модулями\r\n[*] Дослідження нових технологій\r\n[*] Досліджуйте унікальні планетарні аномалії та досліджуйте таємничі небесні артефакти\r\n[*] Спілкуйтеся з різними фракціями прибульців, кожна зі своїми сильними, слабкими сторонами та мотивацією\r\n[*] Швидка подорож між виявленими червоточинами\r\n[/list]\r\n\r\n[img]{STEAM_APP_IMAGE}/extras/RingworldVisit.gif[/img]\r\n\r\nШанувальники Starcom: Nexus повинні знати, що загальна ігрова механіка залишилася подібною (з рядом покращень), це не пряме продовження - це абсолютно нова історія. Новим гравцям не потрібно буде знайомитися із сюжетом Starcom: Nexus, щоб одразу почати.",
       "priority": 0,
       "reviewed": false
     },
@@ -6956,7 +6956,7 @@
     {
       "symbol": "ALPHA->CONVO->SCHELL_WORMHOLE->DIALOGUE->21_NPC",
       "original": "According to early research papers, the wormhole may lead to a universe that was separated from ours during the early expansion of the universe.\n\nWe sent Celaeno Station through a month ago and they have begun studying the region.",
-      "translation": "Згідно з ранніми дослідницькими роботами, червоточина може привести до Всесвіту, який був відділений від нашого під час раннього розширення Всесвіту.\n\nМи відправили станцію Celaeno місяць тому, і вони почали вивчати регіон.",
+      "translation": "Згідно з ранніми дослідницькими роботами, червоточина може привести до Всесвіту, який був відділений від нашого під час раннього розширення Всесвіту.\n\nМи відправили станцію Селено місяць тому, і вони почали вивчати регіон.",
       "priority": 0,
       "reviewed": false
     },
@@ -7040,7 +7040,7 @@
     {
       "symbol": "ALPHA->MISSIONS->CARGO_SPILL->NODES->0->FIRST_OFFICER->EXTRA",
       "original": "[FORWARD][LEFT][BACK][RIGHT] to steer",
-      "translation": "[ВПЕРЕД][ЛІВО][НАЗАД][ПРАВО], щоб керувати",
+      "translation": "[FORWARD][LEFT][BACK][RIGHT], щоб керувати",
       "priority": 0,
       "reviewed": false
     },
@@ -7355,7 +7355,7 @@
     {
       "symbol": "ARRIVAL->CONVO->ALETHEIA_DEFAULT->DIALOGUE->12_PC",
       "original": "Did you find anything during your interrupted survey?",
-      "translation": "Ви щось знайшли під час перерваного опитування?",
+      "translation": "Ви щось знайшли під час подорожі?",
       "priority": 0,
       "reviewed": false
     },
@@ -7607,7 +7607,7 @@
     {
       "symbol": "ARRIVAL->CONVO->PLAYER_YU_DEBRIS->DIALOGUE->7_NPC",
       "original": "During Celaeno's construction, they moved pretty fast. There was an accident with one of the construction ships that scattered leftover materials.\n\nI guess some of it got captured by the gravity of the nearby system.",
-      "translation": "Під час будівництва Celaeno вони рухалися досить швидко. З одним із будівельних кораблів сталася аварія, яка розкидала залишки матеріалів.\n\nЯ припускаю, що частина цього була захоплена гравітацією сусідньої системи.",
+      "translation": "Під час будівництва Селено вони рухалися досить швидко. З одним із будівельних кораблів сталася аварія, яка розкидала залишки матеріалів.\n\nЯ припускаю, що частина цього була захоплена гравітацією сусідньої системи.",
       "priority": 0,
       "reviewed": false
     },
@@ -7845,7 +7845,7 @@
     {
       "symbol": "ARRIVAL->CONVO->YU_ARRIVAL->DIALOGUE->23_NPC",
       "original": "Welcome to Celaeno Station commander. \n\nI assume your appearance means Maia picked up our emergency beacon. And I hope [SHIP_NAME] is just the very small tip of a much larger spear of reinforcements coming soon?",
-      "translation": "Ласкаво просимо до командира станції Celaeno.\n\nЯ припускаю, що ваша поява означає, що Майя підхопила наш аварійний маяк. І я сподіваюся, що [SHIP_NAME] — це лише маленький наконечник набагато більшого списа підкріплення, яке незабаром з’явиться?",
+      "translation": "Ласкаво просимо до командира станції Селено.\n\nЯ припускаю, що ваша поява означає, що Майя підхопила наш аварійний маяк. І я сподіваюся, що [SHIP_NAME] — це лише маленький наконечник набагато більшого списа підкріплення, яке незабаром з’явиться?",
       "priority": 0,
       "reviewed": false
     },
@@ -8475,7 +8475,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->ALETHEIA_RETURNS->NODES->3->ENDING->TEXT",
       "original": "[SHIP_NAME] spent many months searching for clues to re-open the wormhole. Eventually, Celaeno's supplies began to dwindle.\n\nThe crew of Celaeno and [SHIP_NAME] were forced to relocate to a Class M planet they had discovered.\n\nPerhaps if the Aletheia had survived, things might have ended differently.",
-      "translation": "[SHIP_NAME] витратив багато місяців на пошук підказок, щоб знову відкрити червоточину. Згодом запаси Селено почали скорочуватися.\n\nЕкіпаж Celaeno та [SHIP_NAME] були змушені переїхати на планету класу M, яку вони виявили.\n\nМожливо, якби Алетея вижила, все могло б закінчитися інакше.",
+      "translation": "[SHIP_NAME] витратив багато місяців на пошук підказок, щоб знову відкрити червоточину. Згодом запаси Селено почали скорочуватися.\n\nЕкіпаж Селено та [SHIP_NAME] були змушені переїхати на планету класу M, яку вони виявили.\n\nМожливо, якби Алетея вижила, все могло б закінчитися інакше.",
       "priority": 0,
       "reviewed": false
     },
@@ -8496,14 +8496,14 @@
     {
       "symbol": "ARRIVAL->MISSIONS->CELAENO_DESTROYED->NODES->1->ENDING->TITLE",
       "original": "Celaeno Destroyed",
-      "translation": "Celaeno знищено",
+      "translation": "Селено знищено",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "ARRIVAL->MISSIONS->CELAENO_DESTROYED->NODES->1->ENDING->TEXT",
       "original": "Following the destruction Celaeno Station, [SHIP_NAME] continued the search for a way back home.\r\n\r\nEventually the crew got tired of looking, mutinied, and settled on the next M1 planet they came across. ",
-      "translation": "Після знищення станції Celaeno [SHIP_NAME] продовжив пошуки шляху додому.\r\n\r\nЗрештою екіпаж втомився шукати, збунтувався та оселився на наступній планеті M1, на яку вони натрапили.",
+      "translation": "Після знищення станції Селено [SHIP_NAME] продовжив пошуки шляху додому.\r\n\r\nЗрештою екіпаж втомився шукати, збунтувався та оселився на наступній планеті M1, на яку вони натрапили.",
       "priority": 0,
       "reviewed": false
     },
@@ -8643,7 +8643,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->LEASH->NODES->0->FIRST_OFFICER->MESSAGE",
       "original": "I think we should complete our initial objectives with Celaeno before trying to explore this space on our own.",
-      "translation": "Я думаю, що ми повинні виконати наші початкові цілі з Celaeno, перш ніж намагатися досліджувати цей простір самостійно.",
+      "translation": "Я думаю, що ми повинні виконати наші початкові цілі з Селено, перш ніж намагатися досліджувати цей простір самостійно.",
       "priority": 0,
       "reviewed": false
     },
@@ -8790,7 +8790,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->RED_RAIDERS->DESCRIPTION",
       "original": "Celaeno detected ship movement around a nearby gas giant.",
-      "translation": "Celaeno виявив рух корабля навколо сусіднього газового гіганта.",
+      "translation": "Селено виявив рух корабля навколо сусіднього газового гіганта.",
       "priority": 0,
       "reviewed": false
     },
@@ -8846,7 +8846,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->RESCUE->DESCRIPTION",
       "original": "Since Celaeno has started coming under attack by unknown ships, the Commodore wants us to evacuate the outpost they established.",
-      "translation": "Оскільки Celaeno почали атакувати невідомі кораблі, Коммодор хоче, щоб ми евакуювали створений ними форпост.",
+      "translation": "Оскільки Селено почали атакувати невідомі кораблі, Коммодор хоче, щоб ми евакуювали створений ними форпост.",
       "priority": 0,
       "reviewed": false
     },
@@ -8958,7 +8958,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->SHIPYARD_TUTORIAL->NODES->4->ACTOR->MESSAGE",
       "original": "Good. [SHIP_NAME] can now conduct planetary survey landings. You should feel free to experiment with different ship designs-- we have a lossless reclimator, so you won't lose any resources. \n\nJust drag a module off the ship to remove or reposition it.",
-      "translation": "добре. [SHIP_NAME] тепер може здійснювати висадку планетарного огляду. Ви можете сміливо експериментувати з різними конструкціями кораблів - у нас є рекліматизатор без втрат, тому ви не втратите жодних ресурсів.\n\nПросто перетягніть модуль з корабля, щоб видалити або змінити його положення.",
+      "translation": "Добре. [SHIP_NAME] тепер може здійснювати висадку планетарного огляду. Ви можете сміливо експериментувати з різними конструкціями кораблів - у нас є рекліматизатор без втрат, тому ви не втратите жодних ресурсів.\n\nПросто перетягніть модуль з корабля, щоб видалити або змінити його положення.",
       "priority": 0,
       "reviewed": false
     },
@@ -8979,7 +8979,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->RESEARCH->ANNOUNCER",
       "original": "Research",
-      "translation": "дослідження",
+      "translation": "Дослідження",
       "priority": 0,
       "reviewed": false
     },
@@ -9014,7 +9014,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->THIS_IS_A_TEST_O_29729->TEXT",
       "original": "This is a test of the updated wormhole stabilizer relay antennae.\n\nAny crew aboard Celaeno who see this notification send an ACK message. You should receive a counter-reply at the next wormhole open in 48 hours.",
-      "translation": "Це випробування оновленої релейної антени стабілізатора червоточини.\n\nБудь-який екіпаж на борту Celaeno, який бачить це сповіщення, надсилає повідомлення ACK. Ви повинні отримати зустрічну відповідь під час наступного відкриття червоточини через 48 годин.",
+      "translation": "Це випробування оновленої релейної антени стабілізатора червоточини.\n\nБудь-який екіпаж на борту Селено, який бачить це сповіщення, надсилає повідомлення ACK. Ви повинні отримати зустрічну відповідь під час наступного відкриття червоточини через 48 годин.",
       "priority": 0,
       "reviewed": false
     },
@@ -9056,21 +9056,21 @@
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->THERE_IS_ANOTHER_12297->TEXT",
       "original": "There is another junior research opening, apply Celaeno-Res:JRAMA. This is not a repost. This is a new posting for the same position.",
-      "translation": "Є ще одне відкриття для молодших дослідників, застосувати Celaeno-Res:JRAMA. Це не репост. Це нове оголошення на ту саму посаду.",
+      "translation": "Є ще одне відкриття для молодших дослідників, застосувати Селено-Res:JRAMA. Це не репост. Це нове оголошення на ту саму посаду.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->RESEARCH->ANNOUNCER",
       "original": "Research",
-      "translation": "дослідження",
+      "translation": "Дослідження",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->CELAENO_S_LAST_W_98646->TEXT",
       "original": "Celaeno's last window for a longwave transmission to Maia for relay is tomorrow at 1435. Your messages home should be submitted today, by 1600, to allow for clearance review. ",
-      "translation": "Останнє вікно Celaeno для довгохвильової передачі до Майї для ретрансляції завтра о 14:35. Ваші повідомлення додому мають бути надіслані сьогодні, до 16:00, щоб мати можливість перевірити дозвіл.",
+      "translation": "Останнє вікно Селено для довгохвильової передачі до Майї для ретрансляції завтра о 14:35. Ваші повідомлення додому мають бути надіслані сьогодні, до 16:00, щоб мати можливість перевірити дозвіл.",
       "priority": 0,
       "reviewed": false
     },
@@ -9154,7 +9154,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->POST-ACTION_GENE_14062->TEXT",
       "original": "Post-action general debrief on Celaeno-Mil channel.",
-      "translation": "Загальний звіт після дії на каналі Celaeno-Mil.",
+      "translation": "Загальний звіт після дії на каналі Селено-Mil.",
       "priority": 0,
       "reviewed": false
     },
@@ -9231,7 +9231,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->VISIT_CEL->NODES->0->MISSION_DETAIL_TALK_YU",
       "original": "We should head to Celaeno Station and update the Commodore on what happened.",
-      "translation": "Нам слід відправитися на станцію Celaeno і повідомити Коммодору про те, що сталося.",
+      "translation": "Нам слід відправитися на станцію Селено і повідомити Коммодору про те, що сталося.",
       "priority": 0,
       "reviewed": false
     },
@@ -9448,7 +9448,7 @@
     {
       "symbol": "ARRIVAL->SHIP->CELAENO_UPGRADE_1->NAME",
       "original": "Celaeno Upgrade 1",
-      "translation": "Оновлення Celaeno 1",
+      "translation": "Оновлення Селено 1",
       "priority": 0,
       "reviewed": false
     },
@@ -9833,7 +9833,7 @@
     {
       "symbol": "BEYOND->CONVO->ERMYR_ARTIFACT->DIALOGUE->1_NPC",
       "original": "Halt. This area is off-limits to unauthorized vessels. Depart immediately.",
-      "translation": "зупинка. Ця зона заборонена для несанкціонованих суден. Вирушайте негайно.",
+      "translation": "Не руш. Ця зона заборонена для несанкціонованих суден. Вирушайте негайно.",
       "priority": 0,
       "reviewed": false
     },
@@ -10743,7 +10743,7 @@
     {
       "symbol": "BEYOND->MISSIONS->RED_RAIDERS->NODES->9->NEWS->_CREW_TACTICS__S_18817->TEXT",
       "original": "[CREW_TACTICS]'s pre-recorded presentation on Red Raider tactics is now available on Celaeno-Mil.",
-      "translation": "Попередньо записана презентація [CREW_TACTICS] про тактику Red Raider тепер доступна на Celaeno-Mil.",
+      "translation": "Попередньо записана презентація [CREW_TACTICS] про тактику Red Raider тепер доступна на Селено-Mil.",
       "priority": 0,
       "reviewed": false
     },
@@ -11184,7 +11184,7 @@
     {
       "symbol": "CELAENO_DEFENSE->CONVO->YU_RED_GUARD_ATTACK->DIALOGUE->1_NPC",
       "original": "I suppose it was only a matter of time before these newer Red Raiders launched an attack.\n\nWhile I suspect The Aletheia and Celaeno could have handled them, it was lucky [SHIP_NAME] was nearby.\n\nThis emphasizes the importance of re-opening that wormhole to bring in more support. We're all counting on you.",
-      "translation": "Я вважаю, що це було лише питанням часу, коли ці нові червоні рейдери розпочнуть атаку.\n\nХоча я підозрюю, що Aletheia та Celaeno могли впоратися з ними, пощастило, що [SHIP_NAME] був поруч.\n\nЦе підкреслює важливість повторного відкриття цієї червоточини, щоб отримати більше підтримки. Ми всі на тебе розраховуємо.",
+      "translation": "Я вважаю, що це було лише питанням часу, коли ці нові червоні рейдери розпочнуть атаку.\n\nХоча я підозрюю, що Aletheia та Селено могли впоратися з ними, пощастило, що [SHIP_NAME] був поруч.\n\nЦе підкреслює важливість повторного відкриття цієї червоточини, щоб отримати більше підтримки. Ми всі на тебе розраховуємо.",
       "priority": 0,
       "reviewed": false
     },
@@ -11233,7 +11233,7 @@
     {
       "symbol": "CELAENO_DEFENSE->MISSIONS->UPGRADES->NODES->1->NEWS->ALL_PERSONNEL_WI_13756->TEXT",
       "original": "All personnel will be required to attend two briefings on changes to Celaeno combat drills. Your section head will schedule, but it is your responsibility to know the drills by your next review.",
-      "translation": "Весь особовий склад повинен буде відвідати два брифінги щодо змін у бойових навчаннях Celaeno. Ваш керівник відділу складе графік, але ви зобов’язані знати тренування до наступного перегляду.",
+      "translation": "Весь особовий склад повинен буде відвідати два брифінги щодо змін у бойових навчаннях Селено. Ваш керівник відділу складе графік, але ви зобов’язані знати тренування до наступного перегляду.",
       "priority": 0,
       "reviewed": false
     },
@@ -11947,7 +11947,7 @@
     {
       "symbol": "CEPHEID2->CONVO->PLAYER_RAMA_PERSONAL->DIALOGUE->14_PC",
       "original": "How did you get assigned to Celaeno?",
-      "translation": "Як вас призначили до Celaeno?",
+      "translation": "Як вас призначили до Селено?",
       "priority": 0,
       "reviewed": false
     },
@@ -12472,7 +12472,7 @@
     {
       "symbol": "COLLAPSAR->CONVO->YU_CHARIOT_STABILIZER->DIALOGUE->2_NPC",
       "original": "Once the wormhole is large enough, [SHIP_NAME] and The Aletheia will evacuate Celaeno's crew through.\n\nI'll command a skeleton crew to trigger the CIE device once you're through.",
-      "translation": "Коли червоточина стане достатньо великою, [SHIP_NAME] і Aletheia евакуюють команду Celaeno.\n\nЯ накажу скелетній команді запустити пристрій CIE, коли ви закінчите.",
+      "translation": "Коли червоточина стане достатньо великою, [SHIP_NAME] і Aletheia евакуюють команду Селено.\n\nЯ накажу скелетній команді запустити пристрій CIE, коли ви закінчите.",
       "priority": 0,
       "reviewed": false
     },
@@ -12941,7 +12941,7 @@
     {
       "symbol": "COLLAPSAR->MISSIONS->STRANGE_MATTER->NODES->8->NEWS->ALL_CREW__COMMEN_19272->TEXT",
       "original": "All crew: Commence immediate preparations for orderly evacuation of Celaeno.\n\nThis is not a drill.",
-      "translation": "Весь екіпаж: розпочати негайну підготовку до впорядкованої евакуації Celaeno.\n\nЦе не свердло.",
+      "translation": "Весь екіпаж: розпочати негайну підготовку до впорядкованої евакуації Селено.\n\nЦе не свердло.",
       "priority": 0,
       "reviewed": false
     },
@@ -13907,7 +13907,7 @@
     {
       "symbol": "CONFLICT->CONVO->PLAYER_GUILD_DIPLOMAT->DIALOGUE->3_PC",
       "original": "Where?",
-      "translation": "де",
+      "translation": "Де",
       "priority": 0,
       "reviewed": false
     },
@@ -14236,7 +14236,7 @@
     {
       "symbol": "CONFLICT->ANOMALY->DIPLOMAT_DERELICT->DIALOGUE->6_NPC",
       "original": "A search of the ship reveals no crew, alive or dead.\n\nOne of the ship's escape pods is missing. Examining the telemetry data from the launcher leads to a point on a nearby desert world.",
-      "translation": "Обшук корабля не виявив ні живих, ні мертвих екіпажу.\n\nОдна з корабельних рятувальних капсул зникла. Вивчення даних телеметрії з пускової установки веде до точки в сусідньому пустельному світі.",
+      "translation": "Обшук корабля не виявив ні живих, ні мертвих екіпажу.\n\nОдна з корабельних рятувальних капсул зникла. дослідження даних телеметрії з пускової установки веде до точки в сусідньому пустельному світі.",
       "priority": 0,
       "reviewed": false
     },
@@ -14474,7 +14474,7 @@
     {
       "symbol": "CONFLICT->ANOMALY->GRAZERS->DIALOGUE->2_NPC",
       "original": "The team is able to capture several of these creatures for study with some difficulty.\n\nTheir physiology is unusual for a number of reasons. Perhaps the most striking is that they all have a complex network of metallic fibers interwoven with their central nervous system and horns.\n\nThey have been implanted with transmitters, presumably to aid in their monitoring.",
-      "translation": "Команда з певними труднощами може захопити кількох із цих істот для вивчення.\n\nЇх фізіологія незвичайна з ряду причин. Мабуть, найбільш вражаючим є те, що всі вони мають складну мережу металевих волокон, переплетених з центральною нервовою системою та рогами.\n\nЇм імплантували передавачі, ймовірно, щоб допомогти в їх моніторингу.",
+      "translation": "Команда з певними труднощами може захопити кількох із цих істот для дослідження.\n\nЇх фізіологія незвичайна з ряду причин. Мабуть, найбільш вражаючим є те, що всі вони мають складну мережу металевих волокон, переплетених з центральною нервовою системою та рогами.\n\nЇм імплантували передавачі, ймовірно, щоб допомогти в їх моніторингу.",
       "priority": 0,
       "reviewed": false
     },
@@ -17127,7 +17127,7 @@
     {
       "symbol": "DEFAULT->MISSIONS->CREW_HELP->NODES->1->FIRST_OFFICER->MESSAGE",
       "original": "Our command crew is below 50% strength. We cannot conduct surveys until they have recovered.",
-      "translation": "Чисельність нашого командного складу становить менше 50%. Ми не можемо проводити опитування, поки вони не одужають.",
+      "translation": "Чисельність нашого командного складу становить менше 50%. Ми не можемо проводити дослідження, поки вони не одужають.",
       "priority": 0,
       "reviewed": false
     },
@@ -17141,7 +17141,7 @@
     {
       "symbol": "DEFAULT->MISSIONS->CREW_HELP->NODES->16->FIRST_OFFICER->MESSAGE",
       "original": "As we upgrade our bridge, Celaeno will be able to assign us more personnel.",
-      "translation": "Коли ми оновлюємо наш міст, Celaeno зможе призначити нам більше персоналу.",
+      "translation": "Коли ми оновлюємо наш міст, Селено зможе призначити нам більше персоналу.",
       "priority": 0,
       "reviewed": false
     },
@@ -17274,7 +17274,7 @@
     {
       "symbol": "DEFAULT->MISSIONS->DEMOLITION_DEMOTION->NODES->0->ENDING->TEXT",
       "original": "After [SHIP_NAME] next returned to Celaeno, Cdre Yu initiated a personnel change, promoting Lt. Avery to commander.\r\n\r\n[PLAYER_NAME] was reassigned to Celaeno's commissary. The reason recorded for the demotion was \"Poor judgement on what to blow up.\"\r\n\r\nCmd. Avery and [SHIP_NAME] went on to save not one, but two universes. [PLAYER_NAME] ended up demonstrating great proficiency in cooking and baking.",
-      "translation": "Після того, як [SHIP_NAME] наступного разу повернувся до Celaeno, Cdre Yu ініціював кадрові зміни, підвищивши лейтенанта Евері до командира.\r\n\r\n[PLAYER_NAME] був перепризначений комісаром Celaeno. Записана причина пониження в посаді: «Погане рішення щодо того, що підірвати».\r\n\r\nCmd. Евері та [SHIP_NAME] врятували не один, а два всесвіти. Зрештою [PLAYER_NAME] продемонстрував чудові вміння готувати та випікати.",
+      "translation": "Після того, як [SHIP_NAME] наступного разу повернувся до Селено, Cdre Yu ініціював кадрові зміни, підвищивши лейтенанта Евері до командира.\r\n\r\n[PLAYER_NAME] був перепризначений комісаром Селено. Записана причина пониження в посаді: «Погане рішення щодо того, що підірвати».\r\n\r\nCmd. Евері та [SHIP_NAME] врятували не один, а два всесвіти. Зрештою [PLAYER_NAME] продемонстрував чудові вміння готувати та випікати.",
       "priority": 0,
       "reviewed": false
     },
@@ -17288,7 +17288,7 @@
     {
       "symbol": "DEFAULT->MISSIONS->DERELICTION->NODES->0->ENDING->TEXT",
       "original": "Lt. Avery assumed command of [SHIP_NAME] under Starcom Directive 881-C.\n\n[PLAYER_NAME] was remanded to clerical duty aboard Celaeno until it was destroyed by a group of religious fanatics.",
-      "translation": "Лейтенант Ейвері прийняв командування [SHIP_NAME] відповідно до директиви Starcom 881-C.\n\n[PLAYER_NAME] був залишений на духовну службу на борту Celaeno, поки його не знищила група релігійних фанатиків.",
+      "translation": "Лейтенант Ейвері прийняв командування [SHIP_NAME] відповідно до директиви Starcom 881-C.\n\n[PLAYER_NAME] був залишений на духовну службу на борту Селено, поки його не знищила група релігійних фанатиків.",
       "priority": 0,
       "reviewed": false
     },
@@ -18632,7 +18632,7 @@
     {
       "symbol": "DEFAULT->TECHS->FAST_SURVEYDEFAULT_NAME",
       "original": "Survey Efficiency",
-      "translation": "Ефективність опитування",
+      "translation": "Ефективність дослідження",
       "priority": 0,
       "reviewed": false
     },
@@ -21390,7 +21390,7 @@
     {
       "symbol": "DEVOUT->ITEMS->DATA_SPEAR_ANALYSIS",
       "original": "Report regarding detection of unidentified warp signals by [REDACTED] originating near the \"tip of the Talonian spear\".",
-      "translation": "Звіт про виявлення [ВИДАЛЕНО] неідентифікованих сигналів деформації, що походять біля «кінчика талонського списа».",
+      "translation": "Звіт про виявлення [REDACTED] неідентифікованих сигналів деформації, що походять біля «кінчика талонського списа».",
       "priority": 0,
       "reviewed": false
     },
@@ -22510,7 +22510,7 @@
     {
       "symbol": "DEVOUT_WAR->MISSIONS->BLACKHOLE->NODES->3->CREW_SKILL_NOTIFY->MESSAGE",
       "original": "Just a heads up, hull stress is borderline at this distance. There may be a very thin line here between studying entropy and becoming it.",
-      "translation": "Попереджаємо, напруга корпусу на цій відстані межова. Тут може бути дуже тонка межа між вивченням ентропії та тим, щоб стати нею.",
+      "translation": "Попереджаємо, напруга корпусу на цій відстані межова. Тут може бути дуже тонка межа між дослідженням ентропії та тим, щоб стати нею.",
       "priority": 0,
       "reviewed": false
     },
@@ -23035,7 +23035,7 @@
     {
       "symbol": "DISPATCHES->ANOMALY->RESEARCH_DISPATCH->DIALOGUE->7_NPC",
       "original": "*\"research on the ??? Vault on ??? has been proceeding too cautiously \r\n\r\n...\r\n\r\nThe motivation of ??? in constructing the Talonians is inscrutable, but a reasonable supposition is that they are an interface—possibly for us, possibly even for themselves—to technology too complex for organic ??? to reliably control. The constraint protocols may be assumed to have a similar purpose to the safety guard on a plasma torch: to prevent accidental severing of one own’s ???\"*",
-      "translation": "*\"дослідження ??? Vault на ??? тривають надто обережно\r\n\r\n...\r\n\r\nМотивація ??? у створенні Talonians є незбагненним, але розумне припущення полягає в тому, що вони є інтерфейсом — можливо, для нас, можливо, навіть для них самих — до технології, надто складної для органічних ??? надійно контролювати. Можна припустити, що протоколи обмеження мають подібну мету до захисного огородження на плазмовому пальнику: запобігати випадковому розриву власного ???\"*",
+      "translation": "*\"Дослідження ??? Vault на ??? тривають надто обережно\r\n\r\n...\r\n\r\nМотивація ??? у створенні Talonians є незбагненним, але розумне припущення полягає в тому, що вони є інтерфейсом — можливо, для нас, можливо, навіть для них самих — до технології, надто складної для органічних ??? надійно контролювати. Можна припустити, що протоколи обмеження мають подібну мету до захисного огородження на плазмовому пальнику: запобігати випадковому розриву власного ???\"*",
       "priority": 0,
       "reviewed": false
     },
@@ -23616,7 +23616,7 @@
     {
       "symbol": "DMZ->DISCOVERIES->BROWN_DWARF_DESC",
       "original": "This brown dwarf is just at the lower bound of hydrogen fusion, putting it at the perfect temperature to study certain aspects of stellar evolution.",
-      "translation": "Цей коричневий карлик знаходиться лише на нижній межі термоядерного синтезу, що дає йому ідеальну температуру для вивчення певних аспектів еволюції зірок.",
+      "translation": "Цей коричневий карлик знаходиться лише на нижній межі термоядерного синтезу, що дає йому ідеальну температуру для дослідження певних аспектів еволюції зірок.",
       "priority": 0,
       "reviewed": false
     },
@@ -24113,7 +24113,7 @@
     {
       "symbol": "EMISSARY->MISSIONS->EMISSARY_INTRO->NODES->9->NEWS->_CREW_ENGINEERIN_21168->TEXT",
       "original": "[CREW_ENGINEERING] has shared a presentation: \"Remnant Megastructure Engineering: Tidal-Force Stressor Models\" on Celaeno-Engineering channel.",
-      "translation": "[CREW_ENGINEERING] поділився презентацією: \"Інженерія залишкових мегаструктур: моделі стресорів приливної сили\" на каналі Celaeno-Engineering.",
+      "translation": "[CREW_ENGINEERING] поділився презентацією: \"Інженерія залишкових мегаструктур: моделі стресорів приливної сили\" на каналі Селено-Engineering.",
       "priority": 0,
       "reviewed": false
     },
@@ -24232,7 +24232,7 @@
     {
       "symbol": "ENDING->CONVO->DOLSON_ENDING->DIALOGUE->1_NPC",
       "original": "I gather some of Celaeno's staff have volunteered to stay on this side of the wormhole to continue our research. \n\nI can't blame them, but I joined Starcom for archaeology, not adventure and war stories. We'll be transporting any of Celaeno's crew who want to ship back.\n\nThen I'll revel in the glory of writing papers and lecturing to other archaeologists.",
-      "translation": "Наскільки я зрозумів, деякі співробітники Celaeno зголосилися залишитися по цей бік червоточини, щоб продовжити наші дослідження.\n\nЯ не можу їх звинувачувати, але я приєднався до Starcom заради археології, а не пригодницьких і військових історій. Ми перевеземо всіх членів екіпажу Celaeno, які захочуть повернутися назад.\n\nТоді я буду насолоджуватися славою написання робіт і читання лекцій іншим археологам.",
+      "translation": "Наскільки я зрозумів, деякі співробітники Селено зголосилися залишитися по цей бік червоточини, щоб продовжити наші дослідження.\n\nЯ не можу їх звинувачувати, але я приєднався до Starcom заради археології, а не пригодницьких і військових історій. Ми перевеземо всіх членів екіпажу Celaeno, які захочуть повернутися назад.\n\nТоді я буду насолоджуватися славою написання робіт і читання лекцій іншим археологам.",
       "priority": 0,
       "reviewed": false
     },
@@ -24267,14 +24267,14 @@
     {
       "symbol": "ENDING->CONVO->DOLSON_ENDING->DIALOGUE->7_NPC",
       "original": "We still have a little while before all of Celaeno's crew are ready. \n\nLet us know if there's anything you need.",
-      "translation": "У нас ще є трохи часу, перш ніж уся команда Celaeno буде готова. \n\nДайте нам знати, якщо вам щось знадобиться.",
+      "translation": "У нас ще є трохи часу, перш ніж уся команда Селено буде готова. \n\nДайте нам знати, якщо вам щось знадобиться.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "ENDING->CONVO->DOLSON_ENDING->DIALOGUE->8_NPC",
       "original": "We're just waiting for the rest of the Celaeno crew to finish departure prep.",
-      "translation": "Ми просто чекаємо, поки решта команди Celaeno закінчить підготовку до вильоту.",
+      "translation": "Ми просто чекаємо, поки решта команди Селено закінчить підготовку до вильоту.",
       "priority": 0,
       "reviewed": false
     },
@@ -24484,7 +24484,7 @@
     {
       "symbol": "ENDING->CONVO->YU_FINAL->DIALOGUE->7_NPC",
       "original": "Your crew has earned a break. Starcom hasn’t given an official directive. The Aletheia will be taking a lot of Celaeno’s staff back, but some of us have decided that even if the wormhole closes for good, there’s still a mission for Starcom here.\r\n\nI think this time really is goodbye. It’s been an honor to serve as your commander—I’m writing an incandescent post-action. If we ever meet again, I expect to call you sir.\r",
-      "translation": "Ваша команда заробила перерву. Starcom не давав офіційних вказівок. Aletheia забере багато співробітників Celaeno, але деякі з нас вирішили, що навіть якщо червоточина закриється назавжди, місія для Starcom все ще є тут.\r\n\nЯ думаю, що цей час справді до побачення. Для мене було честю служити вашим командиром — я пишу розжарений пост-екшн. Якщо ми колись зустрінемося знову, я сподіваюся називати вас сер.\r",
+      "translation": "Ваша команда заробила перерву. Starcom не давав офіційних вказівок. Aletheia забере багато співробітників Селено, але деякі з нас вирішили, що навіть якщо червоточина закриється назавжди, місія для Starcom все ще є тут.\r\n\nЯ думаю, що цей час справді до побачення. Для мене було честю служити вашим командиром — я пишу розжарений пост-екшн. Якщо ми колись зустрінемося знову, я сподіваюся називати вас сер.\r",
       "priority": 0,
       "reviewed": false
     },
@@ -24645,14 +24645,14 @@
     {
       "symbol": "ENDING->ANOMALY->CHARIOT_TALONIAN->DIALOGUE->22_PC",
       "original": "*Transfer [fragments] fragments to the Talonian*",
-      "translation": "*Передача [фрагментів] фрагментів до талонця*",
+      "translation": "*Передача [fragments] фрагментів до талонця*",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "ENDING->ANOMALY->CHARIOT_TALONIAN->DIALOGUE->23_NPC",
       "original": "Neural metaconnections restored. \n\nThank you, with the [total] fragments you've recovered I have a better understanding of my history.",
-      "translation": "Нейронні метазв'язки відновлені.\n\nДякую, [загалом] фрагменти, які ви відновили, я краще розумію свою історію.",
+      "translation": "Нейронні метазв'язки відновлені.\n\nДякую, [total] фрагменти, які ви відновили, я краще розумію свою історію.",
       "priority": 0,
       "reviewed": false
     },
@@ -24876,7 +24876,7 @@
     {
       "symbol": "ENDING->MISSIONS->HOME->NODES->1->MISSION_DETAIL_CELAENO",
       "original": "We should report to Celaeno before returning home, again.",
-      "translation": "Ми повинні доповісти Celaeno, перш ніж знову повернутися додому.",
+      "translation": "Ми повинні доповісти Селено, перш ніж знову повернутися додому.",
       "priority": 0,
       "reviewed": false
     },
@@ -27683,7 +27683,7 @@
     {
       "symbol": "GORYR->CONVO->PLAYER_GORYR_DEVOUT->DIALOGUE->3_NPC",
       "original": "They are a fanatical religious group that formed in the very late Empire. They either flourished in the vacuum created by its fall, or their appearance triggered it. Both theories have some evidence to support.\r\n\r\nInteracting with Remnant artifacts, even the gateways, is forbidden by anyone but their own priests. Deep study of their mysteries is forbidden.\r\n\r\nWe do not get along with them.",
-      "translation": "Це фанатична релігійна група, яка сформувалася наприкінці Імперії. Вони або процвітали у вакуумі, створеному його падінням, або їхня поява викликала це. Обидві теорії мають певні докази на підтримку.\r\n\r\nВзаємодія з артефактами Залишків, навіть зі шлюзами, заборонена нікому, крім їхніх жерців. Глибоке вивчення їхніх таємниць заборонено.\r\n\r\nМи з ними не ладнаємо.",
+      "translation": "Це фанатична релігійна група, яка сформувалася наприкінці Імперії. Вони або процвітали у вакуумі, створеному його падінням, або їхня поява викликала це. Обидві теорії мають певні докази на підтримку.\r\n\r\nВзаємодія з артефактами Залишків, навіть зі шлюзами, заборонена нікому, крім їхніх жерців. Глибоке дослідження їхніх таємниць заборонено.\r\n\r\nМи з ними не ладнаємо.",
       "priority": 0,
       "reviewed": false
     },
@@ -27942,7 +27942,7 @@
     {
       "symbol": "GORYR->MISSIONS->VISIT->DESCRIPTION",
       "original": "A race called the Goryr have visited Celaeno station. Cdre. Yu believes they may be a useful source of information about this region.",
-      "translation": "Гонка під назвою Goryr відвідала станцію Celaeno. Cdre. Ю вважає, що вони можуть бути корисним джерелом інформації про цей регіон.",
+      "translation": "Гонка під назвою Goryr відвідала станцію Селено. Cdre. Ю вважає, що вони можуть бути корисним джерелом інформації про цей регіон.",
       "priority": 0,
       "reviewed": false
     },
@@ -29055,7 +29055,7 @@
     {
       "symbol": "HELP->MISSIONS->HELP_SHIELDS->NODES->0->FIRST_OFFICER->EXTRA",
       "original": "Press [SHIELDS] to active",
-      "translation": "Натисніть [ЩИТИ] для активації",
+      "translation": "Натисніть [SHIELDS] для активації",
       "priority": 0,
       "reviewed": false
     },
@@ -30945,7 +30945,7 @@
     {
       "symbol": "LOCOAN->ANOMALY->BROKEN_TOWER->DIALOGUE->16_NPC",
       "original": "The broken tower sits silent. After examining the damage, [CREW_ENGINEERING] determines they could fix it well enough to broadcast one last transmission, although it would require a single unit of valuable Chiralite.",
-      "translation": "Сидить розбита вежа мовчить. Після вивчення пошкодження [CREW_ENGINEERING] вирішує, що вони можуть виправити це достатньо добре, щоб передати останню трансляцію, хоча для цього знадобиться одна одиниця цінного Хіраліту.",
+      "translation": "Сидить розбита вежа мовчить. Після дослідження пошкодження [CREW_ENGINEERING] вирішує, що вони можуть виправити це достатньо добре, щоб передати останню трансляцію, хоча для цього знадобиться одна одиниця цінного Хіраліту.",
       "priority": 0,
       "reviewed": false
     },
@@ -31344,7 +31344,7 @@
     {
       "symbol": "LOCOAN->ANOMALY->YELLOW_FOG->DIALOGUE->2_NPC",
       "original": "There are still [remaining] structures that may hold valuable resources.",
-      "translation": "Є ще [залишилися] структури, які можуть містити цінні ресурси.",
+      "translation": "Є ще [remaining] структури, які можуть містити цінні ресурси.",
       "priority": 0,
       "reviewed": false
     },
@@ -31771,7 +31771,7 @@
     {
       "symbol": "LOST_ARKADIANS->ANOMALY->RELIQUARY->DIALOGUE->1_NPC",
       "original": "[hail]",
-      "translation": "[вітаю]",
+      "translation": "[hail]",
       "priority": 0,
       "reviewed": false
     },
@@ -31855,7 +31855,7 @@
     {
       "symbol": "LOST_ARKADIANS->ANOMALY->WATCHTOWER->DIALOGUE->2_NPC",
       "original": "It is a simple device, clearly added by a civilization more on par with our own. It has a label that translates as \"Watch Tower\" although [CREW_XENOCULTURE] notes that the first word is closer in meaning to \"Eye\".\n\nIt consists of a binary display and five toggle buttons.\n\nThe display reads [binary].",
-      "translation": "Це простий пристрій, явно доданий цивілізацією, більшою за нашу. Він має мітку, яка перекладається як «Вартова вежа», хоча [CREW_XENOCULTURE] зазначає, що перше слово ближче за значенням до «Око».\n\nВін складається з двійкового дисплея та п'яти кнопок перемикання.\n\nНа дисплеї відображається [двійковий].",
+      "translation": "Це простий пристрій, явно доданий цивілізацією, більшою за нашу. Він має мітку, яка перекладається як «Вартова вежа», хоча [CREW_XENOCULTURE] зазначає, що перше слово ближче за значенням до «Око».\n\nВін складається з двійкового дисплея та п'яти кнопок перемикання.\n\nНа дисплеї відображається [binary].",
       "priority": 0,
       "reviewed": false
     },
@@ -31939,7 +31939,7 @@
     {
       "symbol": "LOST_ARKADIANS->ANOMALY->WATCHTOWER->DIALOGUE->5_NPC",
       "original": "The device attachment reads:\n\n[binary]",
-      "translation": "У додатку до пристрою написано:\n\n[двійковий]",
+      "translation": "У додатку до пристрою написано:\n\n[binary]",
       "priority": 0,
       "reviewed": false
     },
@@ -32338,7 +32338,7 @@
     {
       "symbol": "OUTLIERS->CONVO->PLAYER_DOLSON_BAD_KNOWLEDGE->DIALOGUE->4_NPC",
       "original": "But some of the archives you recovered suggested they were at least as concerned with data storage methods that didn't involve any computation.\n\nApparently they were looking for ways to study \"forbidden knowledge\" without their systems becoming corrupted by it.\n\nThe big gaps in their records may be partly explained by their informational hygiene, as it were.",
-      "translation": "Але деякі архіви, які ви відновили, свідчать про те, що вони стосуються методів зберігання даних, які не передбачають жодних обчислень.\n\nОчевидно, вони шукали способи вивчення «заборонених знань», щоб їхні системи не пошкодилися ними.\n\nВеликі прогалини в їхніх записах можна частково пояснити їхньою інформаційною гігієною.",
+      "translation": "Але деякі архіви, які ви відновили, свідчать про те, що вони стосуються методів зберігання даних, які не передбачають жодних обчислень.\n\nОчевидно, вони шукали способи дослідження «заборонених знань», щоб їхні системи не пошкодилися ними.\n\nВеликі прогалини в їхніх записах можна частково пояснити їхньою інформаційною гігієною.",
       "priority": 0,
       "reviewed": false
     },
@@ -32443,7 +32443,7 @@
     {
       "symbol": "OUTLIERS->ANOMALY->BAD_KNOWLEDGE->DIALOGUE->8_NOTIFY",
       "original": "I'm guessing this means studying ways of preventing knowledge loss in a catastrophe, like the one that befell the empire?",
-      "translation": "Я припускаю, що це означає вивчення способів запобігання втраті знань під час катастрофи, як та, що спіткала імперію?",
+      "translation": "Я припускаю, що це означає дослідження способів запобігання втраті знань під час катастрофи, як та, що спіткала імперію?",
       "priority": 0,
       "reviewed": false
     },
@@ -32954,7 +32954,7 @@
     {
       "symbol": "OUTLIERS->MISSIONS->BAD_KNOWLEDGE->NODES->27->NEWS->RESEARCH->ANNOUNCER",
       "original": "Research",
-      "translation": "дослідження",
+      "translation": "Дослідження",
       "priority": 0,
       "reviewed": false
     },
@@ -33248,7 +33248,7 @@
     {
       "symbol": "PIRATES->CONVO->BROGIDAR_DEFAULT->DIALOGUE->14_PC",
       "original": "Pay [gold] gold for \"protection\".",
-      "translation": "Платіть [золото] золотом за «захист».",
+      "translation": "Платіть [gold] золотом за «захист».",
       "priority": 0,
       "reviewed": false
     },
@@ -33262,7 +33262,7 @@
     {
       "symbol": "PIRATES->CONVO->BROGIDAR_DEFAULT->DIALOGUE->16_PC",
       "original": "Insufficient gold ([gold] needed)",
-      "translation": "Недостатньо золота (потрібно [золото])",
+      "translation": "Недостатньо золота (потрібно [gold])",
       "priority": 0,
       "reviewed": false
     },
@@ -33276,7 +33276,7 @@
     {
       "symbol": "PIRATES->CONVO->BROGIDAR_DEFAULT->DIALOGUE->18_NPC",
       "original": "How can you put such a low price on your safety?\n\nOur scans show that we will find a great deal more than [gold] gold in salvage from your ship.\n\n",
-      "translation": "Як можна поставити таку низьку ціну на свою безпеку?\n\nНаше сканування показує, що ми знайдемо набагато більше, ніж [золото] золото у врятованих з вашого корабля.\n\n",
+      "translation": "Як можна поставити таку низьку ціну на свою безпеку?\n\nНаше сканування показує, що ми знайдемо набагато більше, ніж [gold] золото у врятованих з вашого корабля.\n\n",
       "priority": 0,
       "reviewed": false
     },
@@ -33304,7 +33304,7 @@
     {
       "symbol": "PIRATES->CONVO->BROGIDAR_DEFAULT->DIALOGUE->7_NPC",
       "original": "It is time to renew your protection subscription, [PLAYER_NAME].\n\nJust [gold] gold for peace of mind and also the regular kind of peace. ",
-      "translation": "Настав час поновити вашу підписку на захист, [PLAYER_NAME].\n\nПросто [золото] золото для душевного спокою, а також звичайного миру.",
+      "translation": "Настав час поновити вашу підписку на захист, [PLAYER_NAME].\n\nПросто [gold] золото для душевного спокою, а також звичайного миру.",
       "priority": 0,
       "reviewed": false
     },
@@ -33549,14 +33549,14 @@
     {
       "symbol": "PIRATES->MISSIONS->BROGIDAR->NODES->11->CREW_SKILL_NOTIFY->MESSAGE",
       "original": "Same lock design, same solution.\n\nAnd again, a survey log. I've marked the coordinates on the map.",
-      "translation": "Той самий дизайн замка, те саме рішення.\n\nІ знову журнал опитування. Я позначив координати на карті.",
+      "translation": "Той самий дизайн замка, те саме рішення.\n\nІ знову журнал дослідження. Я позначив координати на карті.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PIRATES->MISSIONS->BROGIDAR->NODES->11->MISSION_DETAIL_TREASURE_2",
       "original": "Another survey log marks a location at [COORD].",
-      "translation": "Інший журнал опитування позначає місце в [COORD].",
+      "translation": "Інший журнал дослідження позначає місце в [COORD].",
       "priority": 0,
       "reviewed": false
     },
@@ -33570,7 +33570,7 @@
     {
       "symbol": "PIRATES->MISSIONS->BROGIDAR->NODES->37->MISSION_DETAIL_TREASURE_3",
       "original": "Another survey log marks a location at [COORD].",
-      "translation": "Інший журнал опитування позначає місце в [COORD].",
+      "translation": "Інший журнал дослідження позначає місце в [COORD].",
       "priority": 0,
       "reviewed": false
     },
@@ -35082,42 +35082,42 @@
     {
       "symbol": "REMNANTS_2->ANOMALY->ORDEAL->DIALOGUE->15_NPC",
       "original": "The team waits expectantly for the vitals distress beacon. [CREW_ASTRO] sits at the lander's controls, ready to launch a rescue.\n\nBut the signal never comes-- at dawn [contestant] sprints out of the trees, chased by angry balls of fur and teeth. Soon they are over the wall and making the victory sprint to the tower. \n\nThe team cheers them on while politely averting their gaze.",
-      "translation": "Команда з нетерпінням чекає сигналу лиха. [CREW_ASTRO] сидить за пультом посадкового модуля, готовий почати рятувальну службу.\n\nАле сигнал так і не надходить — на світанку [учасник] вибігає з-за дерев, переслідуваний розлюченими клубками хутра та зубами. Невдовзі вони перетинають мур і мчать до вежі.\n\nКоманда підбадьорює їх, ввічливо відводячи їхні погляди.",
+      "translation": "Команда з нетерпінням чекає сигналу лиха. [CREW_ASTRO] сидить за пультом посадкового модуля, готовий почати рятувальну службу.\n\nАле сигнал так і не надходить — на світанку [contestant] вибігає з-за дерев, переслідуваний розлюченими клубками хутра та зубами. Невдовзі вони перетинають мур і мчать до вежі.\n\nКоманда підбадьорює їх, ввічливо відводячи їхні погляди.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "REMNANTS_2->ANOMALY->ORDEAL->DIALOGUE->25_NPC",
       "original": "There is some delay in [contestant]'s return: apparently the council did not actually have a contingency for this scenario.\n\nEventually, it is agreed [contestant] will be allowed to examine the tower to their heart's content and in lieu of council seat, a Neutronium plaque.",
-      "translation": "Існує певна затримка в поверненні [конкурсанта]: очевидно, у ради насправді не було резерву для цього сценарію.\n\nЗрештою, [учасникам конкурсу] буде дозволено оглянути вежу досхочу, а замість місця ради встановити нейтронієву дошку.",
+      "translation": "Існує певна затримка в поверненні [contestant]: очевидно, у ради насправді не було резерву для цього сценарію.\n\nЗрештою, [contestant] буде дозволено оглянути вежу досхочу, а замість місця ради встановити нейтронієву дошку.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "REMNANTS_2->ANOMALY->ORDEAL->DIALOGUE->26_NPC",
       "original": "Fortunately, [contestant] was allowed to re-dress and retrieve their effects before entering the tower, allowing them to make detailed scans of the original source of the anomaly signal: a strange blue-gold object that radiates beautiful colored light.",
-      "translation": "На щастя, [учаснику] дозволили переодягнутися та отримати свої наслідки перед тим, як увійти до вежі, що дало їм змогу зробити детальне сканування вихідного джерела сигналу аномалії: дивного синьо-золотистого об’єкта, який випромінює красиве кольорове світло.",
+      "translation": "На щастя, [contestant] дозволили переодягнутися та отримати свої наслідки перед тим, як увійти до вежі, що дало їм змогу зробити детальне сканування вихідного джерела сигналу аномалії: дивного синьо-золотистого об’єкта, який випромінює красиве кольорове світло.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "REMNANTS_2->ANOMALY->ORDEAL->DIALOGUE->16_NPC",
       "original": "Once again, a crew member sets off into the dark jungle.\n\nAnd once again, soon needs rescuing.\n\n[contestant] agrees that Tactics, Biomed and Observation were all necessary, and the ordeal leveraged their weakest skill against them.",
-      "translation": "Знову член екіпажу вирушає в темні джунглі.\n\nІ знову, незабаром потребує порятунку.\n\n[Учасник] погоджується, що тактика, біомедіа та спостереження були необхідні, і випробування використали їхні найслабші навички проти них.",
+      "translation": "Знову член екіпажу вирушає в темні джунглі.\n\nІ знову, незабаром потребує порятунку.\n\n[contestant] погоджується, що тактика, біомедіа та спостереження були необхідні, і випробування використали їхні найслабші навички проти них.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "REMNANTS_2->ANOMALY->ORDEAL->DIALOGUE->20_NPC",
       "original": "While the team secretly hoped this was going to be an \"underdog unexpectedly triumphs\" moment, within a few hours of departure, the emergency vitals monitor signals distress.\n\nThe survey lander swoops in to rescue [contestant] from the jaws of a terrifying carnivorous plant.",
-      "translation": "Хоча команда таємно сподівалася, що це буде момент «неочікуваного тріумфу аутсайдера», протягом кількох годин після відправлення монітор життєво важливих показників сигналізує про біду.\n\nОглядовий посадковий модуль налітає, щоб врятувати [учасника] з пащі жахливої м’ясоїдної рослини.",
+      "translation": "Хоча команда таємно сподівалася, що це буде момент «неочікуваного тріумфу аутсайдера», протягом кількох годин після відправлення монітор життєво важливих показників сигналізує про біду.\n\nОглядовий посадковий модуль налітає, щоб врятувати [contestant] з пащі жахливої м’ясоїдної рослини.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "REMNANTS_2->ANOMALY->ORDEAL->DIALOGUE->21_NPC",
       "original": "But the trial, while painful and embarrassing, did reveal some useful information.\n\n[contestant]: \"It seemed impossible, but I think it can be done. The real challenge that it really requires proficiency in Tactics, Biomed and Observation\".",
-      "translation": "Але судовий процес, хоч і був болісним і сором’язливим, все ж відкрив деяку корисну інформацію.\n\n[учасник]: «Це здавалося неможливим, але я думаю, що це можна зробити. Справжній виклик полягає в тому, що для цього потрібні навички тактики, біомедицини та спостереження».",
+      "translation": "Але судовий процес, хоч і був болісним і сором’язливим, все ж відкрив деяку корисну інформацію.\n\n[contestant]: «Це здавалося неможливим, але я думаю, що це можна зробити. Справжній виклик полягає в тому, що для цього потрібні навички тактики, біомедицини та спостереження».",
       "priority": 0,
       "reviewed": false
     },
@@ -36517,7 +36517,7 @@
     {
       "symbol": "REMNANT_SPACE->ANOMALY->PLANETOID_SHAFTS->DIALOGUE->15_NPC",
       "original": "[CREW_ASTRO] descends into one shaft, then another, then another. It's clear the stress is getting to them after making the same yo-yo joke twice.\n\nEventually, [CREW_BIOMED] announces that they are aborting the survey for safety reasons. ",
-      "translation": "[CREW_ASTRO] спускається в одну шахту, потім в іншу, потім в іншу. Зрозуміло, що вони відчувають стрес після того, як двічі жартують з йо-йо.\n\nЗрештою [CREW_BIOMED] оголошує, що вони припиняють опитування з міркувань безпеки.",
+      "translation": "[CREW_ASTRO] спускається в одну шахту, потім в іншу, потім в іншу. Зрозуміло, що вони відчувають стрес після того, як двічі жартують з йо-йо.\n\nЗрештою [CREW_BIOMED] оголошує, що вони припиняють дослідження з міркувань безпеки.",
       "priority": 0,
       "reviewed": false
     },
@@ -36601,7 +36601,7 @@
     {
       "symbol": "REMNANT_SPACE->ANOMALY->PRIMORDIAL_OCEAN->DIALOGUE->5_NPC",
       "original": "After investigating several locations, [CREW_BIOMED] reluctantly announces that there's nothing to learn here that couldn't be found in a first year astroplanetary exploration textbook.\n\nBut the search isn't a complete waste of time: a side effect of the organisms' biology concentrates deposits of Yttrium.",
-      "translation": "Після дослідження кількох місць [CREW_BIOMED] неохоче заявляє, що тут немає нічого такого, чого не можна було б знайти в підручнику з вивчення астропланет для першого курсу.\n\nАле пошуки не є марною тратою часу: побічний ефект біології організмів концентрує відкладення ітрію.",
+      "translation": "Після дослідження кількох місць [CREW_BIOMED] неохоче заявляє, що тут немає нічого такого, чого не можна було б знайти в підручнику з дослідження астропланет для першого курсу.\n\nАле пошуки не є марною тратою часу: побічний ефект біології організмів концентрує відкладення ітрію.",
       "priority": 0,
       "reviewed": false
     },
@@ -38015,7 +38015,7 @@
     {
       "symbol": "RETURN->MISSIONS->GOING_HOME->NAME",
       "original": "Home",
-      "translation": "додому",
+      "translation": "Додому",
       "priority": 0,
       "reviewed": false
     },
@@ -39436,7 +39436,7 @@
     {
       "symbol": "SEPHARIAL->CONVO->GUILD_SEPHARIAL->DIALOGUE->25_PC",
       "original": "*Pay the Envoy [fee] Iridium.*",
-      "translation": "*Сплатіть посланнику [комісію] Iridium.*",
+      "translation": "*Сплатіть посланнику [fee] Iridium.*",
       "priority": 0,
       "reviewed": false
     },
@@ -39562,7 +39562,7 @@
     {
       "symbol": "SEPHARIAL->CONVO->SEPHARIAL_DEFAULT->DIALOGUE->6_NPC",
       "original": "Who or what you are is of no concern. All the minor lifeforms are as one to us. We will not occupy our thoughts to learn your taxonomy.\n\nOnly Sepharial and Trade Guild Envoy ships are permitted. You will not receive another warning if you linger.\n",
-      "translation": "Хто або що ти є, не стосується. Усі другорядні форми життя для нас як одне ціле. Ми не будемо займати свої думки вивченням вашої таксономії.\n\nДозволяються лише кораблі сефаріалів і посланців торгової гільдії. Ви не отримаєте іншого попередження, якщо затримаєтеся.\n",
+      "translation": "Хто або що ти є, не стосується. Усі другорядні форми життя для нас як одне ціле. Ми не будемо займати свої думки дослідженням вашої таксономії.\n\nДозволяються лише кораблі сефаріалів і посланців торгової гільдії. Ви не отримаєте іншого попередження, якщо затримаєтеся.\n",
       "priority": 0,
       "reviewed": false
     },
@@ -39786,7 +39786,7 @@
     {
       "symbol": "SOUTHERN->ANOMALY->CHARIOT_LAB->DIALOGUE->1_NPC",
       "original": "An old lab facility has been repurposed by the Devout, presumably to study the artifact above.\n\nThere are hundreds of recently dead Devout researchers.",
-      "translation": "Благочестивий перепрофілював стару лабораторію, імовірно, для вивчення артефакту вище.\n\nЄ сотні нещодавно померлих дослідників.",
+      "translation": "Благочестивий перепрофілював стару лабораторію, імовірно, для дослідження артефакту вище.\n\nЄ сотні нещодавно померлих дослідників.",
       "priority": 0,
       "reviewed": false
     },
@@ -40283,7 +40283,7 @@
     {
       "symbol": "SOUTHERN->MISSIONS->GRAVITY_GUN->NODES->3->FIRST_OFFICER->EXTRA",
       "original": "Press [SPACE] to charge.",
-      "translation": "Натисніть [ПРОБІЛ], щоб зарядити.",
+      "translation": "Натисніть [SPACE], щоб зарядити.",
       "priority": 0,
       "reviewed": false
     },
@@ -42754,7 +42754,7 @@
     {
       "symbol": "YU_PROGRESS->CONVO->PLAYER_RAMA_XENIUM->DIALOGUE->2_NPC",
       "original": "I was attached to the team at Groombridge that developed the device, so naturally I am aware. The prospect of being permanently stranded in this universe is not too distressing to me personally: there is more to learn in a lifetime here than back home.\r\n\r\nI suspect most of the crew here do not share my indifference. But since I am prohibited from informing them, I cannot conduct a proper survey.",
-      "translation": "Я був приєднаний до команди в Groombridge, яка розробила пристрій, тому, звичайно, я в курсі. Особисто мене перспектива назавжди застрягти в цьому всесвіті не надто засмучує: тут можна дізнатися більше за все життя, ніж удома.\r\n\r\nЯ підозрюю, що більшість членів команди не поділяють мою байдужість. Але оскільки мені заборонено їх інформувати, я не можу провести належне опитування.",
+      "translation": "Я був приєднаний до команди в Groombridge, яка розробила пристрій, тому, звичайно, я в курсі. Особисто мене перспектива назавжди застрягти в цьому всесвіті не надто засмучує: тут можна дізнатися більше за все життя, ніж удома.\r\n\r\nЯ підозрюю, що більшість членів команди не поділяють мою байдужість. Але оскільки мені заборонено їх інформувати, я не можу провести належне дослідження.",
       "priority": 0,
       "reviewed": false
     },
@@ -42817,7 +42817,7 @@
     {
       "symbol": "PROLOGUE->TRANSMISSION",
       "original": "SCS Vessel [SHIP_NAME], Scout Class\r\nCommanding Officer: [PLAYER_LASTNAME], [PLAYER_FIRSTNAME], Commander 2nd Class\r\nFirst Officer: Avery, Octavia, Lieutenant Commander\r\nStandard Sol Date: [DATE]\r\n\r\nPriority: Medium  \r\n\r\nRedacted for Clearance\r\n\r\nA service ship departing Maia Station struck debris at -16.6 x -7.7\r\nand sustained moderate damage to port-forward deflector. Sensor \r\nlogs showed a debris field and damaged cargo hauler in captured \r\norbit around Gas Giant J1-2888B. Due to \r\n\r\n[CLASSIFIED, SECTION REDACTED] \r\n\r\nwas needed at Merope Station and unable to investigate. \r\n\r\n[SHIP_NAME] is ordered to investigate and determine if the debris \r\npresents an ongoing threat to regional cargo traffic.\r",
-      "translation": "Судно SCS [SHIP_NAME], клас Scout\r\nКомандир: [PLAYER_LASTNAME], [PLAYER_FIRSTNAME], командир 2-го класу\r\nПерший офіцер: Евері, Октавія, капітан-лейтенант\r\nСтандартна дата солону: [ДАТА]\r\n\r\nПріоритет: середній\r\n\r\nВідредаговано для очищення\r\n\r\nСлужбовий корабель, що відправлявся зі станції Майя, зіткнувся з уламками при -16,6 x -7,7\r\nі отримав помірні пошкодження переднього лівого дефлектора. датчик\r\nу журналах було видно поле сміття та пошкоджений вантажний самоскид\r\nорбіту навколо газового гіганта J1-2888B. Через\r\n\r\n[ЗАСЕДКОВАНО, РОЗДІЛ ВИДАЛЕНО]\r\n\r\nбув потрібен на станції Merope і не міг дослідити.\r\n\r\n[SHIP_NAME] наказано дослідити та визначити, чи є уламки\r\nстворює постійну загрозу для регіональних вантажопотоків.\r",
+      "translation": "Судно SCS [SHIP_NAME], клас Scout\r\nКомандир: [PLAYER_LASTNAME], [PLAYER_FIRSTNAME], командир 2-го класу\r\nПерший офіцер: Евері, Октавія, капітан-лейтенант\r\nСтандартна дата солону: [DATE]\r\n\r\nПріоритет: середній\r\n\r\nВідредаговано для очищення\r\n\r\nСлужбовий корабель, що відправлявся зі станції Майя, зіткнувся з уламками при -16,6 x -7,7\r\nі отримав помірні пошкодження переднього лівого дефлектора. датчик\r\nу журналах було видно поле сміття та пошкоджений вантажний самоскид\r\nорбіту навколо газового гіганта J1-2888B. Через\r\n\r\n[ЗАСЕДКОВАНО, РОЗДІЛ ВИДАЛЕНО]\r\n\r\nбув потрібен на станції Merope і не міг дослідити.\r\n\r\n[SHIP_NAME] наказано дослідити та визначити, чи є уламки\r\nстворює постійну загрозу для регіональних вантажопотоків.\r",
       "priority": 0,
       "reviewed": false
     },
