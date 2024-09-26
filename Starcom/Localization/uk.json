@@ -124,7 +124,7 @@
     {
       "symbol": "SHIP_STATION_UI->HULL",
       "original": "Hull",
-      "translation": "Халл",
+      "translation": "Корпус",
       "priority": 0,
       "reviewed": false
     },
@@ -2140,7 +2140,7 @@
     {
       "symbol": "SAVE_GAME_UI_STATIC->DELETE_CHECKED",
       "original": "Delete Checked",
-      "translation": "Видалити галочку",
+      "translation": "Видалити",
       "priority": 0,
       "reviewed": false
     },
@@ -2273,7 +2273,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->MASTER_",
       "original": "Master:",
-      "translation": "Загальна:",
+      "translation": "Загально:",
       "priority": 0,
       "reviewed": false
     },
@@ -2308,7 +2308,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->GRAPHICS_QUALITY_",
       "original": "Graphics Quality:",
-      "translation": "Якість графіки:",
+      "translation": "Загальний рівень:",
       "priority": 0,
       "reviewed": false
     },
@@ -2336,7 +2336,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->FULL_SCREEN_",
       "original": "Full Screen:",
-      "translation": "Повноекранний:",
+      "translation": "Повноий екран:",
       "priority": 0,
       "reviewed": false
     },
@@ -2385,14 +2385,14 @@
     {
       "symbol": "OPTIONS_UI_STATIC->MOUSE_STEER",
       "original": "Mouse Steer",
-      "translation": "Мишка кермує:",
+      "translation": "Кермо мишей:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->MAP_ZOOM_TO_MOUSE_",
       "original": "Map zoom to mouse:",
-      "translation": "Масштаб карти:",
+      "translation": "Збільшення мишей:",
       "priority": 0,
       "reviewed": false
     },
@@ -2420,7 +2420,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->HIGH_CONTRAST_RETICULE_",
       "original": "High Contrast Reticule:",
-      "translation": "Контраст сітки:",
+      "translation": "Контраст курсора:",
       "priority": 0,
       "reviewed": false
     },
@@ -2441,7 +2441,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->ADDITIONAL_CONTROLS",
       "original": "The following are additional control not part of the key mapping schema:\n\nAutopilot: CTRL + Left-click\nAutopilot, Direct Route: CTRL + ALT + Left-click\nTarget Selection: Right-click\nDev Console: F11",
-      "translation": "Нижче наведено додатковий елемент керування, який не входить до схеми зіставлення ключів:\n\nАвтопілот: CTRL + клацання лівою кнопкою миші\nАвтопілот, прямий маршрут: CTRL + ALT + клацання лівою кнопкою миші\nВибір цілі: клацніть правою кнопкою миші\nКонсоль розробника: F11",
+      "translation": "Нижче наведено додаткове керування, яке не входить до схеми:\n\nАВТОПIЛОТ: CTRL + клацання лівою кнопкою миші\n\nАВТОПIЛОТ, прямий маршрут: CTRL + ALT + клацання лівою кнопкою миші\n\nВИБIР ЦIЛI: клацніть правою кнопкою миші\n\nКОНСОЛЬ: F11",
       "priority": 0,
       "reviewed": false
     },
@@ -2469,7 +2469,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->CONTROLLER_HELP",
       "original": "<color=#ff7585><b>Controller support is partial and may not work for all functions, such as text input fields. Give feedback on Controller input in the <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">discussion forums.</link></u></b></color>\r\n\r\nSteering:\r\nLeft joystick to set desired direction. Hold for 5 seconds to enable cruise control.\r\n\r\nTurbo:\r\nLeft joystick down to toggle turbo thrust.\r\n\r\nWeapons:\r\nRight joystick to manually fire plasma turrets, right trigger to autofire plasma turrets. \nLeft trigger to autofire secondary weapon.\n\r\nInteract:\r\nA Button\r\n\r\nToggle Map:\r\nY Button\r\n\r\nPan map, Gateway Select:\r\nRight joystick\r\n\r\nToggle Ship Status:\r\nX Button\r\n\nActivate Power-up (if available):\nB Button\n\r\nCycle Secondary Weapon (if secondary weapons installed):\r\nD-Pad Up/Down\r\n\r\nCycle Power-ups (if available):\r\nD-Pad Right/Left\r",
-      "translation": "<color=#ff7585><b>Підтримка контролера є частковою та може працювати не для всіх функцій, таких як поля введення тексту. Надішліть відгук про дані контролера на <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">форумах для обговорень.</link></u></b></color>\r\n\r\nКермове управління:\r\nЛівий джойстик для встановлення потрібного напрямку. Утримуйте 5 секунд, щоб увімкнути круїз-контроль.\r\n\r\nТурбо:\r\nЛівий джойстик вниз для перемикання турботяги.\r\n\r\nЗброя:\r\nПравий джойстик, щоб вручну стріляти плазмовими вежами, правий курок, щоб автоматично запускати плазмові вежі. \nЛівий курок для автоматичного стрільби з додаткової зброї.\n\r\nВзаємодіяти:\r\nКнопка\r\n\r\nПереключити карту:\r\nКнопка Y\r\n\r\nПанорамна карта, вибір шлюзу:\r\nПравий джойстик\r\n\r\nПеремкнути статус корабля:\r\nКнопка X\r\n\nАктивуйте Power-up (якщо доступно):\nКнопка B\n\r\nЦикл вторинної зброї (якщо встановлено додаткову зброю):\r\nD-Pad вгору/вниз\r\n\r\nЦикл бонусів (якщо є):\r\nD-Pad вправо/вліво\r",
+      "translation": "<color=#ff7585><b>Підтримка контролера є частковою та може працювати не для всіх функцій, таких як поля введення тексту. Надішліть відгук про дані контролера на <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">форумах для обговорень.</link></u></b></color>\r\n\r\n<b>Кермове управління:</b>\r\nЛівий джойстик для встановлення потрібного напрямку. Утримуйте 5 секунд, щоб увімкнути круїз-контроль.\r\n<b>Турбо:</b>\r\nЛівий джойстик вниз для перемикання турботяги.\r\n<b>Зброя:</b>\r\nПравий джойстик, щоб вручну стріляти плазмовими вежами, правий курок, щоб автоматично запускати плазмові вежі.\r\nЛівий курок для автоматичного стрільби з додаткової зброї.\r\n<b>Взаємодія:</b>\r\nКнопка\r\n<b>Переключити карту:</b>\r\nКнопка Y\r\n<b>Панорамна карта, вибір шлюзу:</b>\r\nПравий джойстик\r\n<b>Перемкнути статус корабля:</b>\r\nКнопка X\r\n<b>Активуйте Power-up (якщо доступно):</b>\r\nКнопка B\r\n<b>Цикл вторинної зброї (якщо встановлено додаткову зброю):</b>\r\nD-Pad вгору/вниз\r\n<b>Цикл бонусів (якщо є):</b>\r\nD-Pad вправо/вліво",
       "priority": 0,
       "reviewed": false
     },
@@ -2700,7 +2700,7 @@
     {
       "symbol": "SAVES->LOAD_PROGRESS_5",
       "original": "Navigating Warp Topology",
-      "translation": "Навігація Warp Topology",
+      "translation": "Варп-стрибок",
       "priority": 0,
       "reviewed": false
     },
@@ -2714,14 +2714,14 @@
     {
       "symbol": "SAVES->LOAD_PROGRESS_7",
       "original": "Preparing to Exit Warp",
-      "translation": "Підготовка до виходу з Warp",
+      "translation": "Підготовка до виходу з варпу",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "SAVES->LOAD_PROGRESS_8",
       "original": "Awaiting Warpfield Collapse",
-      "translation": "В очікуванні Warpfield Collapse",
+      "translation": "В пiслястрибкоае охолодження",
       "priority": 0,
       "reviewed": false
     },
@@ -2735,7 +2735,7 @@
     {
       "symbol": "TITLE_SCREEN->LOCALIZE_NEWS",
       "original": "Greetings Commander!\r\n\r\nStarcom: Unknown Space has quite a lot of text and was originally written in \r\nEnglish, the only language I am fluent in. Some languages have been translated \r\nprofessionally or by volunteers. Other languages were translated automatically \r\nvia machine learning. In either case, because the game is still being updated \r\nby me at the time of translation, there may be text that does not read \r\ncorrectly, or has display issues.\r\n\r\nIf you encounter issues with a translation, please visit the game's \r\nu><link=\"https://steamcommunity.com/app/1750770/discussions/1/\">Localization Sub-forum on Steam</link></u> and let me know.\r\n\r\nThank you for playing!\r\n\r\n- Kevin\r\n",
-      "translation": "Вітаю командира!\r\n\r\nStarcom: Unknown Space має досить багато тексту, і він був спочатку написаний \r\nАнглійська, єдина мова, якою я вільно володію. Деякі мови були перекладені \r\nпрофесійно або волонтерами. Інші мови були перекладені автоматично \r\nза допомогою машинного навчання. У будь-якому випадку, тому що гра все ще оновлюється \r\nмною на момент перекладу може бути текст, який не читається \r\nправильно, або має проблеми з відображенням.\r\n\r\nЯкщо у вас виникли проблеми з перекладом, відвідайте сторінку гри \r\n<u><link=\"https://steamcommunity.com/app/1750770/discussions/1/\">Підфорум про локалізацію в Steam тут</link></u> і дайте мені знати.\r\n\r\nДякую за гру!\r\n\r\n- Кевін\r\n\r\nДякую за гру, Кевін!\r\nЯ трошки пофіксив переклад.\r\n\r\n- Чева\r\n",
+      "translation": "Вітаю командира!\r\n\r\nStarcom: Unknown Space має досить багато тексту, і він був спочатку написаний \r\nАнглійською, єдиною мовою, якою я вільно володію. Деякі мови були перекладені \r\nпрофесійно або волонтерами. Інші мови були перекладені автоматично \r\nза допомогою машинного навчання. У будь-якому випадку, тому що гра все ще оновлюється \r\nмною на момент перекладу може бути текст, який не читається \r\nправильно, або має проблеми з відображенням.\r\n\r\nЯкщо у вас виникли проблеми з перекладом, відвідайте сторінку гри \r\n<u><link=\"https://steamcommunity.com/app/1750770/discussions/1/\">Підфорум про локалізацію в Steam тут</link></u> і дайте мені знати.\r\n\r\nДякую за гру!\r\n\r\n- Кевін\r\n\r\nДякую за гру, Кевін!\r\nЯ трошки пофіксив переклад.\r\n\r\n- Чева\r\n",
       "priority": 0,
       "reviewed": false
     },
@@ -2868,7 +2868,7 @@
     {
       "symbol": "RESOURCE->ALUMINUM_SYMBOL",
       "original": "Al",
-      "translation": "Ал",
+      "translation": "Al",
       "priority": 0,
       "reviewed": false
     },
@@ -2952,7 +2952,7 @@
     {
       "symbol": "RESOURCE->YTTRIUM_SYMBOL",
       "original": "Y",
-      "translation": "Ю",
+      "translation": "Y",
       "priority": 0,
       "reviewed": false
     },
@@ -2966,7 +2966,7 @@
     {
       "symbol": "RESOURCE->GOLD_NAME",
       "original": "Gold",
-      "translation": "золото",
+      "translation": "Золото",
       "priority": 0,
       "reviewed": false
     },
@@ -2994,7 +2994,7 @@
     {
       "symbol": "RESOURCE->PLATINUM_SYMBOL",
       "original": "Pt",
-      "translation": "Пт",
+      "translation": "Pt",
       "priority": 0,
       "reviewed": false
     },
@@ -3092,14 +3092,14 @@
     {
       "symbol": "RESOURCE->NEUTRONIUM_NAME",
       "original": "Neutronium",
-      "translation": "нейтроній",
+      "translation": "Нейтроній",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "RESOURCE->NEUTRONIUM_SYMBOL",
       "original": "Nu",
-      "translation": "Ну",
+      "translation": "Nu",
       "priority": 0,
       "reviewed": false
     },
@@ -3162,7 +3162,7 @@
     {
       "symbol": "RESOURCE->METALLIC_HELIUM_SYMBOL",
       "original": "He9",
-      "translation": "Він9",
+      "translation": "He9",
       "priority": 0,
       "reviewed": false
     },
@@ -3176,14 +3176,14 @@
     {
       "symbol": "RESOURCE->ADAMANTINE_NAME",
       "original": "Adamantine",
-      "translation": "адамантинова",
+      "translation": "Адамантін",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "RESOURCE->ADAMANTINE_SYMBOL",
       "original": "Adm",
-      "translation": "адм",
+      "translation": "Adm",
       "priority": 0,
       "reviewed": false
     },
@@ -3547,7 +3547,7 @@
     {
       "symbol": "STAT->HULL_POINTS_MAX_NAME",
       "original": "Max Hull Health",
-      "translation": "Здоров'я Макса Халла",
+      "translation": "Стан судна",
       "priority": 0,
       "reviewed": false
     },
@@ -3561,7 +3561,7 @@
     {
       "symbol": "STAT->REPAIR_RATE_NAME",
       "original": "Repair Rate",
-      "translation": "Ставка ремонту",
+      "translation": "Швидкiсть ремонту",
       "priority": 0,
       "reviewed": false
     },
@@ -3575,7 +3575,7 @@
     {
       "symbol": "STAT->HULL_POINTS_COLLAPSE_NAME",
       "original": "Hull Collapse",
-      "translation": "Розвал корпусу",
+      "translation": "Колапс корпусу",
       "priority": 0,
       "reviewed": false
     },
@@ -3757,35 +3757,35 @@
     {
       "symbol": "STAT->ENGINE_MAX_DRAW_NAME",
       "original": "Engines Draw",
-      "translation": "Двигуни Draw",
+      "translation": "Споживана потужність",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->ENGINE_MAX_DRAW_TIP",
       "original": "Engines energy consumption (normal burn)",
-      "translation": "Енергоспоживання двигунів (нормальний спалювання)",
+      "translation": "Енергоспоживання двигунів (нормальа швикiсть)",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->ENGINE_TURBO_MAX_DRAW_NAME",
       "original": "Engines Turbo Draw",
-      "translation": "Двигуни Turbo Draw",
+      "translation": "Споживана турбопотужність",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->ENGINE_TURBO_MAX_DRAW_TIP",
       "original": "Engines energy consumption (turbo burn)",
-      "translation": "Енергоспоживання двигунів (turbo burn)",
+      "translation": "Енергоспоживання двигунів (турбопотужність)",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->PLASMA_ENERGY_DRAW_NAME",
       "original": "Plasma Draw",
-      "translation": "Plasma Draw",
+      "translation": "Споживання плазмометiв",
       "priority": 0,
       "reviewed": false
     },
@@ -3827,7 +3827,7 @@
     {
       "symbol": "STAT->BEAM_RECRUIT_NAME",
       "original": "Laser Recruit Time",
-      "translation": "Лазерний час вербування",
+      "translation": "Час ревербування",
       "priority": 0,
       "reviewed": false
     },
@@ -3841,7 +3841,7 @@
     {
       "symbol": "STAT->BEAM_ENERGY_DRAW_NAME",
       "original": "Laser Draw",
-      "translation": "Лазерне малювання",
+      "translation": "Споживання лазерiв",
       "priority": 0,
       "reviewed": false
     },
@@ -3855,7 +3855,7 @@
     {
       "symbol": "STAT->ENERGY_PEAK_DRAW_NAME",
       "original": "Peak Draw",
-      "translation": "Пікова нічия",
+      "translation": "Пік",
       "priority": 0,
       "reviewed": false
     },
@@ -3869,56 +3869,56 @@
     {
       "symbol": "STAT->FIXED_DPS_NAME",
       "original": "Fixed DPS",
-      "translation": "Виправлено DPS",
+      "translation": "DPS фіксованої зброї",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIXED_DPS_TIP",
       "original": "Fixed gun damage per second",
-      "translation": "Виправлено пошкодження гармати за секунду",
+      "translation": "Пошкодження фіксованої зброї за секунду",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIXED_ENERGY_DRAW_NAME",
       "original": "Fixed Draw",
-      "translation": "Виправлена нічия",
+      "translation": "Споживання фіксованої зброї",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIXED_ENERGY_DRAW_TIP",
       "original": "Total fixed gun energy consumption at full fire",
-      "translation": "Загальне фіксоване енергоспоживання гармати при повному стрільбі",
+      "translation": "Загальне енергоспоживання фіксованої зброї при стрільбі",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIXED_RANGE_NAME",
       "original": "Fixed Range",
-      "translation": "Фіксований діапазон",
+      "translation": "Діапазон фіксованої зброї",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIXED_RANGE_TIP",
       "original": "Maximum effective range of fixed guns",
-      "translation": "Максимальна ефективна дальність стрільби стаціонарних гармат",
+      "translation": "Максимальна ефективна дальність стрільби фіксованої зброї",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIXED_PUNCH_THRU_NAME",
       "original": "Fixed Punchthru",
-      "translation": "Виправлено Punchthru",
+      "translation": "Punchthru",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIXED_PUNCH_THRU_TIP",
       "original": "Maximum target health percent that our fixed \nguns can punch thru.",
-      "translation": "Зафіксований максимальний цільовий відсоток здоров’я\nгармати можуть пробивати наскрізь.",
+      "translation": "Зафіксований максимальний цільовий відсоток здоров’я\nPunchthru можуть пробивати наскрізь.",
       "priority": 0,
       "reviewed": false
     },
@@ -3981,14 +3981,14 @@
     {
       "symbol": "STAT->FIGHTERS_DPS_NAME",
       "original": "Drone DPS",
-      "translation": "Дрон ДПС",
+      "translation": "Дроновий ДПС",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIGHTERS_DPS_TIP",
       "original": "Peak damage each fighter can deal per second",
-      "translation": "Максимальна шкода, яку кожен боєць може завдати за секунду",
+      "translation": "Максимальна шкода, яку кожен дрон може завдати за секунду",
       "priority": 0,
       "reviewed": false
     },
@@ -4002,7 +4002,7 @@
     {
       "symbol": "STAT->FIGHTERS_SPEED_TIP",
       "original": "Fighter drone flight speed",
-      "translation": "Швидкість польоту винищувача",
+      "translation": "Швидкість польоту",
       "priority": 0,
       "reviewed": false
     },
@@ -4023,14 +4023,14 @@
     {
       "symbol": "STAT->FIGHTERS_MAX_NAME",
       "original": "Max Drones",
-      "translation": "Макс Дрони",
+      "translation": "Макс Дронiв",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIGHTERS_MAX_TIP",
       "original": "Total maximum number of drones our launchers\ncan carry.",
-      "translation": "Загальна максимальна кількість безпілотників наших пускових установок\nможе нести.",
+      "translation": "Загальна максимальна кількість безпілотників наших пускових установок.",
       "priority": 0,
       "reviewed": false
     },
@@ -4183,7 +4183,7 @@
     },
     {
       "symbol": "MODULE->BRIDGE_4_DESC",
-      "original": "The nerve center of a starship, the bridge provides baseline energy generation and reserves, crew capacity and other core functions. Critical damage to the bridge will result in total loss of the vessel.\n\nExplorer class vessels can be up to 40 hexes in size.",
+	      "original": "The nerve center of a starship, the bridge provides baseline energy generation and reserves, crew capacity and other core functions. Critical damage to the bridge will result in total loss of the vessel.\n\nExplorer class vessels can be up to 40 hexes in size.",
       "translation": "Нервовий центр зоряного корабля, місток, забезпечує генерацію базової енергії та резерви, місткість екіпажу та інші основні функції. Критичне пошкодження мосту призведе до повної втрати судна.\n\nСудна класу Explorer можуть мати розмір до 40 гексів.",
       "priority": 0,
       "reviewed": false
@@ -6018,7 +6018,7 @@
     {
       "symbol": "INPUT->FORWARD_NAME",
       "original": "Forward Thrust",
-      "translation": "Поштовх вперед",
+      "translation": "Тяга",
       "priority": 0,
       "reviewed": false
     },
@@ -6032,14 +6032,14 @@
     {
       "symbol": "INPUT->LEFT_NAME",
       "original": "Turn Left",
-      "translation": "Поверніть наліво",
+      "translation": "Ліворуч",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INPUT->RIGHT_NAME",
       "original": "Turn Right",
-      "translation": "Поверніть праворуч",
+      "translation": "Праворуч",
       "priority": 0,
       "reviewed": false
     },
@@ -6053,7 +6053,7 @@
     {
       "symbol": "INPUT->STRAFE_RIGHT_NAME",
       "original": "Strafe Right",
-      "translation": "Strafe Right",
+      "translation": "Стрейф праворуч",
       "priority": 0,
       "reviewed": false
     },
@@ -6074,35 +6074,35 @@
     {
       "symbol": "INPUT->TURBO_COMMENT",
       "original": "Turbo thrust (when held down)",
-      "translation": "Турботяга (при утриманні)",
+      "translation": "Турбо (при утриманні)",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INPUT->TURBO_TOGGLE_NAME",
       "original": "Toggle Turbo Thrust",
-      "translation": "Перемкнути Turbo Thrust",
+      "translation": "Перемкнути Turbo",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INPUT->CRUISE_TOGGLE_NAME",
       "original": "Toggle Autothrust",
-      "translation": "Перемкнути автоматичну тягу",
+      "translation": "Автоматична тяга",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INPUT->CRUISE_TOGGLE_COMMENT",
       "original": "Maintain forward thrust until untoggled, or reverse.",
-      "translation": "Зберігайте поштовх вперед, доки не буде розблоковано, або поверніть назад.",
+      "translation": "Зберігайте тягу, доки не буде розблоковано, або поверніть назад.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INPUT->SHIP_INFO_NAME",
       "original": "Ship Management",
-      "translation": "Управління судном",
+      "translation": "Судовий журнал",
       "priority": 0,
       "reviewed": false
     },
@@ -6123,7 +6123,7 @@
     {
       "symbol": "INPUT->FIRE_SECONDARY_NAME",
       "original": "Fire Secondary",
-      "translation": "Пожежа вторинна",
+      "translation": "Постріл вторинний",
       "priority": 0,
       "reviewed": false
     },
@@ -6137,7 +6137,7 @@
     {
       "symbol": "INPUT->PLASMA_AUTOFIRE_NAME",
       "original": "Plasma Autofire",
-      "translation": "Плазмовий автоматичний вогонь",
+      "translation": "Автопостріл",
       "priority": 0,
       "reviewed": false
     },
@@ -6158,14 +6158,14 @@
     {
       "symbol": "INPUT->MAP_TOGGLE_NAME",
       "original": "Toggle Map",
-      "translation": "Переключити карту",
+      "translation": "Мапа",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INPUT->ZOOM_IN_NAME",
       "original": "Zoom In",
-      "translation": "Збільшувати",
+      "translation": "Збільшення",
       "priority": 0,
       "reviewed": false
     },
@@ -6186,7 +6186,7 @@
     {
       "symbol": "INPUT->FIRE_FIXED_NAME",
       "original": "Fire Fixed Guns",
-      "translation": "Вогнепальна фіксована зброя",
+      "translation": "Фіксована зброя",
       "priority": 0,
       "reviewed": false
     },
@@ -6200,7 +6200,7 @@
     {
       "symbol": "INPUT->FIRE_BEAMS_NAME",
       "original": "Fire Lasers",
-      "translation": "Вогняні лазери",
+      "translation": "Вогонь лазерами",
       "priority": 0,
       "reviewed": false
     },
@@ -6228,14 +6228,14 @@
     {
       "symbol": "INPUT->BATTLESTATIONS_NAME",
       "original": "Battlestations",
-      "translation": "Бойові станції",
+      "translation": "Бойовий режим",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INPUT->BATTLESTATIONS_COMMENT",
       "original": "Once researched, activates crew battlestation action.",
-      "translation": "Після дослідження активує бойову станцію команди.",
+      "translation": "Після дослідження активує бойовий режим",
       "priority": 0,
       "reviewed": false
     },
@@ -9126,7 +9126,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->ALL_PERSONEL_TO__11104->TEXT",
       "original": "ALL PERSONEL TO BATTLE STATIONS. THIS IS NOT A DRILL. Non-critical suspend, emergency stations.",
-      "translation": "УВЕСЬ ОСОБОВИЙ СІЙ НА БОЙОВІ МІСЦЯ. ЦЕ НЕ ДРЕЛЬ. Некритичні призупинення, станції швидкої допомоги.",
+      "translation": "КОМАНДА ОСОБОВИЙ НА БОЙОВІ МІСЦЯ! ЦЕ НЕ НАВЧАННЯ! Некритичні призупинення.",
       "priority": 0,
       "reviewed": false
     },
@@ -9140,7 +9140,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->BATTLE_STATION_A_10402->TEXT",
       "original": "Battle Station Alert over, non-critical resume.",
-      "translation": "Попередження бойової станції завершено, некритичне відновлення.",
+      "translation": "Відбій бойової тревоги, некритичні відновлення.",
       "priority": 0,
       "reviewed": false
     },
@@ -22580,7 +22580,7 @@
     {
       "symbol": "DEVOUT_WAR->MISSIONS->CELAENO_ATTACK->NODES->1->NEWS->RED_ALERT__ALL_P_14830->TEXT",
       "original": "RED ALERT. All personnel to combat or emergency stations. THIS IS NOT A DRILL.",
-      "translation": "ЧЕРВОНА ТРИВОГА. Весь особовий склад на бойові або аварійні станції. ЦЕ НЕ ДРЕЛЬ.",
+      "translation": "ЧЕРВОНА ТРИВОГА. Весь особовий склад на бойові або аварійні станції. ЦЕ НЕ НАВЧАННЯ!",
       "priority": 0,
       "reviewed": false
     },
@@ -42817,7 +42817,7 @@
     {
       "symbol": "PROLOGUE->TRANSMISSION",
       "original": "SCS Vessel [SHIP_NAME], Scout Class\r\nCommanding Officer: [PLAYER_LASTNAME], [PLAYER_FIRSTNAME], Commander 2nd Class\r\nFirst Officer: Avery, Octavia, Lieutenant Commander\r\nStandard Sol Date: [DATE]\r\n\r\nPriority: Medium  \r\n\r\nRedacted for Clearance\r\n\r\nA service ship departing Maia Station struck debris at -16.6 x -7.7\r\nand sustained moderate damage to port-forward deflector. Sensor \r\nlogs showed a debris field and damaged cargo hauler in captured \r\norbit around Gas Giant J1-2888B. Due to \r\n\r\n[CLASSIFIED, SECTION REDACTED] \r\n\r\nwas needed at Merope Station and unable to investigate. \r\n\r\n[SHIP_NAME] is ordered to investigate and determine if the debris \r\npresents an ongoing threat to regional cargo traffic.\r",
-      "translation": "Судно SCS [SHIP_NAME], клас Scout\r\nКомандир: [PLAYER_LASTNAME], [PLAYER_FIRSTNAME], командир 2-го класу\r\nПерший офіцер: Евері, Октавія, капітан-лейтенант\r\nСтандартна дата солону: [DATE]\r\n\r\nПріоритет: середній\r\n\r\nВідредаговано для очищення\r\n\r\nСлужбовий корабель, що відправлявся зі станції Майя, зіткнувся з уламками при -16,6 x -7,7\r\nі отримав помірні пошкодження переднього лівого дефлектора. датчик\r\nу журналах було видно поле сміття та пошкоджений вантажний самоскид\r\nорбіту навколо газового гіганта J1-2888B. Через\r\n\r\n[ЗАСЕДКОВАНО, РОЗДІЛ ВИДАЛЕНО]\r\n\r\nбув потрібен на станції Merope і не міг дослідити.\r\n\r\n[SHIP_NAME] наказано дослідити та визначити, чи є уламки\r\nстворює постійну загрозу для регіональних вантажопотоків.\r",
+      "translation": "Судно SCS [SHIP_NAME], клас Scout\r\nКомандир: [PLAYER_LASTNAME], [PLAYER_FIRSTNAME], командир 2-го класу\r\nПерший офіцер: Евері, Октавія, капітан-лейтенант\r\nСтандартна дата солону: [DATE]\r\n\r\nПріоритет: середній\r\n\r\nВідредаговано для очищення\r\n\r\nСлужбовий корабель, що відправлявся зі станції Майя, зіткнувся з уламками при -16,6 x -7,7\r\nі отримав помірні пошкодження переднього лівого дефлектора. датчик\r\nу журналах було видно поле сміття та пошкоджений вантажний самоскид\r\nорбіту навколо газового гіганта J1-2888B. Через\r\n\r\n[ЗАСЕДКОВАНО, РОЗДІЛ ВИДАЛЕНО]\r\n\r\nбув потрібен на станції Merope і не міг дослідити.\r\n\r\n[SHIP_NAME] наказано дослідити та визначити, чи є уламки\r\nщо створюють загрозу для регіональних вантажопотоків.\r",
       "priority": 0,
       "reviewed": false
     },
