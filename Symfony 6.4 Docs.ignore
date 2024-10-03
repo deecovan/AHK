@@ -1,14 +1,20 @@
 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-- githubassets.com*
-- gitlab.com*
-- github.com/*
-- *githubassets.com/*
-- *gitlab.com/*
-- *github.com/*
-- *githubassets.com*
-- *gitlab.com*
-- *github.com*
-- symfony.com/doc
-- symfony.com/doc/*
-+ symfony.com.ua/doc/current
-+ symfony.com.ua/doc/current/*
+-https://github.com
+-https://github.com/*
+-https://gitlab.com
+-https://gitlab.com/*
+-https://githubassets.com
+-https://githubassets.com/*
+-githubassets.com*
+-gitlab.com*
+-github.com/*
+-*githubassets.com/*
+-*gitlab.com/*
+-*github.com/*
+-*githubassets.com*
+-*gitlab.com*
+-*github.com*
+-symfony.com/doc
+-symfony.com/doc/*
++symfony.com.ua/doc/current
++symfony.com.ua/doc/current/*
