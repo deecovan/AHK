@@ -1,6 +1,11 @@
 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+- githubassets.com*
+- gitlab.com*
+- github.com/*
+- *githubassets.com/*
 - *gitlab.com/*
 - *github.com/*
+- *githubassets.com*
 - *gitlab.com*
 - *github.com*
 - symfony.com/doc
