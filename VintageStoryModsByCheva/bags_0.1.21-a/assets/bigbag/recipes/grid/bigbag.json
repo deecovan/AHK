@@ -1,0 +1,13 @@
+[
+	{
+		ingredientPattern: "LTL	LLL",
+		ingredients: {
+			"L": { type: "item", code: "*", allowedVariants: ["game:papyrustops", "game:cattailtops" ], quantity: 5 },
+			"T": { type: "item", code: "stick", quantity: 5 }
+		},
+		name: "bigbag",
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "bigbag"  }
+	}
+]
