@@ -27,10 +27,10 @@
 -*.npmjs.com
 -*.npmjs.com/*
 
--symfony.com/doc
--symfony.com/doc/*
--*.symfony.com/doc
--*.symfony.com/doc/*
+-developer.mozilla.org
+-developer.mozilla.org/*
+-*.developer.mozilla.org/en-US
+-*.developer.mozilla.org/en-US/*
 
-+symfony.com.ua/doc/current
-+symfony.com.ua/doc/current/*
++developer.mozilla.org/ru/docs/Web/JavaScript
++developer.mozilla.org/ru/docs/Web/JavaScript/*
