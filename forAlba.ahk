@@ -43,17 +43,8 @@ Return
 ; Emergency exit
 $^F1::Process,Close,Albion-Online.exe
 
-;; Fire https://i.imgur.com/wrZrlLu.png
-;  Axe  https://i.imgur.com/r6U7Znp.png
-;$R:: ;Resister
-;$D:: ;Resister
+;; https://metabattle.com/albion/Arcane_Staff_Builds
 $T:: ;Resister
-  Send, {f Down}
-  Sleep, 20
-  MouseClick, left
-  Sleep, 200
-  Send, {f Up}
-  Sleep, 800
   Send, {r Down}
   Sleep, 200
   Send, {r Up}
@@ -61,6 +52,12 @@ $T:: ;Resister
   Send, {d Down}
   Sleep, 200
   Send, {d Up}
+  Sleep, 400
+  Send, {f Down}
+  Sleep, 20
+  MouseClick, left
+  Sleep, 200
+  Send, {f Up}
 Return
 
 ;Attack Clickers
