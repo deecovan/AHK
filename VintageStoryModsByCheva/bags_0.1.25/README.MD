@@ -1,4 +1,5 @@
-# VintageStory\Mods\bags_0.1.25-a repo
+# VintageStory\Mods\bags_0.1.25 repo
+### Moved to deecovan/bags_0.1.25
 -----------
 ## v0.1.25 Release
 - Test, Analyse and Rebalance
@@ -26,9 +27,10 @@
 - Create BigBag with 5x1...5x5 sticks...tops LML,LLL
 -----------
 ## Finished
+* Hamper and BigBag T3
 * Bigag T2
 - Hamper T1 and T2
-- Hamper and Bigag T1
+- Hamper and BigBag T1
 - Fixed: Lang key not found: bigbag:item-bigbag
 - Fixed: Reciept dosnt loaded
 - Working: Tested with other mods 
@@ -37,5 +39,5 @@
 - Test and add Screenshots
 -----------
 ## Issues
-- @TODO add ropes to T3 recipes
 - @TODO Needs: translations 
+# bags_0.1.25 GitHub repo 
