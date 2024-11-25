@@ -1,0 +1,29 @@
+hamper t1 
+4 slots
+21 tops (5.2x)
+
+hamper t2 
+6 slots (+2)
+21+12 tops (5.5x)
+
+hamper t3
+12 slots (x2)
+66+12 tops +4 ropes (as +12) = 7.5x
+
+bigbag t1
+6 slots
+30 pcs (5x)
+
+bigbag t2
+9 slots (+3)
+from bigbag-t1
+30 +24pcs = 54 (6x)
+from hamper-t2
+33 +24pcs = 47 (6.5x)
+
+bigbag t3
+18 slots (x2)
+from bigbag-t2
+2x(54..57) + 40 pcs = 150 pcs (8x)
+from hamper-t3
+90 + 50 pcs = 140 pcs (7.7x)

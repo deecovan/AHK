@@ -36,7 +36,7 @@
 		enabled: true,
 		ingredients: {
 			"N": { type: "item", code: "game:stick", quantity: 5 },
-			"M": { type: "item", code: "hamper-t2", quantity: 1 },
+			"M": { type: "item", code: "bigbag-t2", quantity: 1 },
 			"S": { type: "item", code: "game:rope", quantity: 5 },
 			"L": { type: "item", code: "game:cattailtops", quantity: 5 },
 		},
@@ -52,7 +52,7 @@
 		enabled: true,
 		ingredients: {
 			"N": { type: "item", code: "game:stick", quantity: 5 },
-			"M": { type: "item", code: "hamper-t2", quantity: 1 },
+			"M": { type: "item", code: "bigbag-t2", quantity: 1 },
 			"S": { type: "item", code: "game:rope", quantity: 5 },
 			"L": { type: "item", code: "game:papyrustops", quantity: 5 },
 		},
