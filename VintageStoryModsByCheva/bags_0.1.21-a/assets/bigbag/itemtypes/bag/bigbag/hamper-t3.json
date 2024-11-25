@@ -1,18 +1,18 @@
 {
-	code: "bigbag",
+	code: "hamper-t3",
 	maxstacksize: 1,
-	shape: { base: "item/bag/bigbag/bigbag" },
+	shape: { base: "item/bag/bigbag/hamper-t3" },
 	behaviors: [
 		{ name: "GroundStorable", properties: { layout: "SingleCenter", collisionBox: { x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 0.375, z2: 0.75 }}},
 		{ name: "HeldBag" }
 	],
 	attributes: {
 		backpack: {
-			quantitySlots: 6 
+			quantitySlots: 12 
 		}
 	},
 	textures: {
-		"bigbag": { base: "item/bag/bigbag/bigbag" }
+		"hamper-t3": { base: "item/bag/bigbag/hamper-t3" }
 	},
 	storageFlags: 2,
 	creativeinventory: { "general": ["*"], "items": ["*"] },
@@ -42,6 +42,6 @@
 	},
 	combustibleProps: {
 		burnTemperature: 600,
-		burnDuration: 10,
+		burnDuration: 30,
 	}
 }
