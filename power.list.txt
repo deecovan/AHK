@@ -2,8 +2,8 @@ C:\>powercfg /l
 
 Existing Power Schemes (* Active)
 -----------------------------------
-Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)
-Power Scheme GUID: 6781f8b6-d310-490a-941d-85800813dc7b  (Maximum) *
+Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced) *
+Power Scheme GUID: 6781f8b6-d310-490a-941d-85800813dc7b  (Maximum)
 
 C:\>powercfg /export power.high.pow 6781f8b6-d310-490a-941d-85800813dc7b
 
@@ -11,31 +11,16 @@ C:\>powercfg /export power.low.pow 381b4222-f694-41f0-9685-ff5bb260df2e
 
 
 
-
-
-C:\>powercfg /d 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
-C:\>powercfg /d a1841308-3541-4fab-bc81-f71556f20b4a
+C:\>powercfg /import C:\power.low.pow
+Imported Power Scheme Successfully. GUID: cdbd3257-445f-4f21-8f0a-318a06b194ed
 
 C:\>powercfg /l
 
-Существующие схемы управления питанием (* - активные)
+Existing Power Schemes (* Active)
 -----------------------------------
-GUID схемы питания: 381b4222-f694-41f0-9685-ff5bb260df2e  (Сбалансированная) *
-
-
-
-
-
-C:\>powercfg /import C:\high.pow
-Импорт схемы управления питанием успешно завершен. Идентификатор GUID: 4a0a8ab6-1812-4b92-be67-e81355804421
-C:\>powercfg /l
-
-Существующие схемы управления питанием (* - активные)
------------------------------------
-GUID схемы питания: 381b4222-f694-41f0-9685-ff5bb260df2e  (Сбалансированная) *
-GUID схемы питания: 4a0a8ab6-1812-4b92-be67-e81355804421  (Высокая производительность)
-
-
+Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced) *
+Power Scheme GUID: 6781f8b6-d310-490a-941d-85800813dc7b  (Maximum)
+Power Scheme GUID: cdbd3257-445f-4f21-8f0a-318a06b194ed  (Balanced)
 
 
 
@@ -50,12 +35,32 @@ Power Scheme GUID: 6781f8b6-d310-490a-941d-85800813dc7b  (Maximum)
 
 
 
+C:\>powercfg /s cdbd3257-445f-4f21-8f0a-318a06b194ed
+
+C:\>powercfg /l
+
+Existing Power Schemes (* Active)
+-----------------------------------
+Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)
+Power Scheme GUID: 6781f8b6-d310-490a-941d-85800813dc7b  (Maximum)
+Power Scheme GUID: cdbd3257-445f-4f21-8f0a-318a06b194ed  (Balanced) *
+
+
+
+C:\>powercfg /d 381b4222-f694-41f0-9685-ff5bb260df2e
+
+C:\>powercfg /l
+
+Existing Power Schemes (* Active)
+-----------------------------------
+Power Scheme GUID: 6781f8b6-d310-490a-941d-85800813dc7b  (Maximum)
+Power Scheme GUID: cdbd3257-445f-4f21-8f0a-318a06b194ed  (Balanced) *
 
 
 
 
 
-
+--- NetSH ---
 C:\>netsh interface show interface
 
 Admin State    State          Type             Interface Name
