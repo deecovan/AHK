@@ -50,9 +50,9 @@ $Q:: ; Third skill + Start autoattack
   MouseClick, left
   Sleep, 100
   Send, {q Up}
-  Sleep, 200
+  Sleep, 300
   MouseClick, left
-  Sleep, 200
+  Sleep, 400
   MouseClick, left
 Return
 
@@ -63,5 +63,14 @@ $E:: ; Ultimate
   MouseClick, left
   Sleep, 20
   Send, {e Up}
+Return
+
+;Attack Clickers - Head
+$D:: ; Ray
+  Send, {d Down}
+  Sleep, 20
+  MouseClick, left
+  Sleep, 20
+  Send, {d Up}
 Return
 
