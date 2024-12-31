@@ -57,10 +57,12 @@ $^F1::Process,Close,MyGameProcessNameHere.exe
 $Space::
 	if (!BreakLoop)
 	{
+		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
 		Send, {Space Down}
 		BreakLoop = 1
 		return
 	}
-	BreakLoop = 0
+	SoundPlay %A_WinDir%\Media\Windows Menu Command.wav
 	Send, {Space Up}
+	BreakLoop = 0
 return
