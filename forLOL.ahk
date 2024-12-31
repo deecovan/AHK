@@ -53,7 +53,14 @@ return
 ; Emergency exit
 $^F1::Process,Close,MyGameProcessNameHere.exe
 
-;enable mouse clicker (random time 1-10 sec, current mouse position)
-$^Space::
-	Send, {Space Down}
+;HoldSpace tofocus fucking camera
+$Space::
+	if (!BreakLoop)
+	{
+		Send, {Space Down}
+		BreakLoop = 1
+		return
+	}
+	BreakLoop = 0
+	Send, {Space Up}
 return
