@@ -1,0 +1,63 @@
+{
+	code: "clothes",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "category",  states: ["head"] },
+		{ code: "head", combine: "SelectiveMultiply", onVariant: "category", states: [
+			"farm-hat"
+		] },
+	],
+	shapeByType: { 
+		"*": {
+			base: "entity/humanoid/farmhat" 
+		}
+	},
+	storageFlags: 128,
+	attributesByType: {
+		
+		"*": {
+			wearableAttachment: true,
+			clothescategory: "head",
+			warmth: 1
+		}
+	},
+	texturesByType: {
+		"*": {
+			"seraph": { base: "game:block/transparent" }
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"] },
+	renderAlphaTest: 0.25,
+	fpHandTransformByType: {
+		"*": {
+			translation: { x: 0.1, y: -1.6, z: 0.4 },
+			rotation: { x: 180, y: -108, z: -180 },
+			origin: { x: 0.5, y: -0.3, z: 0.5 },
+			scale: 2.15
+		}
+	},
+	tpHandTransformByType: {
+		"*": {
+			translation: { x: -1.1, y: -3.1, z: -1.1 },
+			rotation: { x: -13, y: -80, z: 29 },
+			origin: { x: 0.5, y: 1.5, z: 0.5 },
+			scale: 0.55
+		}
+	},
+	guiTransformByType: {
+		"*": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -46, z: 23 },
+			origin: { x: 0.75, y: 1.66, z: 0.9 },
+			scale: 2.9
+		}
+	},
+	groundTransformByType: {
+		"*": {
+			translation: { x: 0.05, y: -0.55, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			scale: 2
+		}
+	}
+}

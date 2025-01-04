@@ -1,0 +1,36 @@
+[
+  {
+    "ingredientPattern": "M_M,_S_,T_I",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:spear-generic-*",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 1
+      },
+      "M": {
+        "type": "block",
+        "code": "game:metal-parts",
+        "quantity": 1
+      },
+      "I": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "crafty",
+    "dependsOn": [{ "modid": "navarlioclasses" }],
+    "output": {
+      "type": "item",
+      "code": "game:spear-generic-hacking",
+      "quantity": 1
+    }
+  }
+]

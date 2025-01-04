@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/handbook/excludeByType/*-brown",
+    "value": false,
+    "file": "blocktypes/clay/hardenedclay.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/handbook/excludeByType/*-red",
+    "value": false,
+    "file": "blocktypes/clay/hardenedclay.json"
+  }
+]

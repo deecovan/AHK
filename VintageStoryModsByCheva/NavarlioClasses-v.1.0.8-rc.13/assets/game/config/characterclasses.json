@@ -1,0 +1,149 @@
+[
+  {
+    "code": "halfling",
+    "traits": ["fleetfooted", "mason", "carpenter", "clothier"],
+    "gear": [
+      { "type": "item", "code": "clothes-upperbody-commoner-shirt" },
+      { "type": "item", "code": "clothes-upperbodyover-commoner-coat" },
+      { "type": "item", "code": "clothes-lowerbody-commoner-trousers" },
+      { "type": "item", "code": "clothes-foot-commoner-boots" },
+      { "type": "item", "code": "clothes-hand-commoner-gloves" }
+    ]
+  },
+  {
+    "code": "goblin",
+    "traits": [
+      "improviser",
+      "sneaky",
+      "quick",
+      "fasting",
+      "scavenger",
+      "pilferer",
+    ],
+    "gear": [
+      { "type": "item", "code": "clothes-upperbody-malefactor-shirt" },
+      { "type": "item", "code": "clothes-upperbodyover-malefactor-tunic" },
+      { "type": "item", "code": "clothes-shoulder-malefactor-cloak" },
+      { "type": "item", "code": "clothes-lowerbody-malefactor-trousers" },
+      { "type": "item", "code": "clothes-foot-malefactor-boots" },
+      { "type": "item", "code": "clothes-face-malefactor-mask" },
+      { "type": "item", "code": "clothes-hand-malefactor-gloves" },
+      { "type": "item", "code": "clothes-waist-malefactor-sash" }
+    ]
+  },
+  {
+    "code": "dwarf",
+    "traits": [
+      "override",
+      "technical",
+      "crafty",
+      "gearhead",
+      "defender",
+      "smith",
+      "burner",
+    ],
+    "gear": [
+      { "type": "item", "code": "clothes-shoulder-clockmaker-apron" },
+      { "type": "item", "code": "clothes-upperbody-clockmaker-shirt" },
+      { "type": "item", "code": "clothes-upperbodyover-clockmaker-tunic" },
+      { "type": "item", "code": "clothes-lowerbody-clockmaker-pants" },
+      { "type": "item", "code": "clothes-foot-clockmaker-shoes" },
+      { "type": "item", "code": "clothes-hand-clockmaker-wristguard" },
+      { "type": "item", "code": "clothes-waist-clockmaker-belt" }
+    ]
+  },
+  {
+    "code": "human",
+    "traits": [
+      "farmer",
+      "forager2",
+      "fleetfooted",
+      "greenthumb",
+    ],
+    "gear": [
+      { "type": "item", "code": "moreclasses:clothes-head-farm-hat" },
+      { "type": "item", "code": "clothes-upperbody-commoner-shirt" },
+      { "type": "item", "code": "clothes-upperbodyover-clockmaker-tunic" },
+      { "type": "item", "code": "clothes-lowerbody-workmans-gown" },
+      { "type": "item", "code": "clothes-foot-worn-leather-boots" },
+      { "type": "item", "code": "clothes-hand-heavy-leather-gloves" },
+      { "type": "item", "code": "clothes-waist-linen-rope" }
+    ]
+  },
+  {
+    "code": "goliath",
+    "traits": [
+      "soldier",
+      "precise",
+      "forlornhope",
+      "blackguard",
+      "merciless",
+    ],
+    "gear": [
+      { "type": "item", "code": "clothes-upperbody-blackguard-shirt" },
+      { "type": "item", "code": "clothes-lowerbody-blackguard-leggings" },
+      { "type": "item", "code": "clothes-foot-blackguard-shoes" },
+      { "type": "item", "code": "clothes-emblem-blackguard-pin" },
+      { "type": "item", "code": "clothes-waist-blackguard-belt" }
+    ]
+  },
+  {
+    "code": "dryad",
+    "traits": [
+      "lumberjack",
+      "planter",
+      "arborist",
+      "gentle",
+      "carpenter",
+    ],
+    "gear": [
+      { "type": "item", "code": "moreclasses:clothes-head-toque" },
+      {
+        "type": "item",
+        "code": "moreclasses:clothes-upperbody-lumberjack-shirt"
+      },
+      { "type": "item", "code": "clothes-lowerbody-commoner-trousers" },
+      { "type": "item", "code": "clothes-foot-metalcap-boots" },
+      { "type": "item", "code": "clothes-neck-acorn-amulet" },
+      { "type": "item", "code": "clothes-hand-hunter-gloves" },
+      { "type": "item", "code": "clothes-waist-peasant-strap" }
+    ]
+  },
+  {
+    "code": "kobold",
+    "traits": [
+      "miner",
+      "prospector",
+      "thrifty",
+      "fleetfooted",
+    ],
+    "gear": [
+      { "type": "item", "code": "clothes-shoulder-blacksmith-apron" },
+      { "type": "item", "code": "clothes-upperbodyover-clockmaker-tunic" },
+      { "type": "item", "code": "clothes-lowerbody-raw-hide-trousers" },
+      { "type": "item", "code": "clothes-foot-soldier-boots" },
+      { "type": "item", "code": "clothes-hand-heavy-leather-gloves" },
+      { "type": "item", "code": "clothes-waist-sturdy-leather-belt" }
+    ]
+  },
+  {
+    "code": "elf",
+    "traits": [
+      "resourceful",
+      "bowyer",
+      "forager",
+      "furtive",
+      "archer",
+    ],
+    "gear": [
+      { "type": "item", "code": "clothes-head-hunter-cape" },
+      { "type": "item", "code": "clothes-shoulder-hunter-poncho" },
+      { "type": "item", "code": "clothes-upperbody-hunter-shirt" },
+      { "type": "item", "code": "clothes-upperbodyover-hunter-coat" },
+      { "type": "item", "code": "clothes-lowerbody-hunter-leggings" },
+      { "type": "item", "code": "clothes-foot-hunter-boots" },
+      { "type": "item", "code": "clothes-face-hunter-mask" },
+      { "type": "item", "code": "clothes-hand-hunter-gloves" }
+    ]
+  }
+]

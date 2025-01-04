@@ -1,0 +1,18 @@
+{
+  "Type": 1,
+  "TextureSize": 32,
+  "Name": "Hamper And BigBag by Cheva",
+  "Version": "0.1.21-a",
+  "NetworkVersion": null,
+  "Description": "Hamper And BigBag (4 & 5 slots)",
+  "Website": "",
+  "ModID": "bigbag",
+  "Authors": [
+    "Cheva"
+  ],
+  "Contributors": [],
+  "Side": "Universal",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "Dependencies": {}
+}

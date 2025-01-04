@@ -1,0 +1,38 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/height",
+    "value": 2,
+    "file": "recipes/grid/plank.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/shapeless",
+    "value": false,
+    "file": "recipes/grid/plank.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/width",
+    "value": 1,
+    "file": "recipes/grid/plank.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/height",
+    "value": 2,
+    "file": "recipes/grid/plank.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/shapeless",
+    "value": false,
+    "file": "recipes/grid/plank.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/width",
+    "value": 1,
+    "file": "recipes/grid/plank.json"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/handbook/excludeByType/*-lit-*",
+    "value": false,
+    "file": "blocktypes/clay/chimney.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/handbook/excludeByType/*-red-*",
+    "value": false,
+    "file": "blocktypes/clay/chimney.json"
+  }
+]

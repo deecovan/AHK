@@ -1,0 +1,240 @@
+[
+  {
+    "ingredientPattern": "HS,LK",
+    "requiresTrait": "forlornhope",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammerhead-copper", "quantity": 1 },
+      "S": { "type": "item", "code": "game:stick", "quantity": 2 },
+      "L": { "type": "block", "code": "game:log-placed-*-ud", "quantity": 1 },
+      "K": { "type": "item", "code": "game:knifeblade-copper", "quantity": 1 }
+    },
+    "width": 2,
+    "height": 2,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "output": { "type": "item", "code": "tools-basic", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "HS,LK",
+    "requiresTrait": "forlornhope",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammerhead-bismuthbronze",
+        "quantity": 1
+      },
+      "S": { "type": "item", "code": "game:stick", "quantity": 2 },
+      "L": { "type": "item", "code": "game:plank-*", "quantity": 4 },
+      "K": {
+        "type": "item",
+        "code": "game:knifeblade-bismuthbronze",
+        "quantity": 1
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "output": { "type": "item", "code": "tools-simple", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "HS,LK",
+    "requiresTrait": "forlornhope",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammerhead-tinbronze",
+        "quantity": 1
+      },
+      "S": { "type": "item", "code": "game:stick", "quantity": 2 },
+      "L": { "type": "item", "code": "game:plank-*", "quantity": 4 },
+      "K": {
+        "type": "item",
+        "code": "game:knifeblade-tinbronze",
+        "quantity": 1
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "output": { "type": "item", "code": "tools-simple", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "HS,LK",
+    "requiresTrait": "forlornhope",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammerhead-blackbronze",
+        "quantity": 1
+      },
+      "S": { "type": "item", "code": "game:stick", "quantity": 2 },
+      "L": { "type": "item", "code": "game:plank-*", "quantity": 4 },
+      "K": {
+        "type": "item",
+        "code": "game:knifeblade-blackbronze",
+        "quantity": 1
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "output": { "type": "item", "code": "tools-simple", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "HS,LK",
+    "requiresTrait": "forlornhope",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammerhead-iron", "quantity": 1 },
+      "S": { "type": "item", "code": "game:stick", "quantity": 2 },
+      "L": { "type": "item", "code": "game:plank-*", "quantity": 4 },
+      "K": { "type": "item", "code": "game:knifeblade-iron", "quantity": 1 }
+    },
+    "width": 2,
+    "height": 2,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "output": { "type": "item", "code": "tools-standard", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "HS,LK",
+    "requiresTrait": "forlornhope",
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammerhead-meteoriciron",
+        "quantity": 1
+      },
+      "S": { "type": "item", "code": "game:stick", "quantity": 2 },
+      "L": { "type": "item", "code": "game:plank-*", "quantity": 4 },
+      "K": {
+        "type": "item",
+        "code": "game:knifeblade-meteoriciron",
+        "quantity": 1
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "output": { "type": "item", "code": "tools-standard", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "HS,LK",
+    "requiresTrait": "forlornhope",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammerhead-steel", "quantity": 1 },
+      "S": { "type": "item", "code": "game:stick", "quantity": 2 },
+      "L": { "type": "item", "code": "game:plank-*", "quantity": 4 },
+      "K": { "type": "item", "code": "game:knifeblade-steel", "quantity": 1 }
+    },
+    "width": 2,
+    "height": 2,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "output": { "type": "item", "code": "tools-advanced", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "PLP,XCX,_T_",
+    "requiresTrait": "forlornhope",
+    "ingredients": {
+      "L": { "type": "item", "code": "game:armor-head-sewn-leather" },
+      "T": {
+        "type": "item",
+        "code": "tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 2
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-bismuthbronze",
+        "quantity": 2
+      },
+      "X": { "type": "block", "code": "game:linen-*", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-antique-forlorn-broken",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "PLP,CVC,XTX",
+    "requiresTrait": "forlornhope",
+    "ingredients": {
+      "L": { "type": "item", "code": "game:armor-body-sewn-leather" },
+      "T": {
+        "type": "item",
+        "code": "tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 2
+      },
+      "V": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze",
+        "quantity": 1
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze",
+        "quantity": 2
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-bismuthbronze",
+        "quantity": 2
+      },
+      "X": { "type": "block", "code": "game:linen-*", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-antique-forlorn-broken",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "CLC,PXP,_T_",
+    "requiresTrait": "forlornhope",
+    "ingredients": {
+      "L": { "type": "item", "code": "game:armor-legs-sewn-leather" },
+      "T": {
+        "type": "item",
+        "code": "tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 2
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:metalchain-bismuthbronze",
+        "quantity": 2
+      },
+      "X": { "type": "block", "code": "game:linen-*", "quantity": 2 }
+    },
+    "width": 3,
+    "height": 3,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-antique-forlorn-broken",
+      "quantity": 1
+    }
+  }
+]

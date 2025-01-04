@@ -1,0 +1,12 @@
+[
+  {
+    "op": "remove",
+    "path": "/0/requiresTrait",
+    "file": "recipes/grid/clothes/black.json"
+  },
+  {
+    "op": "remove",
+    "path": "/1/requiresTrait",
+    "file": "recipes/grid/clothes/black.json"
+  }
+]

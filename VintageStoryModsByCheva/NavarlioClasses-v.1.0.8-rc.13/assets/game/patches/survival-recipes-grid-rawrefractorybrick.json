@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/shapeless",
+    "value": false,
+    "file": "recipes/grid/rawrefractorybrick.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/shapeless",
+    "value": false,
+    "file": "recipes/grid/rawrefractorybrick.json"
+  },
+  {
+    "op": "replace",
+    "path": "/2/shapeless",
+    "value": false,
+    "file": "recipes/grid/rawrefractorybrick.json"
+  }
+]

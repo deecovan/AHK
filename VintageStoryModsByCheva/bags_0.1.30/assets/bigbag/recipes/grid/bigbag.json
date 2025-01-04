@@ -1,0 +1,28 @@
+[
+	{
+		ingredientPattern: "TST,TTT",
+		enabled: true,
+		ingredients: {
+			"T": { type: "item", code: "game:*tops", allowedVariants: ["cattail", "papyrus"], quantity: 3 },
+			"S": { type: "item", code: "game:stick", quantity: 3 },
+		},
+		name: "bigbag",
+		width: 3,
+		height: 2,
+		recipeGroup: 1,
+		output: { type: "item", code: "bigbag"  }
+	},
+	{
+		ingredientPattern: "TST,_B_",
+		ingredients: {
+			"T": { type: "item", code: "game:*tops", allowedVariants: ["cattail", "papyrus"], quantity: 3 },
+			"S": { type: "item", code: "game:stick", quantity: 3 },
+			"B": { type: "item", code: "game:basket", quantity: 1 },
+		},
+		name: "bigbag",
+		width: 3,
+		height: 2,
+		recipeGroup: 1,
+		output: { type: "item", code: "bigbag"  }
+	},
+]

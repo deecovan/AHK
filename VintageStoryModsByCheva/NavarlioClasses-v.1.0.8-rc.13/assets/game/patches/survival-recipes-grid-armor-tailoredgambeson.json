@@ -1,0 +1,17 @@
+[
+  {
+    "op": "remove",
+    "path": "/0/requiresTrait",
+    "file": "recipes/grid/armor/tailoredgambeson.json"
+  },
+  {
+    "op": "remove",
+    "path": "/1/requiresTrait",
+    "file": "recipes/grid/armor/tailoredgambeson.json"
+  },
+  {
+    "op": "remove",
+    "path": "/2/requiresTrait",
+    "file": "recipes/grid/armor/tailoredgambeson.json"
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "ingredientPattern": "_T_,BPB,_B_",
+    "requiresTrait": "thrifty",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "B": { "type": "item", "code": "game:plank-*", "quantity": 4 },
+      "P": { "type": "item", "code": "game:blastingpowder", "quantity": 4 }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 2,
+    "output": { "type": "block", "code": "game:bomb-ore", "quantity": 8 }
+  },
+  {
+    "ingredientPattern": "_T_,IPI,_I_",
+    "requiresTrait": "thrifty",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:flaxtwine" },
+      "I": { "type": "item", "code": "game:crushed-iron", "quantity": 1 },
+      "P": { "type": "item", "code": "game:blastingpowder", "quantity": 4 }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 2,
+    "output": { "type": "block", "code": "game:bomb-stone", "quantity": 8 }
+  },
+  {
+    "ingredientPattern": "_T_,CPC,_C_",
+    "requiresTrait": "thrifty",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+      "C": { "type": "item", "code": "game:clay-*", "quantity": 2 },
+      "P": { "type": "item", "code": "game:blastingpowder", "quantity": 4 }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 2,
+    "output": { "type": "block", "code": "game:bomb-ore", "quantity": 4 }
+  },
+  {
+    "ingredientPattern": "CPS",
+    "requiresTrait": "thrifty",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:saltpeter", "quantity": 1 },
+      "P": { "type": "item", "code": "game:rot", "quantity": 2 },
+      "C": { "type": "item", "code": "game:charcoal", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": false,
+    "output": { "type": "item", "code": "game:blastingpowder", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "_B_,WFT,_P_",
+    "requiresTrait": "thrifty",
+    "ingredients": {
+      "B": { "type": "item", "code": "game:bone", "quantity": 1 },
+      "W": { "type": "item", "code": "game:firewood", "quantity": 4 },
+      "T": { "type": "item", "code": "game:flaxtwine", "quantity": 1 },
+      "F": { "type": "item", "code": "game:fat", "quantity": 2 },
+      "P": { "type": "block", "code": "game:flowerpot-burnt", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "block",
+      "code": "primitivemininglantern-south",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "B_,FT,M_",
+    "requiresTrait": "thrifty",
+    "ingredients": {
+      "B": { "type": "item", "code": "game:metalplate-brass", "quantity": 1 },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-molybdochalkos",
+        "quantity": 1
+      },
+      "F": { "type": "item", "code": "game:fat", "quantity": 2 },
+      "T": { "type": "item", "code": "game:flaxtwine", "quantity": 1 }
+    },
+    "width": 2,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "block",
+      "code": "metalmininglantern-south",
+      "quantity": 1
+    }
+  }
+]

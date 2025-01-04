@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "NavarlioClassesDee",
+  "name": "NavarlioClassesDee",
+  "description": "Dee's removed penalties\nNavarlio classes 1.0.8",
+  "authors": ["Mr1k3, Kara, Risskitty, Dee"],
+  "version": "1.0.8-rc.13",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "dependency": {}
+}

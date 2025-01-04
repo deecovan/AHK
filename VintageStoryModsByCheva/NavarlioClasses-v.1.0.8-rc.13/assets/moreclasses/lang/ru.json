@@ -1,0 +1,18 @@
+﻿{
+  "item-tools-simple": "Простые инструменты",
+  "item-tools-basic": "Базовые инструменты",
+  "item-tools-standard": "Стандартные инструменты",
+  "item-tools-advanced": "Улучшенные инструменты",
+  "item-basicbooster": "Базовое удобрение",
+  "itemdesc-basicbooster": "Постоянно увеличивает все максимальные значения питательных веществ в почве на 20%",
+  "item-qualitybooster": "Качественное удобрение",
+  "itemdesc-qualitybooster": "Постоянно увеличивает все максимальные значения питательных веществ в почве на 40%",
+  "item-clothes-face-eliteplaugemask": "Элитная чумная маска",
+  "item-clothes-face-plaugemask": "Чумная маска",
+  "item-clothes-face-skullmask": "Маска из черепа",
+  "item-clothes-face-teethmask": "Маска из зубов",
+  "item-clothes-head-mininghat": "Шахтерская Каска",
+  "block-metalpan-copper": "Медная миска",
+  "block-metalmininglantern-*": "Шахтерский фонарь",
+  "block-primitivemininglantern-*": "Простой шахтерский фонарь"
+}

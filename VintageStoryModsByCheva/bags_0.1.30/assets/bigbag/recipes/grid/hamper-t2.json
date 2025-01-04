@@ -1,0 +1,15 @@
+[
+	{
+		ingredientPattern: "T_T,THT",
+		enabled: true,
+		ingredients: {
+			"T": { type: "item", code: "game:*tops", allowedVariants: ["cattail", "papyrus"], quantity: 2 },
+			"H": { type: "item", code: "hamper", quantity: 1 },
+		},
+		name: "hamper-t2",
+		width: 3,
+		height: 2,
+		recipeGroup: 1,
+		output: { type: "item", code: "hamper-t2"  }
+	},
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "ingredientPattern": "H,P",
+    "requiresTrait": "prospector",
+    "ingredients": {
+      "P": { "type": "item", "code": "game:metalplate-copper", "quantity": 1 },
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true }
+    },
+    "width": 1,
+    "height": 2,
+    "averageDurability": false,
+    "output": {
+      "type": "block",
+      "code": "moreclasses:metalpan-copper",
+      "quantity": 1
+    }
+  }
+]

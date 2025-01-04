@@ -1,0 +1,62 @@
+[
+  {
+    "op": "replace",
+    "path": "/attackpowerbytype/longblade-blackguard",
+    "value": 4.5,
+    "file": "itemtypes/tool/longblade.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attackpowerbytype/longblade-forlorn",
+    "value": 4.75,
+    "file": "itemtypes/tool/longblade.json"
+  },
+  {
+    "op": "replace",
+    "path": "/durabilitybytype/longblade-blackguard",
+    "value": 2250,
+    "file": "itemtypes/tool/longblade.json"
+  },
+  {
+    "op": "replace",
+    "path": "/durabilitybytype/longblade-forlorn",
+    "value": 1850,
+    "file": "itemtypes/tool/longblade.json"
+  },
+  {
+    "op": "replace",
+    "path": "/miningspeedbytype/longblade-blackguard/leaves",
+    "value": 4,
+    "file": "itemtypes/tool/longblade.json"
+  },
+  {
+    "op": "replace",
+    "path": "/miningspeedbytype/longblade-blackguard/wood",
+    "value": 3.5,
+    "file": "itemtypes/tool/longblade.json"
+  },
+  {
+    "op": "replace",
+    "path": "/miningspeedbytype/longblade-forlorn/leaves",
+    "value": 4,
+    "file": "itemtypes/tool/longblade.json"
+  },
+  {
+    "op": "replace",
+    "path": "/miningspeedbytype/longblade-forlorn/wood",
+    "value": 3.5,
+    "file": "itemtypes/tool/longblade.json"
+  },
+  {
+    "op": "replace",
+    "path": "/tooltierbytype/*-blackguard",
+    "value": 5,
+    "file": "itemtypes/tool/longblade.json"
+  },
+  {
+    "op": "replace",
+    "path": "/tooltierbytype/*-forlorn",
+    "value": 5,
+    "file": "itemtypes/tool/longblade.json"
+  }
+]

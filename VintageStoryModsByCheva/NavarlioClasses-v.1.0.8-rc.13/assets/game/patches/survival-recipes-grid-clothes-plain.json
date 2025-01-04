@@ -1,0 +1,27 @@
+[
+  {
+    "op": "remove",
+    "path": "/3/requiresTrait",
+    "file": "recipes/grid/clothes/plain.json"
+  },
+  {
+    "op": "remove",
+    "path": "/4/requiresTrait",
+    "file": "recipes/grid/clothes/plain.json"
+  },
+  {
+    "op": "remove",
+    "path": "/5/requiresTrait",
+    "file": "recipes/grid/clothes/plain.json"
+  },
+  {
+    "op": "remove",
+    "path": "/6/requiresTrait",
+    "file": "recipes/grid/clothes/plain.json"
+  },
+  {
+    "op": "remove",
+    "path": "/7/requiresTrait",
+    "file": "recipes/grid/clothes/plain.json"
+  }
+]

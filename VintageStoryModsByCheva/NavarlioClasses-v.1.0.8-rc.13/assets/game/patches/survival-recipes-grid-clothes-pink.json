@@ -1,0 +1,7 @@
+[
+  {
+    "op": "remove",
+    "path": "/1/requiresTrait",
+    "file": "recipes/grid/clothes/pink.json"
+  }
+]

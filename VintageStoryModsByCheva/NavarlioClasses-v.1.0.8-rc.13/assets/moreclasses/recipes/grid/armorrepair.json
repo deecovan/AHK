@@ -1,0 +1,470 @@
+[
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-head-antique-forlorn-broken",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-antique-forlorn-broken",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-body-antique-forlorn-broken",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-antique-forlorn-broken",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-legs-antique-forlorn-broken",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-antique-forlorn-broken",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-head-antique-forlorn-damaged",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 15
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-antique-forlorn-damaged",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-body-antique-forlorn-damaged",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 15
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-antique-forlorn-damaged",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-legs-antique-forlorn-damaged",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 15
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-antique-forlorn-damaged",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-head-antique-forlorn-pristine",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 30
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-antique-forlorn-pristine",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-body-antique-forlorn-pristine",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 30
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-antique-forlorn-pristine",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-legs-antique-forlorn-pristine",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 30
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-antique-forlorn-pristine",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-head-antique-blackguard-broken",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-antique-blackguard-broken",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-body-antique-blackguard-broken",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-antique-blackguard-broken",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-legs-antique-blackguard-broken",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 5
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-antique-blackguard-broken",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-head-antique-blackguard-damaged",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 15
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-antique-blackguard-damaged",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-body-antique-blackguard-damaged",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 15
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-antique-blackguard-damaged",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-legs-antique-blackguard-damaged",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 15
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-antique-blackguard-damaged",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-head-antique-blackguard-pristine",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 30
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-antique-blackguard-pristine",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-body-antique-blackguard-pristine",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 30
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-antique-blackguard-pristine",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "AR",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-legs-antique-blackguard-pristine",
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "moreclasses:tools-*",
+        "isTool": true,
+        "toolDurabilityCost": 30
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-antique-blackguard-pristine",
+      "quantity": 1
+    }
+  }
+]

@@ -1,0 +1,296 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-blackguard-broken/flatDamageReduction",
+    "value": 0.6,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-blackguard-broken/protectionTier",
+    "value": 2,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-blackguard-broken/relativeProtection",
+    "value": 0.8,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-blackguard-damaged/highDamageTierResistant",
+    "value": true,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-blackguard-damaged/flatDamageReduction",
+    "value": 1.75,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-blackguard-damaged/protectionTier",
+    "value": 3,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-blackguard-damaged/relativeProtection",
+    "value": 0.92,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-blackguard-pristine/flatDamageReduction",
+    "value": 2,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-blackguard-pristine/protectionTier",
+    "value": 4,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-blackguard-pristine/relativeProtection",
+    "value": 0.98,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-forlorn-broken/flatDamageReduction",
+    "value": 0.5,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-forlorn-broken/protectionTier",
+    "value": 2,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-forlorn-broken/relativeProtection",
+    "value": 0.75,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-forlorn-damaged/protectionTier",
+    "value": 3,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-forlorn-pristine/flatDamageReduction",
+    "value": 1.75,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType/armor-*-antique-forlorn-pristine/protectionTier",
+    "value": 4,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-blackguard-broken/healingeffectivness",
+    "value": -0.06,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-blackguard-broken/hungerrate",
+    "value": 0.04,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-blackguard-broken/rangedWeaponsAcc",
+    "value": -0.05,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-blackguard-broken/rangedWeaponsSpeed",
+    "value": -0.06,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-blackguard-broken/walkSpeed",
+    "value": -0.04,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-blackguard-damaged/healingeffectivness",
+    "value": -0.08,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-blackguard-damaged/hungerrate",
+    "value": 0.06,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-blackguard-damaged/rangedWeaponsSpeed",
+    "value": -0.08,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-blackguard-damaged/walkSpeed",
+    "value": -0.06,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-blackguard-pristine/healingeffectivness",
+    "value": -0.1,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-blackguard-pristine/hungerrate",
+    "value": 0.08,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-blackguard-pristine/rangedWeaponsSpeed",
+    "value": -0.1,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-blackguard-pristine/walkSpeed",
+    "value": -0.07,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/statModifiersByType/armor-*-antique-forlorn-broken/rangedWeaponsAcc",
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/statModifiersByType/armor-*-antique-forlorn-broken/rangedWeaponsSpeed",
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-forlorn-broken/healingeffectivness",
+    "value": -0.04,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-forlorn-broken/hungerrate",
+    "value": 0.03,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-forlorn-broken/walkSpeed",
+    "value": -0.02,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/statModifiersByType/armor-*-antique-forlorn-damaged/rangedWeaponsAcc",
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/statModifiersByType/armor-*-antique-forlorn-damaged/rangedWeaponsSpeed",
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-forlorn-damaged/healingeffectivness",
+    "value": -0.06,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-forlorn-damaged/hungerrate",
+    "value": 0.03,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-forlorn-damaged/walkSpeed",
+    "value": -0.03,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/statModifiersByType/armor-*-antique-forlorn-pristine/rangedWeaponsAcc",
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/statModifiersByType/armor-*-antique-forlorn-pristine/rangedWeaponsSpeed",
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-forlorn-pristine/healingeffectivness",
+    "value": -0.08,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-forlorn-pristine/hungerrate",
+    "value": 0.05,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-antique-forlorn-pristine/walkSpeed",
+    "value": -0.04,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/durabilityByType/armor-*-antique-blackguard-broken",
+    "value": 1450,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/durabilityByType/armor-*-antique-blackguard-damaged",
+    "value": 2900,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/durabilityByType/armor-*-antique-blackguard-pristine",
+    "value": 5800,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/durabilityByType/armor-*-antique-forlorn-broken",
+    "value": 1400,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/durabilityByType/armor-*-antique-forlorn-damaged",
+    "value": 2800,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/durabilityByType/armor-*-antique-forlorn-pristine",
+    "value": 5600,
+    "file": "itemtypes/wearable/armor.json"
+  }
+]
