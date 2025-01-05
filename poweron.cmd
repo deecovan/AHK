@@ -3,4 +3,4 @@ netsh interface set interface "Wi-Fi" admin=enable
 timeout /t 05
 ping youtube.com
 timeout /t 05
-ping google.com
+ping bing.com
