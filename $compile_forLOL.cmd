@@ -1,0 +1,1 @@
+Ahk2Exe.exe /in C:/Projects/_AHK_/forAHK/forLOL.ahk /out C:/Projects/_AHK_/forAHK/forLOL.exe /icon C:/Projects/_AHK_/forAHK/LoL.ico 
