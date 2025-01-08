@@ -52,26 +52,3 @@ return
 ;-----Let's play!-----
 ; Emergency exit
 $^+F1::Process,Close,League of Legends.exe
-
-; Use Alt Space to lock camera if not set in Preferences
-$!Space::
-	if (!BreakLoop)
-	{
-		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
-		Send, {Space Down}
-		BreakLoop = 1
-		return
-	}
-	SoundPlay %A_WinDir%\Media\Windows Menu Command.wav
-	Send, {Space Up}
-	BreakLoop = 0
-return
-
-; Use in prefrences MB2 to Move, Alt MB2 to Move to Attack position, 
-; Alt MB1 to Move and Attack (key A in prefrences) with click on position
-$!LButton:: 
-	SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
-	Send,{a}
-	Sleep, 200
-	Send,{Lbutton}
-return
