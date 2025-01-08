@@ -67,11 +67,11 @@ $!Space::
 	BreakLoop = 0
 return
 
-; Use MB2 to Move, Alt_MB2 to Move to Attack position, 
-; Alt MB1 to Move and Attack (key a in prefrences) with click on position
+; Use in prefrences MB2 to Move, Alt MB2 to Move to Attack position, 
+; Alt MB1 to Move and Attack (key A in prefrences) with click on position
 $!LButton:: 
-	Send, a
-	Sleep, 100
-	Click
 	SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
+	Send,{a}
+	Sleep, 200
+	Send,{Lbutton}
 return
