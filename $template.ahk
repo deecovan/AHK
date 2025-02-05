@@ -50,8 +50,11 @@ $PrintScreen::
 return
 
 ;-----Let's play!-----
-; Emergency exit
-$^F1::Process,Close,MyGameProcessNameHere.exe
+; Emergency process kill
+$^F1::
+	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
+	Process,Close,svchost.exe
+return
 
 ;enable mouse clicker (random time 1-10 sec, current mouse position)
 $^+C::
