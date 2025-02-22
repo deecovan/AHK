@@ -56,9 +56,10 @@ $^F1::
 	Process,Close,svchost.exe
 return
 
-;enable mouse clicker (random time 1-10 sec, current mouse position)
+;; Enable mouse clicker (Shift-Click, random time 200-400 msec, return to current mouse position)
+
 $^+C::
-	Send, {^!C}
+	Send, {^+C}
 	MouseGetPos, ClickX, ClickY
 	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
 	Sleep, 1000
@@ -70,11 +71,36 @@ $^+C::
 			break
 		}
 		MouseGetPos, OrigX, OrigY
+		Send, {LShift Down}
 		MouseClick, left, %ClickX%, %ClickY%
 		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
+		Send, {LShift Up}
+		Sleep, % ran(200, 400)
 		MouseMove, %OrigX%, %OrigY%
-		Sleep, % ran(1000, 9000)
-		global MouseSpeed = % ran(1, 20)
+		global MouseSpeed = % ran(1, 5)
 		SetDefaultMouseSpeed, MouseSpeed
 	}
 return
+
+;; Hold keys Down
+
+$^+G::
+	Send, {G Down}
+	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
+return
+
+$^+LButton::
+	Send, {LButton Down}
+	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
+return
+
+$^+RButton::
+	Send, {RButton Down}
+	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
+return
+
+$^+MButton::
+	Send, {MButton Down}
+	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
+return
+
