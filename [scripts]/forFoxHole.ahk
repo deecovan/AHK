@@ -75,8 +75,8 @@ $^+C::
 		MouseClick, left, %ClickX%, %ClickY%
 		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
 		Send, {LShift Up}
-		Sleep, % ran(500, 1000)
 		MouseMove, %OrigX%, %OrigY%
+		Sleep, % ran(500, 750)
 		global MouseSpeed = % ran(2, 4)
 		SetDefaultMouseSpeed, MouseSpeed
 	}
