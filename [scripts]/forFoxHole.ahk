@@ -4,7 +4,7 @@
 ;by cheva (c) MIT 2012-2024
 
 ;-=-\ Set globals \-=-
-global MouseSpeed = % ran(1, 20)
+global MouseSpeed = % ran(5, 10)
 SetDefaultMouseSpeed, MouseSpeed
 
 ;-=-\ Functions \-=-
@@ -75,9 +75,9 @@ $^+C::
 		MouseClick, left, %ClickX%, %ClickY%
 		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
 		Send, {LShift Up}
-		Sleep, % ran(200, 400)
+		Sleep, % ran(500, 1000)
 		MouseMove, %OrigX%, %OrigY%
-		global MouseSpeed = % ran(1, 5)
+		global MouseSpeed = % ran(2, 4)
 		SetDefaultMouseSpeed, MouseSpeed
 	}
 return
