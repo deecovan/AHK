@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Pedalboard2AppMappings>
+  <KEYMAPPINGS basedOnDefaults="0">
+    <MAPPING commandId="1" description="Creates a new pedalboard file to work from."
+             key="ctrl + N"/>
+    <MAPPING commandId="2" description="Opens an existing pedalboard file from disk."
+             key="ctrl + O"/>
+    <MAPPING commandId="3" description="Saves the current pedalboard file to disk."
+             key="ctrl + S"/>
+    <MAPPING commandId="4" description="Saves the current pedalboard file to a new file on disk."
+             key="ctrl + shift + S"/>
+    <MAPPING commandId="8" description="Deletes the selected connection(s)."
+             key="delete"/>
+    <MAPPING commandId="8" description="Deletes the selected connection(s)."
+             key="backspace"/>
+    <MAPPING commandId="16" description="Loads the documentation in your default browser."
+             key="F1"/>
+    <MAPPING commandId="12" description="Plays/pauses the main transport."
+             key="spacebar"/>
+    <MAPPING commandId="1001" description="Quits the application" key="ctrl + Q"/>
+  </KEYMAPPINGS>
+  <MidiMappings/>
+  <OscMappings/>
+</Pedalboard2AppMappings>

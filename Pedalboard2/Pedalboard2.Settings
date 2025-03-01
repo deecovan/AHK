@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PROPERTIES>
+  <VALUE name="pluginList">
+    <KNOWNPLUGINS>
+      <PLUGIN name="Audio Recorder" descriptiveName="Simple audio recorder."
+              format="Internal" category="Pedalboard Processors" manufacturer="Niall Moody"
+              version="1.00" file="" uid="b7010e08" isInstrument="0" fileTime="0"
+              numInputs="2" numOutputs="0"/>
+      <PLUGIN name="File Player" descriptiveName="Processor which plays back an audio file."
+              format="Internal" category="Pedalboard Processors" manufacturer="Niall Moody"
+              version="1.00" file="" uid="9cc8be05" isInstrument="0" fileTime="0"
+              numInputs="0" numOutputs="2"/>
+      <PLUGIN name="Level" descriptiveName="Simple level processor." format="Internal"
+              category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
+              file="" uid="45eab64" isInstrument="0" fileTime="0" numInputs="2"
+              numOutputs="2"/>
+      <PLUGIN name="Looper" descriptiveName="Simple looper processor." format="Internal"
+              category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
+              file="" uid="8800a671" isInstrument="0" fileTime="0" numInputs="2"
+              numOutputs="2"/>
+      <PLUGIN name="Metronome" descriptiveName="Simple metronome." format="Internal"
+              category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
+              file="" uid="55974792" isInstrument="0" fileTime="0" numInputs="0"
+              numOutputs="1"/>
+      <PLUGIN name="Output Toggle" descriptiveName="Simple output toggle processor."
+              format="Internal" category="Pedalboard Processors" manufacturer="Niall Moody"
+              version="1.00" file="" uid="7e1c3353" isInstrument="0" fileTime="0"
+              numInputs="1" numOutputs="2"/>
+      <PLUGIN name="VU Meter" descriptiveName="Simple VU Meter." format="Internal"
+              category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
+              file="" uid="b11e8ec8" isInstrument="0" fileTime="0" numInputs="2"
+              numOutputs="0"/>
+      <PLUGIN name="reacomp-standalone" descriptiveName="ReaComp (ReaPlugs Edition)"
+              format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
+              file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reacomp-standalone.dll"
+              uid="7265636d" isInstrument="0" fileTime="15204a5e900" numInputs="4"
+              numOutputs="2"/>
+      <PLUGIN name="reacontrolmidi-standalone" descriptiveName="ReaControlMIDI (ReaPlugs editio"
+              format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
+              file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reacontrolmidi-standalone.dll"
+              uid="72636d64" isInstrument="0" fileTime="15204a5d190" numInputs="2"
+              numOutputs="2"/>
+      <PLUGIN name="readelay-standalone" descriptiveName="ReaDelay (ReaPlugs Edition)"
+              format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
+              file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\readelay-standalone.dll"
+              uid="7265646c" isInstrument="0" fileTime="15204a5ba20" numInputs="2"
+              numOutputs="2"/>
+      <PLUGIN name="reaeq-standalone" descriptiveName="ReaEQ (ReaPlugs Edition)"
+              format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
+              file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reaeq-standalone.dll"
+              uid="72656571" isInstrument="0" fileTime="15204a5aa80" numInputs="2"
+              numOutputs="2"/>
+      <PLUGIN name="reafir_standalone" descriptiveName="ReaFir (ReaPlugs Edition)"
+              format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
+              file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reafir_standalone.dll"
+              uid="72656672" isInstrument="0" fileTime="15204a573d0" numInputs="2"
+              numOutputs="2"/>
+      <PLUGIN name="reagate-standalone" descriptiveName="ReaGate (ReaPlugs Edition)"
+              format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
+              file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reagate-standalone.dll"
+              uid="72656774" isInstrument="0" fileTime="15204a54cc0" numInputs="4"
+              numOutputs="2"/>
+      <PLUGIN name="reajs" descriptiveName="ReaJS" format="VST" category="Effect"
+              manufacturer="Cockos" version="V4.76" file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reajs.dll"
+              uid="72656a73" isInstrument="0" fileTime="15204a4c020" numInputs="2"
+              numOutputs="2"/>
+      <PLUGIN name="reastream-standalone" descriptiveName="ReaStream (ReaPlugs Edition)"
+              format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
+              file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reastream-standalone.dll"
+              uid="72737472" isInstrument="0" fileTime="15204a53550" numInputs="2"
+              numOutputs="2"/>
+      <PLUGIN name="reaxcomp-standalone" descriptiveName="ReaXcomp (ReaPlugs Edition)"
+              format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
+              file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reaxcomp-standalone.dll"
+              uid="72657863" isInstrument="0" fileTime="15204a50670" numInputs="2"
+              numOutputs="2"/>
+    </KNOWNPLUGINS>
+  </VALUE>
+  <VALUE name="WindowState" val="-2 31 1024 626"/>
+  <VALUE name="audioDeviceState">
+    <DEVICESETUP deviceType="Windows Audio" audioOutputDeviceName="Speaker/HP (Realtek High Definition Audio)"
+                 audioInputDeviceName="Line 1 (Virtual Audio Cable)" audioDeviceRate="48000"/>
+  </VALUE>
+  <VALUE name="lastPluginScanPath_VST" val="C:\Program Files (x86)\VSTPlugins\ReaPlugs"/>
+  <VALUE name="listWindowPos" val="490 140 300 400"/>
+</PROPERTIES>

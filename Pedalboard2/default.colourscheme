@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Pedalboard2ColourScheme>
+  <Colour name="Audio Connection" value="ff8c8ccc"/>
+  <Colour name="Button Colour" value="ffeeece1"/>
+  <Colour name="Button Highlight" value="b0b0b0ff"/>
+  <Colour name="CPU Meter Colour" value="b0b0b0ff"/>
+  <Colour name="Dialog Inner Background" value="ffffffff"/>
+  <Colour name="Field Background" value="fff3f2ea"/>
+  <Colour name="Level Dial Colour" value="ff8c8ccc"/>
+  <Colour name="List Selected Colour" value="ffb0b0ff"/>
+  <Colour name="Menu Selection Colour" value="40000000"/>
+  <Colour name="Parameter Connection" value="ffcca88f"/>
+  <Colour name="Plugin Background" value="ffffffff"/>
+  <Colour name="Plugin Border" value="ffb0b0ff"/>
+  <Colour name="Slider Colour" value="ff9a9181"/>
+  <Colour name="Text Colour" value="ff000000"/>
+  <Colour name="Text Editor Colour" value="ffffffff"/>
+  <Colour name="Tick Box Colour" value="809a9181"/>
+  <Colour name="VU Meter Lower Colour" value="7f00bf00"/>
+  <Colour name="VU Meter Over Colour" value="7fff0000"/>
+  <Colour name="VU Meter Upper Colour" value="7fffff00"/>
+  <Colour name="Vector Colour" value="80000000"/>
+  <Colour name="Waveform Colour" value="ffb0b0ff"/>
+  <Colour name="Window Background" value="ffeeece1"/>
+</Pedalboard2ColourScheme>
