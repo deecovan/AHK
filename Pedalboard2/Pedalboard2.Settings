@@ -27,10 +27,6 @@
               format="Internal" category="Pedalboard Processors" manufacturer="Niall Moody"
               version="1.00" file="" uid="7e1c3353" isInstrument="0" fileTime="0"
               numInputs="1" numOutputs="2"/>
-      <PLUGIN name="VU Meter" descriptiveName="Simple VU Meter." format="Internal"
-              category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
-              file="" uid="b11e8ec8" isInstrument="0" fileTime="0" numInputs="2"
-              numOutputs="0"/>
       <PLUGIN name="reacomp-standalone" descriptiveName="ReaComp (ReaPlugs Edition)"
               format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
               file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reacomp-standalone.dll"
@@ -75,6 +71,10 @@
               file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reaxcomp-standalone.dll"
               uid="72657863" isInstrument="0" fileTime="15204a50670" numInputs="2"
               numOutputs="2"/>
+      <PLUGIN name="VU Meter" descriptiveName="Simple VU Meter." format="Internal"
+              category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
+              file="" uid="b11e8ec8" isInstrument="0" fileTime="0" numInputs="2"
+              numOutputs="0"/>
     </KNOWNPLUGINS>
   </VALUE>
   <VALUE name="WindowState" val="-2 31 1024 626"/>

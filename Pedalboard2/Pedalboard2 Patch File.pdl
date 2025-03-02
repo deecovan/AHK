@@ -10,7 +10,7 @@
                 isInstrument="0" fileTime="0" numInputs="0" numOutputs="2"/>
         <STATE>0.</STATE>
       </FILTER>
-      <FILTER uid="2" x="10" y="120" uiLastX="0" uiLastY="0" windowOpen="0"
+      <FILTER uid="2" x="11" y="72" uiLastX="0" uiLastY="0" windowOpen="0"
               program="0">
         <PLUGIN name="Midi Input" descriptiveName="" format="Internal" category="I/O devices"
                 manufacturer="Raw Material Software" version="1.0" file="" uid="cb5fde0b"
@@ -24,7 +24,7 @@
                 isInstrument="0" fileTime="0" numInputs="2" numOutputs="0"/>
         <STATE>0.</STATE>
       </FILTER>
-      <FILTER uid="4" x="10" y="215" uiLastX="0" uiLastY="0" windowOpen="0"
+      <FILTER uid="4" x="96" y="72" uiLastX="0" uiLastY="0" windowOpen="0"
               program="0">
         <PLUGIN name="OSC Input" descriptiveName="Dummy AudioProcessor so we can see at a glance which plugins have OSC mappings."
                 format="Internal" category="Internal" manufacturer="Niall Moody"
@@ -40,7 +40,7 @@
                 numInputs="0" numOutputs="0"/>
         <STATE>0.</STATE>
       </FILTER>
-      <FILTER uid="6" x="125" y="10" uiLastX="0" uiLastY="0" windowOpen="0"
+      <FILTER uid="6" x="220" y="10" uiLastX="0" uiLastY="0" windowOpen="0"
               program="0" oscMIDIAddress="">
         <PLUGIN name="Level" descriptiveName="Simple level processor." format="Internal"
                 category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
@@ -48,7 +48,7 @@
                 numOutputs="2"/>
         <STATE>104.VMjLg3E....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtXSLyHCNwHSMh.RYjkFcuIGV8HBLh.RYjkFcuIWV8HBLh.RYjkFcuI2U8HBLh.RYjkFcuIGR8HBLh7hO...</STATE>
       </FILTER>
-      <FILTER uid="7" x="281" y="10" uiLastX="243" uiLastY="239" windowOpen="1"
+      <FILTER uid="7" x="343" y="10" uiLastX="229" uiLastY="227" windowOpen="1"
               program="0" oscMIDIAddress="">
         <PLUGIN name="reacomp-standalone" descriptiveName="ReaComp (ReaPlugs Edition)"
                 format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
@@ -57,14 +57,14 @@
                 numOutputs="2"/>
         <STATE>288.CMlaKA....fQ3IzZ....AHWYi0F..P.S....A...........................................................................................................................................................................CMlaKA....fQ3MzZ....AHWYi0F..P.S....S.....................................fOB5378nqKLtCwaZJOidsB..........vO.B..................ybPzb9Cf........6L50J.....vO.B.......7Cf..fODy9S</STATE>
       </FILTER>
-      <FILTER uid="8" x="598" y="10" uiLastX="739" uiLastY="239" windowOpen="1"
+      <FILTER uid="8" x="598" y="10" uiLastX="694" uiLastY="227" windowOpen="1"
               program="0" oscMIDIAddress="">
         <PLUGIN name="reaeq-standalone" descriptiveName="ReaEQ (ReaPlugs Edition)"
                 format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
                 file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reaeq-standalone.dll"
                 uid="72656571" isInstrument="0" fileTime="15204a5aa80" numInputs="2"
                 numOutputs="2"/>
-        <STATE>287.CMlaKA....fQBMDZ....AHWYkEG..P.S....A...............................................................................................................................................................................+EB...v..........D............PV.A........+O..........T.H....D.....XJiR9ej.f.k9CZwA3g58OH.........T.A....D.....TUcmrA+2o.YFta0Blr++OH.........T.A....D.............7+......</STATE>
+        <STATE>287.CMlaKA....fQBMDZ....AHWYkEG..P.S....A...............................................................................................................................................................................+EB...v..........D....fihWwT6qoX.YP01SWyvP9OF.........T.H....D.....jfOXezJ4c.wDEKMWc6+8OM.........T.H....D.....eM67GOV5m.wJBEAvpMp+ONcShAAV4G.T.A....D.............7+......</STATE>
       </FILTER>
       <CONNECTION srcFilter="1" srcChannel="0" dstFilter="6" dstChannel="1"/>
       <CONNECTION srcFilter="1" srcChannel="1" dstFilter="6" dstChannel="0"/>
