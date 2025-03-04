@@ -4,7 +4,11 @@
 ;by cheva (c) MIT 2012-2024
 
 ;-=-\ Set globals \-=-
-global MouseSpeed = % ran(2, 4)
+global SMin = 200
+global SMax = 600
+global MMin = 2
+global MMax = 6
+MouseSpeed = % ran(MMin, MMax)
 SetDefaultMouseSpeed, MouseSpeed
 
 ;-=-\ Functions \-=-
@@ -51,13 +55,12 @@ return
 
 ;-----Let's play!-----
 ; Emergency process kill
-$^F1::
-	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
-	Process,Close,svchost.exe
-return
+;$^F1::
+;	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
+;	Process,Close,svchost.exe
+;return
 
 ;; Enable mouse clicker (Shift-Click, random time 200-400 msec, return to current mouse position)
-
 $^+C::
 	Send, {^+C}
 	MouseGetPos, ClickX, ClickY
@@ -76,8 +79,8 @@ $^+C::
 		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
 		Send, {LShift Up}
 		MouseMove, %OrigX%, %OrigY%
-		Sleep, % ran(250, 500)
-		global MouseSpeed = % ran(2, 4)
+		Sleep, % ran(SMin, SMax)
+		MouseSpeed = % ran(MMin, MMax)
 		SetDefaultMouseSpeed, MouseSpeed
 	}
 return
@@ -101,6 +104,15 @@ return
 
 $^+MButton::
 	Send, {MButton Down}
+	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
+return
+
+; View and Run
+
+$!W::
+	MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
+	Send, {LAlt Down}
+	Send, {W Down}
 	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
 return
 
