@@ -109,7 +109,7 @@ return
 
 ; View and Run
 
-$!W::
+$!Space::
 	MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
 	Send, {LAlt Down}
 	Send, {W Down}
