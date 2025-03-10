@@ -55,7 +55,7 @@
                 file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reaeq-standalone.dll"
                 uid="72656571" isInstrument="0" fileTime="15204a5aa80" numInputs="2"
                 numOutputs="2"/>
-        <STATE>287.CMlaKA....fQBMDZ....AHWYkEG..P.S....A...............................................................................................................................................................................+EB...v..........D....PblACyqEUZ.4E.......+OGcShAAV4x+S.H....D.....cTj.SLQ7e.glYeAIEAx8Of.........T.A....D....vCmvtMZm7i.cR2ZPqdUA.PlpwKcShA2+S.A....D.............7+......</STATE>
+        <STATE>287.CMlaKA....fQBMDZ....AHWYkEG..P.S....A...............................................................................................................................................................................+EB...v..........D....PblACyqEUZ.4E.......+OGcShAAV4x+S.H....D.....dTj.SLQ7e.0lYeAIEAx8Ok.........T.A....D....vCmvtMZm7i.cR2ZPqdUA.PdpwKcShA2+S.A....D.............7+......</STATE>
       </FILTER>
       <FILTER uid="9" x="279" y="10" uiLastX="88" uiLastY="218" windowOpen="1"
               program="0" oscMIDIAddress="">

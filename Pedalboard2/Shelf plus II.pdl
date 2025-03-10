@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Pedalboard2PatchFile>
-  <Patch tempo="120" name="Shelf plus R">
+  <Patch tempo="120" name="Shelf plus II">
     <FILTERGRAPH>
       <FILTER uid="1" x="10" y="10" uiLastX="0" uiLastY="0" windowOpen="0"
               program="0">
@@ -55,7 +55,7 @@
                 file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reaeq-standalone.dll"
                 uid="72656571" isInstrument="0" fileTime="15204a5aa80" numInputs="2"
                 numOutputs="2"/>
-        <STATE>287.CMlaKA....fQBMDZ....AHWYkEG..P.S....A...............................................................................................................................................................................+EB...v..........D....v4UbZFo8Ia.k+R8BFkWT+OHbShAAV4x+S.H....D.....WdBVBsxgg.otou5xXrN9O1.........T.A....D....v3mOVHyRLj.wTwq8YxyG+OrpwKcShA2+S.A....D.............7+......</STATE>
+        <STATE>287.CMlaKA....fQBMDZ....AHWYkEG..P.S....A...............................................................................................................................................................................+EB...v..........D....v8UbZFo8Ia.U+R8BFkWT+OBbShAAV4x+S.H....D....PUdBVBsxgg.ctou5xXrN9Ot.........T.A....D....f5mOVHyRLj.oTwq8YxyG+OzpwKcShA2+S.A....D.............7+......</STATE>
       </FILTER>
       <FILTER uid="9" x="279" y="10" uiLastX="88" uiLastY="218" windowOpen="1"
               program="0" oscMIDIAddress="">
@@ -66,8 +66,8 @@
                 numOutputs="2"/>
         <STATE>412.CMlaKA....fQBMDZ....AHWY3MF..P.S....A...............................................................................................................................................................................7iC....A............oAD........7+.DbceXdS.8O38++++++W.D..........7....fk....E....DA...........zi.A........+OJtCu2LTsV+iL.......J.A..........O....XI...PA....Q...........HNKP........v+CPv08g4MAz+D.......HCP..........vC....VB...T....PD...........bWCD........7+HKgV1xOc.7Ox.......n.D..........7....fk....E....DA...P.....A.............+O......</STATE>
       </FILTER>
-      <CONNECTION srcFilter="1" srcChannel="0" dstFilter="6" dstChannel="1"/>
-      <CONNECTION srcFilter="1" srcChannel="1" dstFilter="6" dstChannel="0"/>
+      <CONNECTION srcFilter="1" srcChannel="0" dstFilter="6" dstChannel="0"/>
+      <CONNECTION srcFilter="1" srcChannel="1" dstFilter="6" dstChannel="1"/>
       <CONNECTION srcFilter="2" srcChannel="4096" dstFilter="5" dstChannel="4096"/>
       <CONNECTION srcFilter="6" srcChannel="0" dstFilter="9" dstChannel="0"/>
       <CONNECTION srcFilter="6" srcChannel="1" dstFilter="9" dstChannel="1"/>
