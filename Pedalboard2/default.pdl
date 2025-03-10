@@ -46,18 +46,18 @@
                 category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
                 file="" uid="45eab64" isInstrument="0" fileTime="0" numInputs="2"
                 numOutputs="2"/>
-        <STATE>103.VMjLgzE....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtHSLvjyL2TiHfTFYoQ2axgUOh.iHfTFYoQ2axkUOh.iHfTFYoQ2axcUOh.iHfTFYoQ2axgTOh.iHu3C.CC</STATE>
+        <STATE>103.VMjLgzE....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtPSNxDCN2TiHfTFYoQ2axgUOh.iHfTFYoQ2axkUOh.iHfTFYoQ2axcUOh.iHfTFYoQ2axgTOh.iHu3C...</STATE>
       </FILTER>
-      <FILTER uid="8" x="461" y="10" uiLastX="607" uiLastY="233" windowOpen="1"
+      <FILTER uid="8" x="461" y="10" uiLastX="579" uiLastY="232" windowOpen="1"
               program="0" oscMIDIAddress="">
         <PLUGIN name="reaeq-standalone" descriptiveName="ReaEQ (ReaPlugs Edition)"
                 format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
                 file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reaeq-standalone.dll"
                 uid="72656571" isInstrument="0" fileTime="15204a5aa80" numInputs="2"
                 numOutputs="2"/>
-        <STATE>254.CMlaKA....fQBMDZ....AHWYkEG..P.S....A...............................................................................................................................................................................dEB...f..........D....v5iSDDW4mm.o9CZwA3g58OIXkCsHamw+S.A....D.....1SIppBWpo.YVtCWpecz+O3WkCsHamw+S.A....D.............7+......</STATE>
+        <STATE>287.CMlaKA....fQBMDZ....AHWYkEG..P.S....A...............................................................................................................................................................................+EB...v..........D....vIXcMYoR8e.g4KRJEktb9OjbShAAV4x+S.H....D.....DtmBDsqDl.Y2CN3ugE89OW2O03ktIF.T.A....D.....iJeEyBuWp.c+R2X1PHV.PL.........T.A....D.............7+......</STATE>
       </FILTER>
-      <FILTER uid="9" x="279" y="10" uiLastX="1" uiLastY="232" windowOpen="1"
+      <FILTER uid="9" x="279" y="10" uiLastX="10" uiLastY="232" windowOpen="1"
               program="0" oscMIDIAddress="">
         <PLUGIN name="reaxcomp-standalone" descriptiveName="ReaXcomp (ReaPlugs Edition)"
                 format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
