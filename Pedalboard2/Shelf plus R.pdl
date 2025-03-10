@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Pedalboard2PatchFile>
-  <Patch tempo="120" name="Shelf plus X">
+  <Patch tempo="120" name="Shelf plus R">
     <FILTERGRAPH>
       <FILTER uid="1" x="10" y="10" uiLastX="0" uiLastY="0" windowOpen="0"
               program="0">
@@ -46,7 +46,7 @@
                 category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
                 file="" uid="45eab64" isInstrument="0" fileTime="0" numInputs="2"
                 numOutputs="2"/>
-        <STATE>103.VMjLgzE....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtXCM3PyL2TiHfTFYoQ2axgUOh.iHfTFYoQ2axkUOh.iHfTFYoQ2axcUOh.iHfTFYoQ2axgTOh.iHu3C.0A</STATE>
+        <STATE>97.VMjLgbE....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtTiHfTFYoQ2axgUOh.iHfTFYoQ2axkUOh.iHfTFYoQ2axcUOh.iHfTFYoQ2axgTOh.iHu3C.VA</STATE>
       </FILTER>
       <FILTER uid="8" x="461" y="10" uiLastX="655" uiLastY="218" windowOpen="1"
               program="0" oscMIDIAddress="">
@@ -55,7 +55,7 @@
                 file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reaeq-standalone.dll"
                 uid="72656571" isInstrument="0" fileTime="15204a5aa80" numInputs="2"
                 numOutputs="2"/>
-        <STATE>287.CMlaKA....fQBMDZ....AHWYkEG..P.S....A...............................................................................................................................................................................+EB...v..........D....PblACyqEUZ.4E.......+OGcShAAV4x+S.H....D....vQTj.SLQ7e.MiYeAIEAx8OM.........T.A....D....PSmvtMZm7i.cT2ZPqdUA.PIpwKcShA2+S.A....D.............7+......</STATE>
+        <STATE>287.CMlaKA....fQBMDZ....AHWYkEG..P.S....A...............................................................................................................................................................................+EB...v..........D....v4UbZFo8Ia.k+R8BFkWT+OHbShAAV4x+S.H....D.....WdBVBsxgg.otou5xXrN9O1.........T.A....D....v3mOVHyRLj.wTwq8YxyG+OrpwKcShA2+S.A....D.............7+......</STATE>
       </FILTER>
       <FILTER uid="9" x="279" y="10" uiLastX="88" uiLastY="218" windowOpen="1"
               program="0" oscMIDIAddress="">
@@ -64,10 +64,10 @@
                 file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reaxcomp-standalone.dll"
                 uid="72657863" isInstrument="0" fileTime="15204a50670" numInputs="2"
                 numOutputs="2"/>
-        <STATE>412.CMlaKA....fQBMDZ....AHWY3MF..P.S....A...............................................................................................................................................................................7iC....A............oAD........7+.DbceXdS.8Ov+++++++O.D..........7....fk....E....DA...........zi.A........+OJtCu2LTsV+C5+++++++G.A..........O....XI...PA....Q...........HNKP........v+CPv08g4MAz+X.......fBP..........vC....VB...T....PD...........bWCD........7+HKgV1xOc.7On+++++++e.D..........7....fk....E....DA...P.....A.............+O......</STATE>
+        <STATE>412.CMlaKA....fQBMDZ....AHWY3MF..P.S....A...............................................................................................................................................................................7iC....A............oAD........7+.DbceXdS.8O38++++++W.D..........7....fk....E....DA...........zi.A........+OJtCu2LTsV+iL.......J.A..........O....XI...PA....Q...........HNKP........v+CPv08g4MAz+D.......HCP..........vC....VB...T....PD...........bWCD........7+HKgV1xOc.7Ox.......n.D..........7....fk....E....DA...P.....A.............+O......</STATE>
       </FILTER>
-      <CONNECTION srcFilter="1" srcChannel="0" dstFilter="6" dstChannel="0"/>
-      <CONNECTION srcFilter="1" srcChannel="1" dstFilter="6" dstChannel="1"/>
+      <CONNECTION srcFilter="1" srcChannel="0" dstFilter="6" dstChannel="1"/>
+      <CONNECTION srcFilter="1" srcChannel="1" dstFilter="6" dstChannel="0"/>
       <CONNECTION srcFilter="2" srcChannel="4096" dstFilter="5" dstChannel="4096"/>
       <CONNECTION srcFilter="6" srcChannel="0" dstFilter="9" dstChannel="0"/>
       <CONNECTION srcFilter="6" srcChannel="1" dstFilter="9" dstChannel="1"/>
