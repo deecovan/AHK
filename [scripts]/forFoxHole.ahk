@@ -102,16 +102,16 @@ $^+RButton::
 	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
 return
 
-$^+MButton::
-	Send, {MButton Down}
+; View 
+$MButton::
+	Send, {LAlt Down}
 	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
 return
 
 ; View and Run
-
 $!Space::
-	MouseMove, (A_ScreenWidth // 2), (A_ScreenHeight // 2)
 	Send, {LAlt Down}
+	Sleep, 200
 	Send, {W Down}
 	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
 return
