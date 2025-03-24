@@ -135,3 +135,20 @@ $CapsLock::
 	}
 	Send, {LControl Up}
 return
+
+; Release all keys
+$BackSpace::
+	Send, {BackSpace}
+	SoundPlay %A_WinDir%\Media\Windows Message Nudge.wav
+	Send, {LShift Up}
+	Send, {LAlt Up}
+	Send, {LControl Up}
+	Send, {LButton Up}
+	Send, {RButton Up}
+	Send, {MButton Up}
+	Loop, 0xFF {
+		IF GetKeyState(Key:=Format("VK{:X}",A_Index))
+			SendInput, {%Key% up}
+	}
+	Reload
+return
