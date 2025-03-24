@@ -110,6 +110,8 @@ return
 
 ; View and Run
 $!Space::
+	Send, {LAlt Up}
+	Sleep, 200
 	Send, {LAlt Down}
 	Sleep, 200
 	Send, {W Down}
