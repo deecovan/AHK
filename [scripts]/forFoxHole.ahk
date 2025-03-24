@@ -8,6 +8,7 @@ global SMin = 200
 global SMax = 600
 global MMin = 2
 global MMax = 6
+global Zoom = false
 MouseSpeed = % ran(MMin, MMax)
 SetDefaultMouseSpeed, MouseSpeed
 
@@ -118,3 +119,19 @@ $!Space::
 	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
 return
 
+; Zoom 100%
+$CapsLock::
+	Send, {LControl Down}
+	global Zoom = not(Zoom)
+	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
+	loop 25 {
+		if Zoom {
+			Send, {WheelUp}
+		}
+		else {
+			Send, {WheelDown}
+		}
+		Sleep, 40
+	}
+	Send, {LControl Up}
+return
