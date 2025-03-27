@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!-- Mirrored from www.autohotkey.com/docs/v1/lib/Break.htm by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Sep 2024 09:25:25 GMT -->
+<head>
+<title>Break - Syntax &amp; Usage | AutoHotkey v1</title>
+<meta name="description" content="The Break statement exits (terminates) any type of loop statement." />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="../static/theme.css" rel="stylesheet" type="text/css" />
+<script src="../static/content.js" type="text/javascript"></script>
+</head>
+<body>
+
+<h1>Break</h1>
+<p>Exits (terminates) any type of <a href="../Language.html#loop-statement">loop statement</a>.</p>
+<pre class="Syntax"><span class="func">Break</span> <span class="optional">, LoopLabel</span></pre>
+
+<h2 id="Parameters">Parameters</h2>
+<dl>
+  <dt>LoopLabel <span class="ver">[AHK_L 59+]</span></dt>
+  <dd>If omitted or 1, this statement applies to the innermost loop in which it is enclosed. Otherwise, specify which loop this statement should apply to; either by <a href="../misc/Labels.html">label name</a> or numeric nesting level. <em>LoopLabel</em> must be a constant value - variables and expressions are not supported. If a <a href="../misc/Labels.html">label</a> is specified, it must point directly at a <a href="../Language.html#loop-statement">loop statement</a>.</dd>
+</dl>
+
+<h2 id="Remarks">Remarks</h2>
+<p>The use of Break and <a href="Continue.html">Continue</a> are encouraged over <a href="Goto.html">Goto</a> since they usually make scripts more readable and maintainable.</p>
+<h2 id="Related">Related</h2>
+<p><a href="Continue.html">Continue</a>, <a href="Loop.html">Loop</a>, <a href="While.html">While-loop</a>, <a href="For.html">For-loop</a>, <a href="Block.html">Blocks</a>, <a href="../misc/Labels.html">Labels</a></p>
+
+<h2 id="Examples">Examples</h2>
+<div class="ex" id="ExBasic">
+<p><a class="ex_number" href="#ExBasic"></a> Breaks the loop if <var>var</var> is greater than 25.</p>
+<pre>Loop
+{
+    <em>; ...</em>
+    if (var &gt; 25)
+        break
+    <em>; ...</em>
+    if (var &lt;= 5)
+        continue
+}</pre>
+</div>
+
+<div class="ex" id="ExBreakOuter">
+<p><a class="ex_number" href="#ExBreakOuter"></a> Breaks the outer loop from within a nested loop.</p>
+<pre>outer:
+Loop 3
+{
+    x := A_Index
+    Loop 3
+    {
+        if (x*A_Index = 6)
+            break outer  <em>; Equivalent to <b>break 2</b> or <b>goto break_outer</b>.</em>
+        MsgBox %x%,%A_Index%
+    }
+}
+break_outer: <em>; For goto.</em>
+</pre>
+</div>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8bdcee0bbf9b1911","version":"2024.8.0","r":1,"serverTiming":{"name":{"cfL4":true}},"token":"5204006f3e8e418e97b0c729c9eb0334","b":1}' crossorigin="anonymous"></script>
+</body>
+
+<!-- Mirrored from www.autohotkey.com/docs/v1/lib/Break.htm by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Sep 2024 09:25:25 GMT -->
+</html>
