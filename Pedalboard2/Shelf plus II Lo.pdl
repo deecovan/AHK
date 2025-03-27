@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Pedalboard2PatchFile>
-  <Patch tempo="120" name="Shelf Grim II">
+  <Patch tempo="120" name="Shelf Grim X Lo">
     <FILTERGRAPH>
       <FILTER uid="1" x="10" y="10" uiLastX="0" uiLastY="0" windowOpen="0"
               program="0">
@@ -40,39 +40,39 @@
                 numInputs="0" numOutputs="0"/>
         <STATE>0.</STATE>
       </FILTER>
-      <FILTER uid="6" x="289" y="10" uiLastX="10" uiLastY="10" windowOpen="0"
-              program="0" oscMIDIAddress="">
-        <PLUGIN name="Level" descriptiveName="Simple level processor." format="Internal"
-                category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
-                file="" uid="45eab64" isInstrument="0" fileTime="0" numInputs="2"
-                numOutputs="2"/>
-        <STATE>97.VMjLgbE....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtTiHfTFYoQ2axgUOh.iHfTFYoQ2axkUOh.iHfTFYoQ2axcUOh.iHfTFYoQ2axgTOh.iHu3C.x.</STATE>
-      </FILTER>
-      <FILTER uid="8" x="586" y="10" uiLastX="571" uiLastY="231" windowOpen="1"
-              program="0" oscMIDIAddress="">
-        <PLUGIN name="reaeq-standalone" descriptiveName="ReaEQ (ReaPlugs Edition)"
-                format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
-                file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reaeq-standalone.dll"
-                uid="72656571" isInstrument="0" fileTime="15204a5aa80" numInputs="2"
-                numOutputs="2"/>
-        <STATE>287.CMlaKA....fQBMDZ....AHWYkEG..P.S....A...............................................................................................................................................................................+EB...v..........D.....5+2drSMBf.MFuY+3pbR+OjbShAAV4x+S.H....D....PQvv+QfrDl.EL.......+OSbnEY6782+S.A....D.....24.7uighp.c0LTrULuz9OSbnEY6782+S.A....D.............7+......</STATE>
-      </FILTER>
-      <FILTER uid="9" x="395" y="10" uiLastX="10" uiLastY="231" windowOpen="1"
-              program="0" oscMIDIAddress="">
-        <PLUGIN name="reaxcomp-standalone" descriptiveName="ReaXcomp (ReaPlugs Edition)"
-                format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
-                file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reaxcomp-standalone.dll"
-                uid="72657863" isInstrument="0" fileTime="15204a50670" numInputs="2"
-                numOutputs="2"/>
-        <STATE>468.CMlaKA....fQBMDZ....AHWY3MF..P.S....A.............................................................................................................................................................................P.zfC...PA....cedBqH0jABD........7+Tyl6qsqQD7O..........D..........7....fk....E....LA...fIbjBDCNJm.A........+OyWYJ3Rb.T+C7+++++++C.A..........O....XI...PA....S.....FRJE1jM2JP........v+i877jl8y4q+7+++++++eAP..........vC....VB...T....vD...........bWCD........7+3L+Bg4Bzv4Ov+++++++O.D..........7....fk....E....LA....5j1COfrFt.A........+Ofqfw34jgg9y9++++++eM.A..........O....XI...PA....S....D....P.............v+C.....</STATE>
-      </FILTER>
-      <FILTER uid="10" x="185" y="10" uiLastX="10" uiLastY="10" windowOpen="0"
+      <FILTER uid="6" x="289" y="10" uiLastX="0" uiLastY="0" windowOpen="0"
               program="0" oscMIDIAddress="">
         <PLUGIN name="Level" descriptiveName="Simple level processor." format="Internal"
                 category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
                 file="" uid="45eab64" isInstrument="0" fileTime="0" numInputs="2"
                 numOutputs="2"/>
         <STATE>97.VMjLgbE....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtTiHfTFYoQ2axgUOh.iHfTFYoQ2axkUOh.iHfTFYoQ2axcUOh.iHfTFYoQ2axgTOh.iHu3C...</STATE>
+      </FILTER>
+      <FILTER uid="8" x="586" y="10" uiLastX="609" uiLastY="245" windowOpen="1"
+              program="0" oscMIDIAddress="">
+        <PLUGIN name="reaeq-standalone" descriptiveName="ReaEQ (ReaPlugs Edition)"
+                format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
+                file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reaeq-standalone.dll"
+                uid="72656571" isInstrument="0" fileTime="15204a5aa80" numInputs="2"
+                numOutputs="2"/>
+        <STATE>287.CMlaKA....fQBMDZ....AHWYkEG..P.S....A...............................................................................................................................................................................+EB...v..........D.....5+2drSMBf.0wvMuvHqk9OjbShAAV4x+S.H....D....ffhTRcY1Ym.QEra897Gi+OSbnEY6782+S.A....D.....3Yp6zI53p.gATjF9FK2+OSbnEY6782+S.A....D.............7+......</STATE>
+      </FILTER>
+      <FILTER uid="9" x="395" y="10" uiLastX="10" uiLastY="245" windowOpen="1"
+              program="0" oscMIDIAddress="">
+        <PLUGIN name="reaxcomp-standalone" descriptiveName="ReaXcomp (ReaPlugs Edition)"
+                format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
+                file="C:\Program Files (x86)\VSTPlugins\ReaPlugs\reaxcomp-standalone.dll"
+                uid="72657863" isInstrument="0" fileTime="15204a50670" numInputs="2"
+                numOutputs="2"/>
+        <STATE>468.CMlaKA....fQBMDZ....AHWY3MF..P.S....A.............................................................................................................................................................................P.zfC...PA....cedBqH0jABD........7+Tyl6qsqQD7O..........D..........7....fk....E....LA...fIbjBDCNJm.A........+OSZYJ3Rb.T+C7+++++++C.A..........O....XI...PA....S.....FRJE1jM2JP........v+y1glbTkyEs+7+++++++eAP..........vC....VB...T....vD...........bWCD........7+3J+Bg4Bzv4OR.......f.D..........7....fk....E....LA...fWBzNO55iv.A........+OaGYjSeTCn9y9++++++eM.A..........O....XI...PA....S....D....P.............v+C.....</STATE>
+      </FILTER>
+      <FILTER uid="10" x="185" y="10" uiLastX="0" uiLastY="0" windowOpen="0"
+              program="0" oscMIDIAddress="">
+        <PLUGIN name="Level" descriptiveName="Simple level processor." format="Internal"
+                category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
+                file="" uid="45eab64" isInstrument="0" fileTime="0" numInputs="2"
+                numOutputs="2"/>
+        <STATE>97.VMjLgbE....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtTiHfTFYoQ2axgUOh.iHfTFYoQ2axkUOh.iHfTFYoQ2axcUOh.iHfTFYoQ2axgTOh.iHu3C.4C</STATE>
       </FILTER>
       <CONNECTION srcFilter="1" srcChannel="1" dstFilter="6" dstChannel="1"/>
       <CONNECTION srcFilter="1" srcChannel="0" dstFilter="10" dstChannel="0"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Pedalboard2PatchFile>
-  <Patch tempo="120" name="Shelf Grim">
+  <Patch tempo="120" name="Shelf Grim X">
     <FILTERGRAPH>
       <FILTER uid="1" x="10" y="10" uiLastX="0" uiLastY="0" windowOpen="0"
               program="0">
@@ -72,7 +72,7 @@
                 category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
                 file="" uid="45eab64" isInstrument="0" fileTime="0" numInputs="2"
                 numOutputs="2"/>
-        <STATE>97.VMjLgbE....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtTiHfTFYoQ2axgUOh.iHfTFYoQ2axkUOh.iHfTFYoQ2axcUOh.iHfTFYoQ2axgTOh.iHu3C...</STATE>
+        <STATE>97.VMjLgbE....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtTiHfTFYoQ2axgUOh.iHfTFYoQ2axkUOh.iHfTFYoQ2axcUOh.iHfTFYoQ2axgTOh.iHu3C.f.</STATE>
       </FILTER>
       <CONNECTION srcFilter="1" srcChannel="0" dstFilter="6" dstChannel="1"/>
       <CONNECTION srcFilter="1" srcChannel="1" dstFilter="10" dstChannel="0"/>
