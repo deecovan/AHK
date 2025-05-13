@@ -46,9 +46,9 @@
                 category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
                 file="" uid="45eab64" isInstrument="0" fileTime="0" numInputs="2"
                 numOutputs="2"/>
-        <STATE>103.VMjLgzE....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtHCN4.iMxTiHfTFYoQ2axgUOh.iHfTFYoQ2axkUOh.iHfTFYoQ2axcUOh.iHfTFYoQ2axgTOh.iHu3C.CC</STATE>
+        <STATE>105.VMjLg7E....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtLyL0bCNwHCM1HBHkQVZz8lbX0iHvHBHkQVZz8lbY0iHvHBHkQVZz8lbW0iHvHBHkQVZz8lbH0iHvHxK9.vB</STATE>
       </FILTER>
-      <FILTER uid="8" x="586" y="10" uiLastX="569" uiLastY="208" windowOpen="1"
+      <FILTER uid="8" x="586" y="10" uiLastX="534" uiLastY="198" windowOpen="1"
               program="0" oscMIDIAddress="">
         <PLUGIN name="reaeq-standalone" descriptiveName="ReaEQ (ReaPlugs Edition)"
                 format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
@@ -57,7 +57,7 @@
                 numOutputs="2"/>
         <STATE>287.CMlaKA....fQBMDZ....AHWYkEG..P.S....A...............................................................................................................................................................................+EB...v..........D.....xs+gPRF0f.0duNacg7r9OjbShAAV4x+S.H....D....vPjDedXPYk.w2tCWpecz+O1YlYlYlYD.T.A....D.....1.9BJpEHp.k.vl5Xapd+OSbnEY6782+S.A....D.............7+......</STATE>
       </FILTER>
-      <FILTER uid="9" x="395" y="10" uiLastX="0" uiLastY="208" windowOpen="1"
+      <FILTER uid="9" x="395" y="10" uiLastX="10" uiLastY="198" windowOpen="1"
               program="0" oscMIDIAddress="">
         <PLUGIN name="reaxcomp-standalone" descriptiveName="ReaXcomp (ReaPlugs Edition)"
                 format="VST" category="Effect" manufacturer="Cockos" version="V4.76"
@@ -72,10 +72,10 @@
                 category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
                 file="" uid="45eab64" isInstrument="0" fileTime="0" numInputs="2"
                 numOutputs="2"/>
-        <STATE>103.VMjLgzE....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtHCN4.iMxTiHfTFYoQ2axgUOh.iHfTFYoQ2axkUOh.iHfTFYoQ2axcUOh.iHfTFYoQ2axgTOh.iHu3C.CC</STATE>
+        <STATE>104.VMjLg3E....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtDyM0bCNwHSMh.RYjkFcuIGV8HBLh.RYjkFcuIWV8HBLh.RYjkFcuI2U8HBLh.RYjkFcuIGR8HBLh7hO...</STATE>
       </FILTER>
-      <CONNECTION srcFilter="1" srcChannel="0" dstFilter="6" dstChannel="1"/>
-      <CONNECTION srcFilter="1" srcChannel="1" dstFilter="10" dstChannel="0"/>
+      <CONNECTION srcFilter="1" srcChannel="1" dstFilter="6" dstChannel="1"/>
+      <CONNECTION srcFilter="1" srcChannel="0" dstFilter="10" dstChannel="0"/>
       <CONNECTION srcFilter="2" srcChannel="4096" dstFilter="5" dstChannel="4096"/>
       <CONNECTION srcFilter="6" srcChannel="1" dstFilter="9" dstChannel="1"/>
       <CONNECTION srcFilter="8" srcChannel="0" dstFilter="3" dstChannel="0"/>
