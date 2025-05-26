@@ -46,7 +46,7 @@
                 category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
                 file="" uid="45eab64" isInstrument="0" fileTime="0" numInputs="2"
                 numOutputs="2"/>
-        <STATE>101.VMjLgrE....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtHSL3bSMh.RYjkFcuIGV8HBLh.RYjkFcuIWV8HBLh.RYjkFcuI2U8HBLh.RYjkFcuIGR8HBLh7hO.H.</STATE>
+        <STATE>101.VMjLgrE....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtHSL3bSMh.RYjkFcuIGV8HBLh.RYjkFcuIWV8HBLh.RYjkFcuI2U8HBLh.RYjkFcuIGR8HBLh7hO.fN</STATE>
       </FILTER>
       <FILTER uid="9" x="395" y="10" uiLastX="10" uiLastY="218" windowOpen="1"
               program="0" oscMIDIAddress="">
@@ -63,7 +63,7 @@
                 category="Pedalboard Processors" manufacturer="Niall Moody" version="1.00"
                 file="" uid="45eab64" isInstrument="0" fileTime="0" numInputs="2"
                 numOutputs="2"/>
-        <STATE>101.VMjLgrE....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtHSL3bSMh.RYjkFcuIGV8HBLh.RYjkFcuIWV8HBLh.RYjkFcuI2U8HBLh.RYjkFcuIGR8HBLh7hO.H.</STATE>
+        <STATE>101.VMjLgrE....OPUFYgwlXuElbjICSkYWYrMUYzQWZtc1bfvVY1UFa8HBLtHSL3bSMh.RYjkFcuIGV8HBLh.RYjkFcuIWV8HBLh.RYjkFcuI2U8HBLh.RYjkFcuIGR8HBLh7hO.XG</STATE>
       </FILTER>
       <CONNECTION srcFilter="1" srcChannel="1" dstFilter="6" dstChannel="1"/>
       <CONNECTION srcFilter="1" srcChannel="0" dstFilter="10" dstChannel="0"/>
