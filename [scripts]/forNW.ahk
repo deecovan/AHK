@@ -80,19 +80,17 @@ $^+C::
 return
 
 $!1::            
-	MouseClick, right
-	Sleep, % ran(50, 100)
-	MouseClick, right
-	Sleep, % ran(50, 100)
+	Send, {LAlt, Up}
+	Send, {1, Up}
 	Send, 6
-	Sleep, % ran(50, 100)
+	Sleep, % ran(150, 200)
 	Send, 8
-	Sleep, % ran(50, 100)
+	Sleep, % ran(150, 200)
 	Send, 6
-	Sleep, % ran(50, 100)
+	Sleep, % ran(150, 200)
 	Send, 6
-	Sleep, % ran(50, 100)
+	Sleep, % ran(150, 200)
 	Send, 8
-	Sleep, % ran(50, 100)
+	Sleep, % ran(150, 200)
 	Send, 6
 return 
