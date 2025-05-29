@@ -83,15 +83,15 @@ $!1::
 	Send, {LAlt, Up}
 	Send, {1, Up}
 	Send, 6
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 8
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 6
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 6
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 8
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 6
 return 
 
@@ -99,15 +99,15 @@ $!2::
 	Send, {LAlt, Up}
 	Send, {2, Up}
 	Send, 4
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 1
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 7
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 4
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 1
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 2
 return 
 
@@ -115,17 +115,17 @@ $!3::
 	Send, {LAlt, Up}
 	Send, {3, Up}
 	Send, 2
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 4
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 6
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 7
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 2
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 4
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 6
 return 
 
@@ -133,18 +133,18 @@ $!4::
 	Send, {LAlt, Up}
 	Send, {4, Up}
 	Send, 5
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 4
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 4
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 6
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 7
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 6
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 5
-	Sleep, % ran(200, 300)
+	Sleep, % ran(150, 200)
 	Send, 1
 return 
