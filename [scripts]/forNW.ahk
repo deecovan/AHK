@@ -79,7 +79,8 @@ $^+C::
 	}
 return
 
-$!1::            
+; Flamenko
+$1`::           
 	Send, {LAlt, Up}
 	Send, {1, Up}
 	Send, 6
@@ -95,6 +96,7 @@ $!1::
 	Send, 6
 return 
 
+; Healing Horal
 $!2::            
 	Send, {LAlt, Up}
 	Send, {2, Up}
@@ -111,6 +113,7 @@ $!2::
 	Send, 2
 return 
 
+; Wind Mambo
 $!3::            
 	Send, {LAlt, Up}
 	Send, {3, Up}
@@ -129,6 +132,7 @@ $!3::
 	Send, 6
 return 
 
+; Iron March
 $!4::            
 	Send, {LAlt, Up}
 	Send, {4, Up}
@@ -149,7 +153,28 @@ $!4::
 	Send, 1
 return 
 
-$!5::            
+; Heroe's Ballade
+$!5::             
+	Send, {LAlt, Up}
+	Send, {1, Up}
+	Send, 1
+	Sleep, % ran(150, 200)
+	Send, 5
+	Sleep, % ran(150, 200)
+	Send, 3
+	Sleep, % ran(150, 200)
+	Send, 7
+	Sleep, % ran(150, 200)
+	Send, 6
+	Send, 7
+	Sleep, % ran(150, 200)
+	Send, 6
+	Sleep, % ran(150, 200)
+	Send, 7
+return 
+
+; Which's Ballade
+$!6::            
 	Send, {LAlt, Up}
 	Send, {4, Up}
 	Send, 7
@@ -165,3 +190,4 @@ $!5::
 	Send, 2
 	Sleep, % ran(150, 200)
 return 
+
