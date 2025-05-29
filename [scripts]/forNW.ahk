@@ -148,3 +148,20 @@ $!4::
 	Sleep, % ran(150, 200)
 	Send, 1
 return 
+
+$!5::            
+	Send, {LAlt, Up}
+	Send, {4, Up}
+	Send, 7
+	Sleep, % ran(150, 200)
+	Send, 6
+	Sleep, % ran(150, 200)
+	Send, 4
+	Sleep, % ran(150, 200)
+	Send, 5
+	Sleep, % ran(150, 200)
+	Send, 4
+	Sleep, % ran(150, 200)
+	Send, 2
+	Sleep, % ran(150, 200)
+return 
