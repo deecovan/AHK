@@ -1,4 +1,0 @@
-
-magick.exe LoL-16.ico LoL-32.ico LoL-48.ico LoL-64.ico LoL-128.ico LoL-256.ico LoL.ico
-
-Ahk2Exe.exe /in C:/Projects/_AHK_/forAHK/forLOL.ahk /out C:/Projects/_AHK_/forAHK/forLOL.exe /icon C:/Projects/_AHK_/LoL.ico

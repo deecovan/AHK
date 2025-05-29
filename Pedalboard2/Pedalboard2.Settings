@@ -77,7 +77,7 @@
               numOutputs="0"/>
     </KNOWNPLUGINS>
   </VALUE>
-  <VALUE name="WindowState" val="1 31 955 214"/>
+  <VALUE name="WindowState" val="1 31 951 214"/>
   <VALUE name="audioDeviceState">
     <DEVICESETUP deviceType="Windows Audio" audioOutputDeviceName="Speaker/HP (Realtek High Definition Audio)"
                  audioInputDeviceName="Line 1 (Virtual Audio Cable)" audioDeviceRate="48000"/>
