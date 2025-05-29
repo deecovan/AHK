@@ -153,28 +153,8 @@ $!4::
 	Send, 1
 return 
 
-; Heroe's Ballade
-$!5::             
-	Send, {LAlt, Up}
-	Send, {1, Up}
-	Send, 1
-	Sleep, % ran(150, 200)
-	Send, 5
-	Sleep, % ran(150, 200)
-	Send, 3
-	Sleep, % ran(150, 200)
-	Send, 7
-	Sleep, % ran(150, 200)
-	Send, 6
-	Send, 7
-	Sleep, % ran(150, 200)
-	Send, 6
-	Sleep, % ran(150, 200)
-	Send, 7
-return 
-
 ; Which's Ballade
-$!6::            
+$!5::            
 	Send, {LAlt, Up}
 	Send, {4, Up}
 	Send, 7
@@ -189,5 +169,26 @@ $!6::
 	Sleep, % ran(150, 200)
 	Send, 2
 	Sleep, % ran(150, 200)
+return 
+
+; Heroe's Ballade
+$!6::             
+	Send, {LAlt, Up}
+	Send, {1, Up}
+	Send, 1
+	Sleep, % ran(150, 200)
+	Send, 5
+	Sleep, % ran(150, 200)
+	Send, 3
+	Sleep, % ran(150, 200)
+	Send, 7
+	Sleep, % ran(150, 200)
+	Send, 6
+	Sleep, % ran(150, 200)
+	Send, 7
+	Sleep, % ran(150, 200)
+	Send, 6
+	Sleep, % ran(150, 200)
+	Send, 7
 return 
 
