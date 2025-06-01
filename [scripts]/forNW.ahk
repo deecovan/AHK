@@ -80,7 +80,7 @@ $^+C::
 return
 
 ; Flamenko
-$!1:           
+$!1::           
 	Send, {LAlt, Up}
 	Send, {1, Up}
 	Send, 6
