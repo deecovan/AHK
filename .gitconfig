@@ -25,5 +25,12 @@
 [safe]
 	directory = C:/Projects
 	directory = C:/Projects/*
+	directory = C:/Projects/v4-00-cars
+	directory = C:/Projects/unknown-space-uk
 [core]
 	editor = C:/Programs/npp/npp.exe
+[credential]
+	helper = 
+	helper = C:/Program\\ Files\\ \\(x86\\)/Git\\ Credential\\ Manager/git-credential-manager.exe
+[gui]
+	recentrepo = C:/Projects/v4-00-cars
