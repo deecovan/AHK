@@ -1,6 +1,26 @@
 ;for AHK 1.1.34.04
 ;by cheva (c) MIT 2012-2022
 
+;-----Let's init!-----
+ClickingActive := true
+
+;-=-\ Functions \-=-
+ran(min, max)
+{
+	random, ran, min, max
+	return ran                                                                                                                                                      
+}
+
+DoClick()
+{
+  Loop {
+    Click
+    Sleep, 100
+    if ClickingActive == flase 
+      Break
+  }
+}
+
 SoundPlay %A_WinDir%\Media\Windows Message Nudge.wav
 
 ;reload
@@ -30,26 +50,15 @@ return
 
 ; Assign a hotkey to start the auto-clicking
 $LButton::
-    Send, {LButton}
-    ; Set a flag to control the clicking loop
-    ClickingActive := true
-    
-    ; Loop indefinitely while ClickingActive is true
-    Loop
+Send, {LButton}
+    if ClickingActive == true
     {
-        ; Check if the right mouse button is being held down
-        If GetKeyState("RButton", "P")
-        {
-            ; If RButton is pressed, stop the clicking loop
-            ClickingActive := false
-            Break ; Exit the loop
-        }
-        
-        ; Perform a left click
-        Click
-        
-        ; Add a small delay between clicks (optional, adjust as needed)
-        Sleep, 50 ; milliseconds
+        ; If LButton is pressed again, stop the clicking loop
+        ClickingActive := false
+    } else {
+      ; Set a flag to control the clicking loop
+      ClickingActive := true
+      DoClick() 
     }
 Return
 
