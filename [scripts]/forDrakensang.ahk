@@ -21,7 +21,7 @@ DoClick()
 global ClickingActive
   Loop {
     Click                                      
-    Sleep, ran(200, 400)
+    Sleep, ran(200, 300)
     If GetKeyState("LButton", "P") or ClickingActive == false
     {
       ; If LButton is pressed again, stop the clicking loop
@@ -110,6 +110,8 @@ Send, {LButton}
     }
 Return
 
-; Assign a hotkey to stop the auto-clicking via reload
-; !!!Pause script or exit to use Space!!!
-$Space::Reload
+; Suspend with hotkey
+$Space::
+  Send, {Space}
+  Suspend
+Return
