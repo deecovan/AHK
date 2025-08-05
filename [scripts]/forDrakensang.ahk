@@ -1,5 +1,5 @@
 ;-=-\ Let's intro \-=-
-;ver 23.1129.1
+;ver 25.0805
 ;for AHK 1.1.34.04
 ;by cheva (c) MIT 2012-2025
 
@@ -35,10 +35,10 @@ global ClickingActive
 SoundPlay %A_WinDir%\Media\Windows Message Nudge.wav
 
 ;reload
-$^+R::
-  Reload
-Return
+$^+R::Reload
 
+;Suspend with hotkey
+$Space::
 ;suspend/resume
 $^+S::
 ;pause/resume
@@ -108,10 +108,4 @@ Send, {LButton}
       ClickingActive := true
       DoClick() 
     }
-Return
-
-; Suspend with hotkey
-$Space::
-  Send, {Space}
-  Suspend
 Return
