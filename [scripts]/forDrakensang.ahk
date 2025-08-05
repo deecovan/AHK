@@ -37,8 +37,6 @@ SoundPlay %A_WinDir%\Media\Windows Message Nudge.wav
 ;reload
 $^+R::Reload
 
-;Suspend with hotkey
-$Space::
 ;suspend/resume
 $^+S::
 ;pause/resume
@@ -60,41 +58,15 @@ $^+W::
   ExitApp
 Return
 
-;Steam {PrintScreen}
-$PrintScreen::
-  Send, {PrintScreen}
-  Send, {F12}
-return
-
 ;-----Let's play!-----
-; Emergency process kill
-$^F1::
-	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
-	Process,Close,svchost.exe
-return
-
-;enable mouse clicker (random time 1-10 sec, current mouse position)
-$^+C::
-	Send, {^+C}
-	MouseGetPos, ClickX, ClickY
-	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
-	Sleep, 1000
-	Loop
-	{
-		if (BreakLoop == 1)
-		{
-			BreakLoop = 0
-			break
-		}
-		MouseGetPos, OrigX, OrigY
-		MouseClick, left, %ClickX%, %ClickY%
-		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
-		MouseMove, %OrigX%, %OrigY%
-		Sleep, % ran(1000, 9000)
-		global MouseSpeed = % ran(1, 20)
-		SetDefaultMouseSpeed, MouseSpeed
-	}
-return
+;Suspend with hotkey
+$Space::
+  Send, {Space}
+  Suspend ;Suspend Hotkeys
+  Pause,,1 ;Pause Script
+  If !(Reload := !Reload)
+    Reload ;Reload Script
+Return
 
 ; Assign a hotkey to start the auto-clicking
 $LButton::
