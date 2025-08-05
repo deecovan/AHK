@@ -2,7 +2,7 @@
 ;by cheva (c) MIT 2012-2022
 
 ;-----Let's init!-----
-ClickingActive := true
+ClickingActive := false
 
 ;-=-\ Functions \-=-
 ran(min, max)
@@ -13,11 +13,16 @@ ran(min, max)
 
 DoClick()
 {
+global ClickingActive
   Loop {
-    Click
-    Sleep, 100
-    if ClickingActive == flase 
-      Break
+    Click                                      
+    Sleep, ran(150, 250)
+    If GetKeyState("LButton", "P") or ClickingActive == false
+    {
+      ; If LButton is pressed again, stop the clicking loop
+      ClickingActive := false
+      Break ; Exit the loop
+    }
   }
 }
 
@@ -35,7 +40,7 @@ $^+P::
   ;https://www.autohotkey.com/boards/viewtopic.php?t=50594
   Suspend ;Suspend Hotkeys
   Pause,,1 ;Pause Script
-  If !(Reload := !Reload)
+  If !(Reload := !Reload)                     
     Reload ;Reload Script
 Return
 
@@ -62,8 +67,6 @@ Send, {LButton}
     }
 Return
 
-; Assign a hotkey to stop the auto-clicking if needed (e.g., if you want to stop it without pressing RButton)
-$Space::
-    Send, {Space}
-    ClickingActive := false
-Return
+; Assign a hotkey to stop the auto-clicking via reload
+; !!!Pause script or exit to use Space!!!
+$Space::Reload
