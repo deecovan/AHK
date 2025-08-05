@@ -28,38 +28,33 @@ $^+W::
 return
 ;-----Let's play!-----
 
-CLK:=false
+; Assign a hotkey to start the auto-clicking
+$LButton::
+    Send, {LButton}
+    ; Set a flag to control the clicking loop
+    ClickingActive := true
+    
+    ; Loop indefinitely while ClickingActive is true
+    Loop
+    {
+        ; Check if the right mouse button is being held down
+        If GetKeyState("RButton", "P")
+        {
+            ; If RButton is pressed, stop the clicking loop
+            ClickingActive := false
+            Break ; Exit the loop
+        }
+        
+        ; Perform a left click
+        Click
+        
+        ; Add a small delay between clicks (optional, adjust as needed)
+        Sleep, 50 ; milliseconds
+    }
+Return
 
-$RControl:: 
-Send, {RControl Down}
-CLK:=true
-Loop, 
-{
-  if(!CLK)
-    break
-  Click
-  Sleep, 250
-}
-return
-
+; Assign a hotkey to stop the auto-clicking if needed (e.g., if you want to stop it without pressing RButton)
 $Space::
-  Send, {RControl Up}
-  Send, {Space}
-  Reload
-return
-
-$^Space::
-  Send, {RControl Up}
-  Send, {Space}
-  Reload
-return
-
-
-
-$MButton::
-    CLK:=false
-return 
-
-$^MButton::
-    CLK:=false
-return 
+    Send, {Space}
+    ClickingActive := false
+Return
