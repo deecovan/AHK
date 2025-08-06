@@ -59,13 +59,10 @@ $^+W::
 Return
 
 ;-----Let's play!-----
-;Suspend with hotkey
-$Space::
+; Stop clicking with Space
+$Space:: 
   Send, {Space}
-  Suspend ;Suspend Hotkeys
-  Pause,,1 ;Pause Script
-  If !(Reload := !Reload)
-    Reload ;Reload Script
+  ClickingActive := false
 Return
 
 ; Assign a hotkey to start the auto-clicking
